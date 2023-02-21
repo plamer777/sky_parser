@@ -6,9 +6,11 @@ from utils import update_parsed_data
 
 class NetologyParser(BaseParser):
 
-    def parse_data(self, parse_data: dict, driver):
+    def parse_data(self, parse_data: dict, driver:webdriver.Chrome):
 
         price, period = self._get_data(parse_data, driver)
+        driver.stop_client()
+        driver.close()
         parse_data['price'] = price
         parse_data['period'] = period
         update_parsed_data(parse_data)

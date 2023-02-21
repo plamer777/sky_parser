@@ -8,6 +8,8 @@ class SkillFactoryParser(BaseParser):
 
     def parse_data(self, parse_data: dict, driver):
         price, period = self._get_data(parse_data, driver)
+        driver.stop_client()
+        driver.close()
         parse_data['price'] = price
         parse_data['period'] = period
         update_parsed_data(parse_data)

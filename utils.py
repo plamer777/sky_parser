@@ -22,11 +22,11 @@ def load_from_json(filename: str) -> dict:
 def init_sync_driver():
     options = Options()
     options.add_argument("--headless")
-    # options.add_argument("--window-size=640x480")
+    options.add_argument("--window-size=640x480")
     options.add_argument("'--blink-settings=imagesEnabled=false'")
 
     driver = webdriver.Chrome(options=options)
-    driver.maximize_window()
+    # driver.maximize_window()
 
     return driver
 

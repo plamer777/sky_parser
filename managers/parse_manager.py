@@ -1,6 +1,7 @@
 from asyncio import run
 from async_utils import event_loop
 from utils import init_sync_driver
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 class ParseManager:
@@ -29,13 +30,17 @@ class ParseManager:
 
     @staticmethod
     def _sync_parser(data, sync_parser):
-        driver = init_sync_driver()
 
-        result = []
-        for task in data:
-            print(f'{task} in process')
-            task = sync_parser(task, driver)
-            result.append(task)
+        with ThreadPoolExecutor() as executor:
+            tasks = []
+            for task in data:
+                print(f'{task["url"]} in process')
+                driver = init_sync_driver()
+                tasks.append(executor.submit(sync_parser, task, driver))
 
-        driver.close()
+            result = []
+            for finished_task in as_completed(tasks):
+                print('task finished')
+                result.append(finished_task.result())
+
         return result
