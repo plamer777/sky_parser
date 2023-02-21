@@ -44,7 +44,7 @@
           "total": "",
           "price_tags": ["span", "ui-text-heading--2 ui-text--bold"],
           "period_tags": ["div", "gkb-promo__price-plan ui-text-heading--6"],
-          "url": "https://gb.ru/geek_university/it-specialist/analyst"
+          "url": "https://gb.ru/geek_university/developer/analyst"
       },
       {
           "profession": "QA_engineer",
@@ -53,7 +53,16 @@
           "total": "",
           "price_tags": ["span", "ui-text-heading--2 ui-text--bold"],
           "period_tags": ["div", "gkb-promo__price-plan ui-text-heading--6"],
-          "url": "https://gb.ru/geek_university/developer/qa-engineer"
+          "url": "https://gb.ru/geek_university/developer/qa-engineer/engineer?"
+      },
+      {
+          "profession": "Internet_marketer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["span", "ui-text-heading--2 ui-text--bold"],
+          "period_tags": ["div", "gkb-promo__price-plan ui-text-heading--6"],
+          "url": "https://gb.ru/geek_university/marketing/internet"
       }
     ],
 
@@ -84,7 +93,7 @@
           "total": "",
           "price_tags": ["src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--grid--5BDml"],
           "period_tags": ["//*[@id='order']/div/div/div/div/div/div[1]/div[2]/div[1]/div/div/div[3]"],
-          "url": "https://netology.ru/programs/graphic-design-ultimate"
+          "url": "https://netology.ru/programs/designer-communication"
       },
       {
           "profession": "Web_developer",
@@ -102,7 +111,7 @@
           "total": "",
           "price_tags": ["src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--grid--5BDml"],
           "period_tags": ["//*[@id='order']/div/div/div/div/div/div[1]/div[2]/div[1]/div/div/div[3]"],
-          "url": "https://netology.ru/programs/data-analyst?recommended_by=instant_search"
+          "url": "https://netology.ru/programs/data_analyst_ultimate"
       },
       {
           "profession": "QA_engineer",
@@ -112,6 +121,15 @@
           "price_tags": ["src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--grid--5BDml"],
           "period_tags": ["//*[@id='order']/div/div/div/div/div/div[1]/div[2]/div[1]/div/div/div[3]"],
           "url": "https://netology.ru/programs/qa"
+      },
+      {
+          "profession": "Internet_marketer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--grid--5BDml"],
+          "period_tags": ["//*[@id='order']/div/div/div/div/div/div[1]/div[2]/div[1]/div/div/div[3]"],
+          "url": "https://netology.ru/programs/distance-course-internet-marketing"
       }
     ],
      "SkillFactory": [
@@ -169,6 +187,152 @@
           "price_tags": ["//*[@id=\"rec428044580\"]/div/div/div[12]/div/strong"],
           "period_tags": ["//*[@id=\"rec428044580\"]/div/div/div[15]/div"],
           "url": "https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu"
+      },
+      {
+          "profession": "Internet_marketer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["//*[@id=\"rec498127583\"]/div/div/div[18]/div/strong"],
+          "period_tags": ["//*[@id=\"rec498127583\"]/div/div/div[21]/div"],
+          "url": "https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745"
+      }
+    ],
+
+    "SkillBox": [
+      {
+          "profession": "Python_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["li", "tariffs__price h h--4"],
+          "period_tags": ["p", "tariffs__desc f f--12"],
+          "url": "https://skillbox.ru/course/profession-python-tariff/"
+
+      },
+      {
+          "profession": "Java_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["li", "price-info__item"],
+          "period_tags": ["li", "price-info__feature p p--2"],
+          "url": "https://skillbox.ru/course/java/"
+      },
+      {
+          "profession": "Graphic_designer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["li", "price-info__item"],
+          "period_tags": ["ul", "price-info__features"],
+          "url": "https://skillbox.ru/course/profession-graphdesigner/"
+      },
+      {
+          "profession": "Web_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["li", "price-info__item"],
+          "period_tags": ["ul", "price-info__features"],
+          "url": "https://skillbox.ru/course/profession-webdev/"
+      },
+      {
+          "profession": "Data_analyst",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["li", "price-info__item"],
+          "period_tags": ["li", "price-info__feature p p--2"],
+          "url": "https://skillbox.ru/course/data-analyst-cv/"
+      },
+      {
+          "profession": "QA_engineer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["li", "price-info__item"],
+          "period_tags": ["ul", "price-info__features"],
+          "url": "https://skillbox.ru/course/profession-test-onboarding/"
+      },
+      {
+          "profession": "Internet_marketer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["li", "price-info__item"],
+          "period_tags": ["ul", "price-info__features"],
+          "url": "https://skillbox.ru/course/profession-marketolog-program/"
+      }
+    ],
+    "YandexPracticum": [
+      {
+          "profession": "Python_developer",
+          "price": "",
+          "period": "",
+          "price_tags": ["div","purchase-price__item purchase-price__item_mode_LOWEST-CREDIT"],
+          "period_tags": "",
+          "total_tags": ["div","purchase-price__info"],
+          "total": "",
+          "url": "https://practicum.yandex.ru/backend-developer/"
+
+      },
+      {
+          "profession": "Java_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["div","free-section__price free-section__price_partial"],
+          "period_tags": "",
+          "url": "https://practicum.yandex.ru/java-developer/"
+      },
+      {
+          "profession": "Graphic_designer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["div","free-section__price free-section__price_partial"],
+          "period_tags": "",
+          "url": "https://practicum.yandex.ru/graphic-designer/"
+      },
+      {
+          "profession": "Web_developer",
+          "price": "",
+          "period": "",
+          "price_tags": ["div","purchase-price__item purchase-price__item_mode_LOWEST-CREDIT"],
+          "period_tags": "",
+          "total_tags": ["div","purchase-price__info"],
+          "total": "",
+          "url": "https://practicum.yandex.ru/web/"
+      },
+      {
+          "profession": "Data_analyst",
+          "price": "",
+          "period": "",
+          "price_tags": ["div","purchase-price__item purchase-price__item_mode_LOWEST-CREDIT"],
+          "period_tags": "",
+          "total_tags": ["div","purchase-price__info"],
+          "total": "",
+          "url": "https://practicum.yandex.ru/data-analyst/"
+      },
+      {
+          "profession": "QA_engineer",
+          "price": "",
+          "period": "",
+          "price_tags": ["div","purchase-price__item purchase-price__item_mode_LOWEST-CREDIT"],
+          "period_tags": "",
+          "total_tags": ["div","purchase-price__info"],
+          "total": "",
+          "url": "https://practicum.yandex.ru/qa-engineer/"
+      },
+      {
+          "profession": "Internet_marketer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["div","free-section__price free-section__price_partial"],
+          "period_tags": "",
+          "url": "https://practicum.yandex.ru/internet-marketing-start/"
       }
     ]
 }

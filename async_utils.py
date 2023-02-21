@@ -1,10 +1,12 @@
 from bs4 import BeautifulSoup
-from aiohttp import ClientSession, http
+from aiohttp import ClientSession
 from asyncio import gather, create_task
+# ------------------------------------------------------------------------
 
 
 async def parse_url(parse_data: dict, session: ClientSession, parser):
     url = parse_data.get('url')
+
     async with session.get(url) as response:
         result = await response.text()
         sup = BeautifulSoup(result, 'html.parser')

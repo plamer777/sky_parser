@@ -2,6 +2,7 @@ import json
 import re
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
+# ------------------------------------------------------------------------
 
 
 def clean_digits(data: str) -> int:
@@ -44,4 +45,24 @@ def update_parsed_data(parse_data: dict):
     return parse_data
 
 
+def save_data_to_json(data: dict, filename: str) -> None:
+    try:
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(data, f)
 
+    except Exception as e:
+        print(f"There was an error during saving to JSON: {e}")
+
+
+def remove_excessive_data(data: dict) -> dict:
+
+    for key in data:
+        for value in data[key]:
+            try:
+                value.pop('price_tags')
+                value.pop('period_tags')
+                value.pop('total_tags')
+            except KeyError:
+                pass
+
+    return data

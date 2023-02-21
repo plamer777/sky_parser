@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from parsers.base_parser import BaseParser
 from utils import update_parsed_data
+# ------------------------------------------------------------------------
 
 
 class SkillFactoryParser(BaseParser):

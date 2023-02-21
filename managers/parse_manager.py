@@ -2,6 +2,7 @@ from asyncio import run
 from async_utils import event_loop
 from utils import init_sync_driver
 from concurrent.futures import ThreadPoolExecutor, as_completed
+# ------------------------------------------------------------------------
 
 
 class ParseManager:
@@ -16,8 +17,7 @@ class ParseManager:
             parser_type = self.parser_mapper[key]
 
             result = self.parser_type[parser_type](parse_data[key],
-                                                        self.parsers[key])
-
+                                                   self.parsers[key])
             parse_data[key] = result
 
         return parse_data
@@ -30,17 +30,25 @@ class ParseManager:
 
     @staticmethod
     def _sync_parser(data, sync_parser):
+        result = []
 
-        with ThreadPoolExecutor() as executor:
-            tasks = []
-            for task in data:
-                print(f'{task["url"]} in process')
-                driver = init_sync_driver()
-                tasks.append(executor.submit(sync_parser, task, driver))
+        while len(result) < len(data):
+            with ThreadPoolExecutor() as executor:
+                tasks = []
 
-            result = []
-            for finished_task in as_completed(tasks):
-                print('task finished')
-                result.append(finished_task.result())
+                for task in data:
+                    if task['price']:
+                        continue
+                    print(f'{task["url"]} in process')
+                    driver = init_sync_driver()
+                    tasks.append(executor.submit(sync_parser, task, driver))
+
+                for finished_task in as_completed(tasks):
+                    parsed_data = finished_task.result()
+                    if parsed_data['price']:
+                        print('task finished')
+                        result.append(parsed_data)
+                    else:
+                        print(f'{parsed_data["url"]} failed, one more attempt')
 
         return result
