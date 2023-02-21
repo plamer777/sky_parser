@@ -1,0 +1,174 @@
+{
+    "GeekBrains": [
+      {
+          "profession": "Python_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["span", "ui-text-heading--2 ui-text--bold"],
+          "period_tags": ["div", "gkb-promo__price-plan ui-text-heading--6"],
+          "url": "https://gb.ru/geek_university/developer/programmer/python"
+
+      },
+      {
+          "profession": "Java_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["span", "ui-text-heading--2 ui-text--bold"],
+          "period_tags": ["div", "gkb-promo__price-plan ui-text-heading--6"],
+          "url": "https://gb.ru/geek_university/developer/programmer/java"
+      },
+      {
+          "profession": "Graphic_designer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["span", "ui-text-heading--2 ui-text--bold"],
+          "period_tags": ["div", "gkb-promo__price-plan ui-text-heading--6"],
+          "url": "https://gb.ru/geek-university/design/graphic"
+      },
+      {
+          "profession": "Web_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["span", "ui-text-heading--2 ui-text--bold"],
+          "period_tags": ["div", "gkb-promo__price-plan ui-text-heading--6"],
+          "url": "https://gb.ru/geek_university/developer/programmer/web"
+      },
+      {
+          "profession": "Data_analyst",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["span", "ui-text-heading--2 ui-text--bold"],
+          "period_tags": ["div", "gkb-promo__price-plan ui-text-heading--6"],
+          "url": "https://gb.ru/geek_university/it-specialist/analyst"
+      },
+      {
+          "profession": "QA_engineer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["span", "ui-text-heading--2 ui-text--bold"],
+          "period_tags": ["div", "gkb-promo__price-plan ui-text-heading--6"],
+          "url": "https://gb.ru/geek_university/developer/qa-engineer"
+      }
+    ],
+
+  "Netology": [
+      {
+          "profession": "Python_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--grid--5BDml"],
+          "period_tags": ["//*[@id=\"order\"]/div/div/div/div/div/div[1]/div[2]/div[1]/div/div/div[3]"],
+          "url": "https://netology.ru/programs/python"
+
+      },
+      {
+          "profession": "Java_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--grid--5BDml"],
+          "period_tags": ["//*[@id='order']/div/div/div/div/div/div[1]/div[2]/div[1]/div/div/div[3]"],
+          "url": "https://netology.ru/programs/java-developer"
+      },
+      {
+          "profession": "Graphic_designer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--grid--5BDml"],
+          "period_tags": ["//*[@id='order']/div/div/div/div/div/div[1]/div[2]/div[1]/div/div/div[3]"],
+          "url": "https://netology.ru/programs/graphic-design-ultimate"
+      },
+      {
+          "profession": "Web_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--grid--5BDml"],
+          "period_tags": ["//*[@id='order']/div/div/div/div/div/div[1]/div[2]/div[1]/div/div/div[3]"],
+          "url": "https://netology.ru/programs/web-developer?recommended_by=instant_search"
+      },
+      {
+          "profession": "Data_analyst",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--grid--5BDml"],
+          "period_tags": ["//*[@id='order']/div/div/div/div/div/div[1]/div[2]/div[1]/div/div/div[3]"],
+          "url": "https://netology.ru/programs/data-analyst?recommended_by=instant_search"
+      },
+      {
+          "profession": "QA_engineer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--grid--5BDml"],
+          "period_tags": ["//*[@id='order']/div/div/div/div/div/div[1]/div[2]/div[1]/div/div/div[3]"],
+          "url": "https://netology.ru/programs/qa"
+      }
+    ],
+     "SkillFactory": [
+      {
+          "profession": "Python_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["//*[@id=\"rec388327235\"]/div/div/div[56]/div/strong"],
+          "period_tags": ["//*[@id=\"rec388327235\"]/div/div/div[82]/div"],
+          "url": "https://skillfactory.ru/python-developer-b"
+
+      },
+      {
+          "profession": "Java_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["//*[@id=\"rec372611416\"]/div/div/div[12]/div/strong"],
+          "period_tags": ["//*[@id=\"rec372611416\"]/div/div/div[15]/div"],
+          "url": "https://skillfactory.ru/java-razrabotchik"
+      },
+      {
+          "profession": "Graphic_designer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["//*[@id=\"rec523405815\"]/div/div/div[11]/div"],
+          "period_tags": ["//*[@id=\"rec523405815\"]/div/div/div[8]/div"],
+          "url": "https://contented.ru/edu/graph-design?utm_source=skillfactory"
+      },
+      {
+          "profession": "Web_developer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["//*[@id=\"rec423598108\"]/div/div/div[29]/div/span"],
+          "period_tags": ["//*[@id=\"rec423598108\"]/div/div/div[30]/div"],
+          "url": "https://skillfactory.ru/web-developer"
+      },
+      {
+          "profession": "Data_analyst",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["//*[@id=\"rec450885052\"]/div/div/div[21]/div/strong"],
+          "period_tags": ["//*[@id=\"rec450885052\"]/div/div/div[24]/div"],
+          "url": "https://skillfactory.ru/data-analyst-pro"
+      },
+      {
+          "profession": "QA_engineer",
+          "price": "",
+          "period": "",
+          "total": "",
+          "price_tags": ["//*[@id=\"rec428044580\"]/div/div/div[12]/div/strong"],
+          "period_tags": ["//*[@id=\"rec428044580\"]/div/div/div[15]/div"],
+          "url": "https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu"
+      }
+    ]
+}
