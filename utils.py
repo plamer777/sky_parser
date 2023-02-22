@@ -1,7 +1,11 @@
 import json
 import re
+from datetime import datetime
+from typing import Any
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
+from selenium.webdriver.chrome.webdriver import WebDriver
+from constants import DRIVER_PATH
 # ------------------------------------------------------------------------
 
 
@@ -20,19 +24,18 @@ def load_from_json(filename: str) -> dict:
         return {}
 
 
-def init_sync_driver():
+def init_sync_driver() -> WebDriver:
     options = Options()
     options.add_argument("--headless")
     options.add_argument("--window-size=640x480")
     options.add_argument("'--blink-settings=imagesEnabled=false'")
 
-    driver = webdriver.Chrome(options=options)
-    # driver.maximize_window()
+    driver = webdriver.Chrome(executable_path=DRIVER_PATH, options=options)
 
     return driver
 
 
-def update_parsed_data(parse_data: dict):
+def update_parsed_data(parse_data: dict[str, Any]) -> dict[str, Any]:
     price = parse_data.get('price')
     period = parse_data.get('period')
     price = clean_digits(price)
@@ -41,6 +44,10 @@ def update_parsed_data(parse_data: dict):
     parse_data['price'] = price
     parse_data['period'] = period
     parse_data['total'] = price * period
+    parse_data['price_change'] = 0
+    parse_data['period_change'] = 0
+    parse_data['url'] = parse_data.pop('url')
+    parse_data['updated_at'] = str(datetime.now()).split('.')[0]
 
     return parse_data
 
@@ -54,8 +61,12 @@ def save_data_to_json(data: dict, filename: str) -> None:
         print(f"There was an error during saving to JSON: {e}")
 
 
-def remove_excessive_data(data: dict) -> dict:
-
+def remove_excessive_data(data: dict[str, list]) -> dict[str, list]:
+    """This functions serves to remove service info before sending to google
+    tables
+    :param data: parsed data to remove keys from
+    :return: dictionary without excessive info
+    """
     for key in data:
         for value in data[key]:
             try:
@@ -66,3 +77,27 @@ def remove_excessive_data(data: dict) -> dict:
                 pass
 
     return data
+
+
+def compare_data(old_data: dict[str, list], new_data: dict[str, list]):
+
+    for key in old_data:
+        old_data[key].sort(key=lambda x: x['profession'])
+        new_data[key].sort(key=lambda x: x['profession'])
+
+        professions = []
+        for prof_old, prof_new in zip(old_data[key], new_data[key]):
+
+            price_diff = prof_new['price'] - prof_old['price'] if prof_old[
+                'price'] else 0
+            period_diff = prof_new['period'] - prof_old['period'] if prof_old[
+                'period'] else 0
+
+            prof_new['price_change'] = price_diff
+            prof_new['period_change'] = period_diff
+
+            professions.append(prof_new)
+
+        new_data[key] = professions
+
+    return new_data

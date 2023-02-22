@@ -1,27 +1,19 @@
-from flask import Flask, jsonify
-from constants import RESULT_PATH, SCHOOLS_PATH
-from container import parse_manager
-from utils import load_from_json, save_data_to_json, remove_excessive_data
-
-# ------------------------------------------------------------------------
-app = Flask(__name__)
+from time import sleep
+from constants import RESULT_PATH, SCHOOLS_PATH, TIME_DELAY_24_H
+from container import table_manager
+from utils import load_from_json
 # ------------------------------------------------------------------------
 
 
-@app.route('/')
-def main_page():
-    schools = load_from_json(RESULT_PATH)
-    return jsonify(remove_excessive_data(schools))
+def main():
+    old_data = load_from_json(RESULT_PATH)
+    parse_data = load_from_json(SCHOOLS_PATH)
 
-
-@app.route('/refresh/')
-def refresh_page():
-    schools = load_from_json(SCHOOLS_PATH)
-    refreshed = parse_manager.parse_all(schools)
-    save_data_to_json(refreshed, RESULT_PATH)
-
-    return jsonify(remove_excessive_data(refreshed))
+    while True:
+        table_manager.open_table('sky_parser')
+        table_manager.refresh(parse_data, old_data)
+        sleep(TIME_DELAY_24_H)
 
 
 if __name__ == '__main__':
-    app.run()
+    main()

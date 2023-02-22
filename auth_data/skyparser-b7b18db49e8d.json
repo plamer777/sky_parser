@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "skyparser",
+  "private_key_id": "b7b18db49e8d7d4df93da33da79114948446e43f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtfQHHP1Gd6NdX\n0I3y1WXR2f3gLhjCeWR7yAwar5Rg79ezeAPwUNFL3Md1E1shUGqVA0HkF5GbguJC\ncCB0VbjdPd7jQ4cNDVwVTGOTbU1oGZ2kSE6XWmC3Cfr5cjh2bgxEDMqx1aFFPIUh\nV26vEz6MaA6YdEcYf7xJ6tUhYNvOaoWhoQDROAK6PaYGfyI/iDjKOUidNRJL9IBT\nfBlPzKkpED93cJAceo8mvPyX1llldh5EXtbWJjoW7E7hFqO15blN2j7AD1MtDgoL\n7iptgKw6B2U1zBnkit4Od3PokYaPNVzlatMBCnKiZPYWo/YJB3nR80rWV/IQUFuu\nlSA9VU4TAgMBAAECggEAGybybU2yp2U2ts60OKo/ak2U104/n8hB+sF/a3nJXjaL\natJAw47Sgu4F5YPnAlrEo5fD6z/pEQ61/LHx0mNMMIwrYyRBccCChe7TstIriDxi\nGMEcU8HYWy1bs0i2H4rvroLWAmkt+VkUePhnIU2Av5bVmfSw39u2C1eOjc/L9w0g\nxEZYvHtVwp5FKovofVGUtFDubc+AJmoWUVX8SivFa3OMjBAn1McyhtcNLtADJxRj\nlcrQzd1JtnlGvVXe1pmTW5osq3EMAMy+dI42gqYd2umTXWSV3II6l6tfJqPIOsB0\n3TloN6MNHrrYTnXd4ld2U3rdn3cbYGxMYZrneJKsoQKBgQDiXuXKRt5igKbPhLtb\no/TnU6Dy4CpD5VWkXyw+JkkJgFQfgr1CBHLNwGwTrt98TXPjq3rqSMub0pkAk7te\nKDflc6Omkfo0z1N4OKnPy63zLarK3cMz9oI0XrOMh5gOH3NagxIdAW6kP7hdNXBj\nELChPIRs4tzbbH+DxkXqxtjkUQKBgQDEMifuqf7roD43JqoEhjWMXjg50PX95i2H\nbyAepW6RoHlvgixIJ8dHpp6uHGyLTWGtxsd01Xtf2fosawrAQ1EusndHv4XrlEtl\n1z5jJX0m/XNiFotzN8i9zkP4gAZNa2xC4pOtT9GZFFSEex3Z/zga+ZZGJRSJosAt\nCyT6H9nnIwKBgBXox2bPeyCfgQWevB9/e+mTv4UiSxTtMl/JUlfljrYbtIikN7sX\nASGG2S8CguDeAjRr2WapiwNW27YhlkXjsJ1FlvY9NLE9y79cBJt3BCwAJIKj+gui\ndTGqZMhaK05anuiIvQ0PoWzGOgrTbEA6Uk4YtFxxjJy0IJdZblTtz/oxAoGBAJAC\npM8JluWLnL9MsRVbEekzq5+8oyO4FglIZ1I3ah6YpSpVaX2ZPSx5wBXbJU1nAmDU\n/MjkfofP71M1SxHvF6LoOqe+jGVsV5+sS83o0aGR/mSsWbW756xyv++iwX2IcVHz\nECTx5s6vXo5T9Ih0TtF2DHj2dMnGXbtyZ7T1NjPzAoGBAIFwxp8Ni6fG0A+4TPDK\nSZ5taVZst5IfihN8BFWmVeh32dhDpvEB9FPY7jXwjZCDRiwi7SpnfTOQPB3orwew\nzT7RGHftk/zz11inHJFSjCUYFBe453/9UxDJB8xCmW34KajCD1WETA/ybcSzMMc9\ni+08QfILFHSnv6NswEKMotCv\n-----END PRIVATE KEY-----\n",
+  "client_email": "sky-parser@skyparser.iam.gserviceaccount.com",
+  "client_id": "101468553903284140476",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sky-parser%40skyparser.iam.gserviceaccount.com"
+}

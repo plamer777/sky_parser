@@ -10,6 +10,7 @@ class YandexPracticumParser(BaseParser):
     def parse_data(self, parse_data: dict, driver: webdriver.Chrome):
 
         price, period = self._load_data(parse_data, driver)
+        driver.stop_client()
         driver.quit()
 
         if not price:

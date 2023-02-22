@@ -13,8 +13,12 @@ class ParseManager:
                             'sync': self._sync_parser}
 
     def parse_all(self, parse_data: dict):
+
         for key in parse_data:
-            parser_type = self.parser_mapper[key]
+            parser_type = self.parser_mapper.get(key)
+            if not parser_type:
+                print('Cannot find parser type for the data')
+                return parse_data
 
             result = self.parser_type[parser_type](parse_data[key],
                                                    self.parsers[key])
@@ -25,14 +29,18 @@ class ParseManager:
     @staticmethod
     def _async_parser(data, async_parser):
 
-        result = run(event_loop(data, async_parser))
-        return result
+        try:
+            result = run(event_loop(data, async_parser))
+            return result
+        except Exception as e:
+            print(f'There is an error during async parsing: {e}')
+            return data
 
     @staticmethod
     def _sync_parser(data, sync_parser):
         result = []
 
-        while len(result) < len(data):
+        for attempt in range(20):
             with ThreadPoolExecutor() as executor:
                 tasks = []
 
@@ -50,5 +58,9 @@ class ParseManager:
                         result.append(parsed_data)
                     else:
                         print(f'{parsed_data["url"]} failed, one more attempt')
-
+            if len(result) == len(data):
+                break
+        else:
+            print(f'There is an error during sync parsing, 20 attempts are '
+                  f'run out')
         return result
