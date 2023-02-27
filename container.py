@@ -1,5 +1,4 @@
 import gspread
-
 from constants import AUTH_FILE
 from parsers.gb_parser import GBParser
 from parsers.netology_parser import NetologyParser

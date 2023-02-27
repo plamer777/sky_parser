@@ -1,20 +1,24 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from create_loggers import logger
 from parsers.base_parser import BaseParser
-from utils import update_parsed_data
 # ------------------------------------------------------------------------
 
 
 class NetologyParser(BaseParser):
 
-    def parse_data(self, parse_data: dict, driver:webdriver.Chrome):
+    def parse_data(self, parse_data: dict, driver: webdriver.Chrome):
 
-        price, period = self._get_data(parse_data, driver)
-        driver.stop_client()
-        driver.close()
-        parse_data['price'] = price
-        parse_data['period'] = period
-        update_parsed_data(parse_data)
+        try:
+            price, period = self._get_data(parse_data, driver)
+            driver.stop_client()
+            driver.close()
+            parse_data['price'] = price
+            parse_data['period'] = period
+            logger.info(f'{parse_data.get("url")} parsed successfully')
+        except Exception as e:
+            logger.error(
+                f'Failed to parse {parse_data.get("url")}, error: {e}')
 
         return parse_data
 
