@@ -7,7 +7,7 @@ from typing import Any, Union
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
-from constants import DRIVER_PATH
+from constants import DRIVER_PATH, PRICE_TYPES, LEVELS, SERVICE_TAGS
 from create_loggers import logger
 # ------------------------------------------------------------------------
 
@@ -22,8 +22,7 @@ def clean_digits(data: Union[int, str]) -> int:
         result = re.sub(r'\D*', '', data)
         result = int(str(result))
         return result
-    except (ValueError, TypeError) as e:
-        logger.error(f"There was an error in cleaning_digits function: {e}")
+    except (ValueError, TypeError):
         return data
 
 
@@ -49,27 +48,17 @@ def refactor_data(data: list[dict]) -> list[dict]:
     :return: a list of refactored dictionaries
     """
     result = []
-    for raw in data:
-        raw = remove_excessive_data(raw)
-        middle_price = raw.pop('middle_price', None)
-        pro_price = raw.pop('pro_price', None)
+    for row in data:
+        for price_type in PRICE_TYPES:
+            new_row = row.copy()
+            price = new_row.pop(price_type, None)
+            new_row = remove_excessive_data(new_row)
 
-        raw['course_level'] = 'basic'
-        raw = update_parsed_data(raw)
-        result.append(raw)
-
-        if middle_price:
-            raw = raw.copy()
-            raw['course_level'] = 'middle'
-            raw['price'] = middle_price
-            raw = update_parsed_data(raw)
-            result.append(raw)
-        if pro_price:
-            raw = raw.copy()
-            raw['course_level'] = 'pro'
-            raw['price'] = pro_price
-            raw = update_parsed_data(raw)
-            result.append(raw)
+            if price:
+                new_row['course_level'] = LEVELS[price_type]
+                new_row['price'] = price
+                new_row = update_parsed_data(new_row)
+                result.append(new_row)
 
     return result
 
@@ -136,12 +125,7 @@ def remove_excessive_data(data: dict[str, Any]) -> dict[str, Any]:
     :param data: parsed data to remove keys from
     :return: dictionary without excessive info
     """
-    data.pop('price_tags', None)
-    data.pop('period_tags', None)
-    data.pop('total_tags', None)
-    data.pop('additional_price_tags', None)
-    data.pop('middle_price_tags', None)
-    data.pop('pro_price_tags', None)
+    [data.pop(tag, None) for tag in SERVICE_TAGS]
 
     return data
 

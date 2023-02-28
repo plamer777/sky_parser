@@ -1,13 +1,22 @@
+"""This file contains a SkillBoxParser class to parse SkillBox site"""
+from typing import Any
 from bs4 import BeautifulSoup
-
 from create_loggers import logger
 from parsers.base_parser import BaseParser
 # ------------------------------------------------------------------------
 
 
 class SkillBoxParser(BaseParser):
-
-    def parse_data(self, parse_data: dict, driver):
+    """The SkillBoxParser class have a logic to parse data from
+    SkillBox site"""
+    def parse_data(self, parse_data: dict[str, Any],
+                   driver: BeautifulSoup) -> dict[str, Any]:
+        """This is a main method to parse data from SkillBox site
+        :param parse_data: a dictionary with data to parse containing single
+        url and set of tags
+        :param driver: a BeautifulSoup instance to extract data from html page
+        :return: a dictionary containing data from SkillBox site
+        """
         price_tags = parse_data.get('price_tags')
         middle_price_tags = parse_data.get('middle_price_tags')
         pro_price_tags = parse_data.get('pro_price_tags')
@@ -39,13 +48,25 @@ class SkillBoxParser(BaseParser):
         return parse_data
 
     @staticmethod
-    def get_from_parsed_data(parsed_data: str, additional_tags: list):
+    def get_from_parsed_data(parsed_data: str,
+                             additional_tags: list[str]) -> str:
+        """This method serves to extract data from previously parsed
+        :param parsed_data: a string representing a part of the
+        html document
+        :param additional_tags: a list of strings representing tags to
+        extract from the parsed data
+        :return: a string containing the extracted data
+        """
         sup = BeautifulSoup(parsed_data, 'html.parser')
         result = sup.find(*additional_tags).text
         return result
 
     @staticmethod
-    def _clean_data(data: dict):
+    def _clean_data(data: dict[str, Any]) -> dict[str, Any]:
+        """This as an additional method helps to extract parsed data
+        :param data: a dictionary with parsed data
+        :return: a dictionary with refactored data
+        """
         if data.get('profession') == 'Python_developer':
             data['period'] = data['period'].split('.  ')[0]
 
@@ -57,3 +78,6 @@ class SkillBoxParser(BaseParser):
 
         return data
 
+    def __call__(self, *args, **kwargs):
+        """This method serves to use the class instance as a function"""
+        return self.parse_data(*args, **kwargs)

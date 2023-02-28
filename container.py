@@ -10,11 +10,11 @@ from managers.table_manager import GoogleTableManager
 # ------------------------------------------------------------------------
 
 parsers = {
-    'GeekBrains': GBParser().parse_data,
-    'Netology': NetologyParser().parse_data,
-    'SkillFactory': SkillFactoryParser().parse_data,
-    'SkillBox': SkillBoxParser().parse_data,
-    'YandexPracticum': YandexPracticumParser().parse_data,
+    'GeekBrains': GBParser(),
+    'Netology': NetologyParser(),
+    'SkillFactory': SkillFactoryParser(),
+    'SkillBox': SkillBoxParser(),
+    'YandexPracticum': YandexPracticumParser(),
 }
 
 parse_mapper = {
