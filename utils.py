@@ -2,8 +2,9 @@
 refactor dictionaries, etc."""
 import json
 import re
+from concurrent.futures import Future
 from datetime import datetime
-from typing import Any, Union
+from typing import Any, Union, Iterator
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
@@ -54,7 +55,7 @@ def refactor_data(data: list[dict]) -> list[dict]:
             price = new_row.pop(price_type, None)
             new_row = remove_excessive_data(new_row)
 
-            if price:
+            if price is not None:
                 new_row['course_level'] = LEVELS[price_type]
                 new_row['price'] = price
                 new_row = update_parsed_data(new_row)
@@ -142,11 +143,16 @@ def compare_data(old_data: dict[str, list], new_data: dict[str, list]):
 
         professions = []
         for prof_old, prof_new in zip(old_data[key], new_data[key]):
+            old_price = prof_old.get('price')
+            new_price = prof_new.get('price')
+            old_period = prof_old.get('period')
+            new_period = prof_new.get('period')
 
-            price_diff = prof_new['price'] - prof_old['price'] if prof_old[
-                'price'] else 0
-            period_diff = prof_new['period'] - prof_old['period'] if prof_old[
-                'period'] else 0
+            price_diff = new_price - old_price \
+                if new_price and old_price else 0
+
+            period_diff = new_period - old_period \
+                if old_period and new_period else 0
 
             prof_new['price_change'] = price_diff
             prof_new['period_change'] = period_diff
@@ -156,3 +162,24 @@ def compare_data(old_data: dict[str, list], new_data: dict[str, list]):
         new_data[key] = professions
 
     return new_data
+
+
+def sort_parsed_unparsed(
+        data: Union[Iterator[Future], list[dict]]) -> tuple[list, list]:
+    """This function sorts provided data into parsed and unparsed
+    :param data: a list of dictionaries or Iterator containing Futures
+    :return: a tuple of lists of parsed and unparsed data
+    """
+    unparsed = []
+    parsed = []
+    for row in data:
+        if type(row) is Future:
+            row = row.result()
+        if not row.get('price'):
+            print(f'{row.get("url")} failed, one more attempt')
+            unparsed.append(row)
+        else:
+            print(f'Task {row.get("url")} finished')
+            parsed.append(row)
+
+    return parsed, unparsed

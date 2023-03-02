@@ -69,7 +69,7 @@ class GoogleTableManager:
         """
         row = [data['school'], data['profession'], data['course_level'],
                data['price'], data['period'], data['total'],
-               data['price_change'], data['price_change'],
+               data['price_change'], data['period_change'],
                data['url'], data['updated_at']
                ]
 

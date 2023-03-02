@@ -1,6 +1,6 @@
 """This file contains a GBParser class to parse Geek Brains site"""
 from typing import Any
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup
 from create_loggers import logger
 from parsers.base_parser import BaseParser
 # ------------------------------------------------------------------------

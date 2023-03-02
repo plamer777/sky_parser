@@ -74,7 +74,7 @@ class SkillBoxParser(BaseParser):
             pass
 
         else:
-            data['period'] = data['period'].split('  ')[-3]
+            data['period'] = data['period'].split('Отсрочка платежа')[-2]
 
         return data
 

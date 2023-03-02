@@ -1,10 +1,9 @@
 """This unit contains ParseManager class to rule parsing processes"""
 from asyncio import run
-from time import sleep
 from typing import Any
 from async_utils import event_loop
 from parsers.base_parser import BaseParser
-from utils import init_sync_driver, refactor_data
+from utils import init_sync_driver, refactor_data, sort_parsed_unparsed
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from create_loggers import logger
 # ------------------------------------------------------------------------
@@ -57,8 +56,18 @@ class ParseManager:
         provided sites or initial list instead
         """
         try:
-            result = run(event_loop(data, async_parser))
+            total_parsed = []
+            for _ in range(10):
+                result = run(event_loop(data, async_parser))
+                parsed, unparsed = sort_parsed_unparsed(result)
+                total_parsed.extend(parsed)
+                if not unparsed:
+                    print('Asynch batch parsed successfully')
+                    return total_parsed
+                data = unparsed
+            logger.error(f'Failed to parse {unparsed} attempts run out')
             return result
+
         except Exception as e:
             print(f'There is an error during async parsing: {e}')
             return data
@@ -73,32 +82,24 @@ class ParseManager:
         """
         result = []
 
-        for attempt in range(20):
-            sleep(3)
+        for attempt in range(30):
             with ThreadPoolExecutor() as executor:
                 tasks = []
 
                 for task in data:
-                    if task['price']:
-                        continue
                     print(f'{task["url"]} in process')
                     driver = init_sync_driver()
                     tasks.append(executor.submit(sync_parser, task, driver))
 
-                for finished_task in as_completed(tasks):
-                    parsed_data = finished_task.result()
-                    if parsed_data['price']:
-                        print(f'Task {parsed_data.get("url")} finished')
-                        result.append(parsed_data)
-                    else:
-                        print(
-                            f'{parsed_data["url"]} failed, one more attempt')
+                finished = as_completed(tasks)
+                parsed, unparsed = sort_parsed_unparsed(finished)
 
-            if len(result) == len(data):
-                break
-        else:
-            logger.error(
-                f'Error during sync parsing, 20 attempts are run out')
-            return data
+                result.extend(parsed)
+                if not unparsed:
+                    return result
 
+            data = unparsed
+
+        logger.error(f'Error during sync parsing, 20 attempts are run out')
+        result.extend(unparsed)
         return result
