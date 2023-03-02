@@ -72,10 +72,11 @@ def init_sync_driver() -> WebDriver | None:
     try:
         options = Options()
         options.add_argument("--headless")
+        options.add_argument("--no-sandbox")
         options.add_argument("--window-size=640x480")
         options.add_argument("'--blink-settings=imagesEnabled=false'")
 
-        driver = webdriver.Chrome(executable_path=DRIVER_PATH, options=options)
+        driver = webdriver.Chrome(options=options)
         return driver
     except Exception as e:
         logger.error(
