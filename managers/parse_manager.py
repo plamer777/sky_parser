@@ -43,6 +43,7 @@ class ParseManager:
             result = self.parser_type[parser_type](parse_data[key],
                                                    self.parsers[key])
             parse_data[key] = refactor_data(result)
+            print(parse_data[key])
 
         return parse_data
 
@@ -66,7 +67,8 @@ class ParseManager:
                     return total_parsed
                 data = unparsed
             logger.error(f'Failed to parse {unparsed} attempts run out')
-            return result
+            total_parsed.extend(unparsed)
+            return total_parsed
 
         except Exception as e:
             print(f'There is an error during async parsing: {e}')

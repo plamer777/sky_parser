@@ -8,7 +8,7 @@ from typing import Any, Union, Iterator
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
-from constants import DRIVER_PATH, PRICE_TYPES, LEVELS, SERVICE_TAGS
+from constants import PRICE_TYPES, LEVELS, SERVICE_TAGS
 from create_loggers import logger
 # ------------------------------------------------------------------------
 
@@ -97,7 +97,7 @@ def update_parsed_data(parse_data: dict[str, Any]) -> dict[str, Any]:
     try:
         parse_data['price'] = price
         parse_data['period'] = period
-        parse_data['total'] = round(price * period)
+        parse_data['total'] = round(price * period) if price and period else ''
         parse_data['price_change'] = 0
         parse_data['period_change'] = 0
         parse_data['updated_at'] = str(datetime.now()).split('.')[0]

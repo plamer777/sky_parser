@@ -13,6 +13,7 @@ def main() -> None:
         parse_data = load_from_json(SCHOOLS_PATH)
         table_manager.open_table('sky_parser')
         table_manager.refresh(parse_data, old_data)
+        table_manager.close_table()
         sleep(TIME_DELAY_24_H)
 
 

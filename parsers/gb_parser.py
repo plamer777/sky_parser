@@ -19,45 +19,24 @@ class GBParser(BaseParser):
         price_tags = parse_data.get('price_tags')
         middle_price_tags = parse_data.get('middle_price_tags')
         pro_price_tags = parse_data.get('pro_price_tags')
-        additional_price_tags = parse_data.get('additional_price_tags')
         period_tags = parse_data.get('period_tags')
-
+        all_prices = driver.find_all(*price_tags)
         try:
             if middle_price_tags:
-                middle_price_tags = str(driver.find(*middle_price_tags))
-                middle_price = self.get_from_parsed_data(middle_price_tags,
-                                                         additional_price_tags)
-                parse_data['middle_price'] = middle_price
+                parse_data['middle_price'] = all_prices[1].text
 
             if pro_price_tags:
-                pro_price_tags = str(driver.find(*pro_price_tags))
-                pro_price = self.get_from_parsed_data(pro_price_tags,
-                                                      additional_price_tags)
-                parse_data['pro_price'] = pro_price
+                parse_data['pro_price'] = all_prices[2].text
 
-            parse_data['price'] = driver.find(*price_tags).text
+            parse_data['price'] = all_prices[0].text
             parse_data['period'] = driver.find(*period_tags).text
             logger.info(f'{parse_data.get("url")} parsed successfully')
+
         except Exception as e:
             logger.error(
                 f'Could not parse {parse_data.get("url")}, error: {e}')
 
         return parse_data
-
-    @staticmethod
-    def get_from_parsed_data(parsed_data: str,
-                             additional_tags: list[str]) -> str:
-        """This method serves to extract data from previously parsed
-        :param parsed_data: a string representing a part of the
-        html document
-        :param additional_tags: a list of strings representing tags to
-        extract from the parsed data
-        :return: a string containing the extracted data
-        """
-        sup = BeautifulSoup(parsed_data, 'html.parser')
-        result = sup.find(*additional_tags).text
-
-        return result
 
     def __call__(self, *args, **kwargs):
         """This method serves to use the class instance as a function"""

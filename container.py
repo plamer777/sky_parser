@@ -26,6 +26,5 @@ parse_mapper = {
 }
 
 parse_manager = ParseManager(parsers, parse_mapper)
-
 connection = gspread.service_account(AUTH_FILE)
 table_manager = GoogleTableManager(connection, parse_manager)

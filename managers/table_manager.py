@@ -29,6 +29,10 @@ class GoogleTableManager:
         """
         self._table = self._connection.open(table_name)
 
+    def close_table(self) -> None:
+        """This method serves to close previously opened table"""
+        self._connection.session.close()
+
     def refresh(self, parse_data: dict[str, list],
                 old_data: dict[str, list]) -> None:
         """This is a main method to start parsing process and send parsed

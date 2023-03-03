@@ -1,0 +1,10 @@
+[Unit]
+Description=SkyPro parser
+After=network.target
+
+[Service]
+WorkingDirectory=/home/sky_parser
+ExecStart=/home/sky_parser/venv/bin/python3 main.py
+
+[Install]
+WantedBy=multi-user.target
