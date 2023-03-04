@@ -1,0 +1,8 @@
+[INFO] - [2023-03-03 23:19:31,880] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 30
+[INFO] - [2023-03-03 23:19:32,007] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 30
+[INFO] - [2023-03-03 23:19:32,123] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 30
+[INFO] - [2023-03-03 23:19:32,233] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 30
+[INFO] - [2023-03-03 23:19:32,363] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 30
+[INFO] - [2023-03-03 23:19:32,501] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 30
+[INFO] - [2023-03-03 23:19:32,674] : <https://gb.ru/geek_university/developer/qa-engineer/engineer? parsed successfully> : str№: 30
+[ERROR] - [2023-03-03 23:19:34,286] : <Failed to parse https://netology.ru/programs/python, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 30

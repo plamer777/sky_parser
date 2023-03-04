@@ -22,7 +22,7 @@ class YandexPracticumParser(BaseParser):
         """
         result = self._load_data(parse_data, driver)
         driver.stop_client()
-        driver.quit()
+        driver.close()
 
         if not result:
             return parse_data

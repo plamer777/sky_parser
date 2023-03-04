@@ -43,7 +43,6 @@ class ParseManager:
             result = self.parser_type[parser_type](parse_data[key],
                                                    self.parsers[key])
             parse_data[key] = refactor_data(result)
-            print(parse_data[key])
 
         return parse_data
 

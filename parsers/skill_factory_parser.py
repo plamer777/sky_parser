@@ -22,8 +22,6 @@ class SkillFactoryParser(BaseParser):
             price, middle_price, pro_price, period = self._get_data(
                 parse_data, driver)
 
-            driver.stop_client()
-            driver.close()
             parse_data['price'] = price
             parse_data['middle_price'] = middle_price
             parse_data['pro_price'] = pro_price
@@ -34,6 +32,8 @@ class SkillFactoryParser(BaseParser):
             logger.error(
                 f'Could not parse {parse_data.get("url")}, error: {e}')
 
+        driver.stop_client()
+        driver.close()
         return parse_data
 
     @staticmethod

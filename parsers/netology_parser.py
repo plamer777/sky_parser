@@ -20,8 +20,6 @@ class NetologyParser(BaseParser):
         """
         try:
             price, period = self._get_data(parse_data, driver)
-            driver.stop_client()
-            driver.close()
             parse_data['price'] = price
             parse_data['period'] = period
             logger.info(f'{parse_data.get("url")} parsed successfully')
@@ -30,6 +28,8 @@ class NetologyParser(BaseParser):
             logger.error(
                 f'Failed to parse {parse_data.get("url")}, error: {e}')
 
+        driver.stop_client()
+        driver.close()
         return parse_data
 
     @staticmethod

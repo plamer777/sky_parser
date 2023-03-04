@@ -3,6 +3,7 @@ from typing import Any
 from bs4 import BeautifulSoup
 from create_loggers import logger
 from parsers.base_parser import BaseParser
+from constants import PRICE_TYPES
 # ------------------------------------------------------------------------
 
 
@@ -17,18 +18,14 @@ class GBParser(BaseParser):
         :return: a dictionary containing data from GB site
         """
         price_tags = parse_data.get('price_tags')
-        middle_price_tags = parse_data.get('middle_price_tags')
-        pro_price_tags = parse_data.get('pro_price_tags')
         period_tags = parse_data.get('period_tags')
-        all_prices = driver.find_all(*price_tags)
+
         try:
-            if middle_price_tags:
-                parse_data['middle_price'] = all_prices[1].text
+            all_prices = driver.find_all(*price_tags)
+            for index, price in enumerate(PRICE_TYPES):
+                if price in parse_data:
+                    parse_data[price] = all_prices[index].text
 
-            if pro_price_tags:
-                parse_data['pro_price'] = all_prices[2].text
-
-            parse_data['price'] = all_prices[0].text
             parse_data['period'] = driver.find(*period_tags).text
             logger.info(f'{parse_data.get("url")} parsed successfully')
 

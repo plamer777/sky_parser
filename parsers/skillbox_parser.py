@@ -3,6 +3,7 @@ from typing import Any
 from bs4 import BeautifulSoup
 from create_loggers import logger
 from parsers.base_parser import BaseParser
+from constants import PRICE_TAGS, PRICE_TYPES
 # ------------------------------------------------------------------------
 
 
@@ -18,23 +19,16 @@ class SkillBoxParser(BaseParser):
         :return: a dictionary containing data from SkillBox site
         """
         price_tags = parse_data.get('price_tags')
-        middle_price_tags = parse_data.get('middle_price_tags')
-        pro_price_tags = parse_data.get('pro_price_tags')
         additional_tags = parse_data.get('additional_price_tags')
+        period_tags = parse_data.get('period_tags')
 
         try:
-            if middle_price_tags:
-                middle_price_data = str(driver.find(*middle_price_tags))
+            for price_type, price_tag in zip(PRICE_TYPES[1:], PRICE_TAGS[1:]):
+                if price_tag in parse_data:
+                    price_data = str(driver.find(*parse_data[price_tag]))
+                    parse_data[price_type] = self.get_from_parsed_data(
+                        price_data, additional_tags)
 
-                parse_data['middle_price'] = self.get_from_parsed_data(
-                    middle_price_data, additional_tags)
-
-            if pro_price_tags:
-                pro_price_data = str(driver.find(*pro_price_tags))
-                parse_data['pro_price'] = self.get_from_parsed_data(
-                    pro_price_data, additional_tags)
-
-            period_tags = parse_data.get('period_tags')
             parse_data['price'] = driver.find(*price_tags).text
             parse_data['period'] = driver.find(*period_tags).text
 

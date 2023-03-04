@@ -28,11 +28,17 @@ TITLES = ['school',
 LOG_FORMAT_STR = '[%(levelname)s] - [%(asctime)s] :' \
                  ' <%(message)s> : str№: %(lineno)s'
 
-
+PRICE_TAGS = ('price_tags', 'middle_price_tags', 'pro_price_tags')
 PRICE_TYPES = ('price', 'middle_price', 'pro_price')
+
 LEVELS = {'price': 'basic',
           'middle_price': 'middle',
           'pro_price': 'pro'}
+PRICE_LEVELS = {
+    'price_tags': 'price',
+    'middle_price_tags': 'middle_price',
+    'pro_price_tags': 'pro_price'
+}
 
 SERVICE_TAGS = ('price_tags',
                 'period_tags',
