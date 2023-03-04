@@ -144,19 +144,15 @@ def compare_data(old_data: dict[str, list], new_data: dict[str, list]):
 
         professions = []
         for prof_old, prof_new in zip(old_data[key], new_data[key]):
-            old_price = prof_old.get('price')
-            new_price = prof_new.get('price')
-            old_period = prof_old.get('period')
-            new_period = prof_new.get('period')
+            old_price, new_price = prof_old.get('price'), prof_new.get('price')
+            old_period, new_period = prof_old.get('period'), prof_new.get(
+                'period')
 
-            price_diff = new_price - old_price \
-                if new_price and old_price else 0
+            prof_new['price_change'] = new_price - old_price \
+                if type(new_price) is int and type(old_price) is int else 0
 
-            period_diff = new_period - old_period \
-                if old_period and new_period else 0
-
-            prof_new['price_change'] = price_diff
-            prof_new['period_change'] = period_diff
+            prof_new['period_change'] = new_period - old_period \
+                if type(new_period) is int and type(old_period) is int else 0
 
             professions.append(prof_new)
 

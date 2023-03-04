@@ -6,3 +6,164 @@
 [INFO] - [2023-03-03 23:19:32,501] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 30
 [INFO] - [2023-03-03 23:19:32,674] : <https://gb.ru/geek_university/developer/qa-engineer/engineer? parsed successfully> : str№: 30
 [ERROR] - [2023-03-03 23:19:34,286] : <Failed to parse https://netology.ru/programs/python, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 30
+[INFO] - [2023-03-04 17:05:58,893] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:05:59,018] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:05:59,126] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:05:59,253] : <https://gb.ru/geek_university/developer/qa-engineer/engineer? parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:05:59,371] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:05:59,498] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:05:59,673] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:06:32,032] : <https://netology.ru/programs/python parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:06:33,043] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:06:34,690] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:06:35,821] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:06:37,877] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:06:39,232] : <https://netology.ru/programs/qa parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:06:41,325] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:07:13,328] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:07:14,489] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:07:15,396] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:07:16,776] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:07:17,662] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:07:19,611] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:07:22,418] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 29
+[ERROR] - [2023-03-04 17:07:22,492] : <There was an error in the update_parsed_data function: type str doesn't define __round__ method> : str№: 105
+[INFO] - [2023-03-04 17:07:22,801] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:07:23,114] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:07:23,468] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:07:23,701] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:07:23,858] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:07:24,094] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:07:24,484] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:07:31,042] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 44
+[INFO] - [2023-03-04 17:07:31,320] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 44
+[INFO] - [2023-03-04 17:07:34,128] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 44
+[ERROR] - [2023-03-04 17:07:34,617] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:07:35,550] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[INFO] - [2023-03-04 17:07:36,558] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 44
+[INFO] - [2023-03-04 17:07:40,079] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 44
+[ERROR] - [2023-03-04 17:07:45,585] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:07:45,889] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:07:55,238] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:07:55,404] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:08:00,148] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:08:02,849] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:08:08,298] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:08:08,702] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 47
+[INFO] - [2023-03-04 17:08:15,030] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 44
+[ERROR] - [2023-03-04 17:08:15,198] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:08:19,820] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:08:26,221] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[INFO] - [2023-03-04 17:08:33,230] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 44
+[ERROR] - [2023-03-04 17:08:33,297] : <There was an error while refreshing the table: unsupported operand type(s) for -: 'str' and 'int'> : str№: 64
+[ERROR] - [2023-03-04 17:09:35,517] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/result.json'> : str№: 40
+[INFO] - [2023-03-04 17:09:36,867] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:09:37,000] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:09:37,126] : <https://gb.ru/geek_university/developer/qa-engineer/engineer? parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:09:37,249] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:09:37,381] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:09:37,485] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:09:37,645] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:10:09,566] : <https://netology.ru/programs/python parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:10:10,673] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:10:13,740] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:10:16,325] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:10:17,012] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:10:22,569] : <https://netology.ru/programs/qa parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:10:24,660] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:10:56,991] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:10:57,828] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:10:58,735] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:11:00,252] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:11:00,732] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:11:02,380] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:11:05,037] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 29
+[ERROR] - [2023-03-04 17:11:05,107] : <There was an error in the update_parsed_data function: type str doesn't define __round__ method> : str№: 105
+[INFO] - [2023-03-04 17:11:05,446] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:11:05,680] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:11:05,839] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:11:06,129] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:11:06,436] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:11:06,751] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:11:07,103] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:11:13,748] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 44
+[INFO] - [2023-03-04 17:11:15,202] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 44
+[INFO] - [2023-03-04 17:11:16,095] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 44
+[ERROR] - [2023-03-04 17:11:17,505] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:11:18,088] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:11:18,767] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 47
+[INFO] - [2023-03-04 17:11:19,118] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 44
+[ERROR] - [2023-03-04 17:11:24,392] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 47
+[INFO] - [2023-03-04 17:11:25,170] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 44
+[ERROR] - [2023-03-04 17:11:26,748] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:11:32,886] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:11:32,948] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 47
+[INFO] - [2023-03-04 17:11:38,076] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 44
+[ERROR] - [2023-03-04 17:11:38,683] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:11:43,244] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:11:48,145] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 47
+[INFO] - [2023-03-04 17:11:52,743] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 44
+[ERROR] - [2023-03-04 17:11:52,808] : <There was an error while refreshing the table: 'price_change'> : str№: 64
+[ERROR] - [2023-03-04 17:27:18,638] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/result.json'> : str№: 40
+[INFO] - [2023-03-04 17:27:20,115] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:27:20,268] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:27:20,378] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:27:20,504] : <https://gb.ru/geek_university/developer/qa-engineer/engineer? parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:27:20,620] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:27:20,737] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:27:20,910] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 30
+[INFO] - [2023-03-04 17:27:57,578] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:27:57,675] : <https://netology.ru/programs/python parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:27:57,884] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:28:00,158] : <https://netology.ru/programs/qa parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:28:00,900] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:28:02,380] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:28:02,912] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 25
+[INFO] - [2023-03-04 17:28:35,181] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:28:36,135] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:28:37,068] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:28:38,274] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:28:39,049] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:28:43,236] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:28:45,284] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 29
+[INFO] - [2023-03-04 17:28:45,623] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:28:45,778] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:28:46,019] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:28:46,362] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:28:46,597] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:28:46,906] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:28:49,926] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 36
+[INFO] - [2023-03-04 17:28:56,477] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 44
+[INFO] - [2023-03-04 17:28:56,943] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 44
+[INFO] - [2023-03-04 17:28:59,419] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 44
+[INFO] - [2023-03-04 17:29:00,553] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 44
+[ERROR] - [2023-03-04 17:29:01,391] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[INFO] - [2023-03-04 17:29:02,278] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 44
+[INFO] - [2023-03-04 17:29:02,448] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 44
+[ERROR] - [2023-03-04 17:29:07,074] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:29:11,587] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:29:16,637] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:29:21,480] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:29:26,033] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:29:31,382] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:29:35,999] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:29:40,696] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:29:45,665] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:29:50,520] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:29:55,062] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:01,459] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:06,319] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:11,539] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:17,012] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:22,207] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:27,083] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:31,531] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:36,168] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:42,096] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:47,009] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:51,673] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:30:56,325] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:31:01,928] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[ERROR] - [2023-03-04 17:31:06,810] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 47
+[INFO] - [2023-03-04 17:31:11,558] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 44
+[INFO] - [2023-03-04 17:31:13,940] : <Table refreshed successfully> : str№: 61

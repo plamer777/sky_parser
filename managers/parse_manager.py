@@ -101,6 +101,6 @@ class ParseManager:
 
             data = unparsed
 
-        logger.error(f'Error during sync parsing, 20 attempts are run out')
+        logger.error(f'Error during sync parsing, 30 attempts are run out')
         result.extend(unparsed)
         return result
