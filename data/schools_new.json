@@ -412,23 +412,23 @@
       "total": "",
       "additional_price_tags": [
         "li",
-        "tariffs__price h h--4"
+        "tariffs-v2__price h h--4"
       ],
       "pro_price_tags": [
         "li",
-        "tariffs__item tariffs__item--vip"
+        "tariffs-v2__item tariffs-v2__item--vip"
       ],
       "middle_price_tags": [
         "li",
-        "tariffs__item tariffs__item--popular"
+        "tariffs-v2__item tariffs-v2__item--popular"
       ],
       "price_tags": [
         "li",
-        "tariffs__price h h--4"
+        "tariffs-v2__price h h--4"
       ],
       "period_tags": [
-        "p",
-        "tariffs__desc f f--12"
+        "ul",
+        "f f--12 ui-list ui-list--bullets tariffs-v2__desc"
       ],
       "url": "https://skillbox.ru/course/profession-python-tariff/",
       "middle_price": "",

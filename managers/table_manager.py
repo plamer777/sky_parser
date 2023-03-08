@@ -5,7 +5,8 @@ from gspread import Client
 from constants import RESULT_PATH, TITLES, HISTORY_TABLE
 from create_loggers import logger
 from managers.parse_manager import ParseManager
-from utils import compare_data, remove_excessive_data, save_data_to_json
+from utils import compare_data, remove_excessive_data, save_data_to_json, \
+    convert_json_to_table_data, convert_table_data_to_json
 # ------------------------------------------------------------------------
 
 
@@ -78,3 +79,22 @@ class GoogleTableManager:
                ]
 
         return row
+
+    def load_from_table(self, table_name: str) -> dict[str, list]:
+        """This method is used to load data from GoogleSheets and convert it
+        to dictionary containing lists of dictionaries
+        :param table_name: the name of the sheet to load data from
+        :return: a dictionary containing the parsed data
+        """
+        raw_parse_data = self._table.worksheet(table_name).get_all_values()
+        parse_data = convert_table_data_to_json(raw_parse_data)
+        return parse_data
+
+    def send_from_json_to_table(self, json_data: dict[str, list],
+                                table_name: str) -> None:
+        """This method is used to send data to GoogleSheets
+        :param json_data: dictionary containing parse data
+        :param table_name: the name of the sheet to send data to
+        """
+        refactored_data = convert_json_to_table_data(json_data)
+        self._table.worksheet(table_name).append_rows(refactored_data)

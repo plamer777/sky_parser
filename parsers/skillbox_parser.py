@@ -62,7 +62,7 @@ class SkillBoxParser(BaseParser):
         :return: a dictionary with refactored data
         """
         if data.get('profession') == 'Python_developer':
-            data['period'] = data['period'].split('.  ')[0]
+            data['period'] = data['period'].split('.')[0]
 
         elif data.get('profession') in ['Java_developer', 'Data_analyst']:
             pass
