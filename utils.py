@@ -8,9 +8,13 @@ from typing import Any, Union, Iterator
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
-from constants import PRICE_TYPES, LEVELS, SERVICE_TAGS, PRICE_TAGS, \
-    INITIAL_PARSE_DATA, PRICE_LEVELS
+from constants import PRICE_TYPES, LEVELS, SERVICE_TAGS, \
+    INITIAL_PARSE_DATA, PRICE_LEVELS, REFACTOR_TAGS, PRICE_TAGS
 from create_loggers import logger
+from parse_classes.schools import SchoolParseTask, \
+    ProfessionParseRequest
+
+
 # ------------------------------------------------------------------------
 
 
@@ -51,13 +55,14 @@ def refactor_data(data: list[dict]) -> list[dict]:
     """
     result = []
     for row in data:
-        for price_type in PRICE_TYPES:
+        for price_tag in PRICE_TAGS:
             new_row = row.copy()
-            price = new_row.pop(price_type, None)
+            tag = new_row.get(price_tag, None)
+            price = new_row.pop(PRICE_LEVELS[tag], None)
             new_row = remove_excessive_data(new_row)
 
-            if price is not None:
-                new_row['course_level'] = LEVELS[price_type]
+            if tag:
+                new_row['course_level'] = LEVELS[PRICE_LEVELS[tag]]
                 new_row['price'] = price
                 new_row = update_parsed_data(new_row)
                 result.append(new_row)
@@ -189,22 +194,19 @@ def refactor_parse_tags(data: dict[str, list[dict]]) -> list[dict]:
     :param data: a dictionary with parse data
     :return: a list of refactored dictionaries
     """
-    result = []
     for key in data:
         for row in data[key]:
-            for price_tag in PRICE_TAGS:
-                created_row = {}
-                new_row = row.copy()
-                tag = new_row.pop(price_tag, None)
+            for price_tag in REFACTOR_TAGS:
+
+                tag = row.get(price_tag, None)
 
                 if tag:
-                    created_row['school'] = key
-                    created_row['profession'] = new_row['profession']
-                    created_row['tags_type'] = price_tag
-                    created_row['price_tags'] = tag
-                    result.append(created_row)
+                    created_row = {'school': key,
+                                   'profession': row['profession'],
+                                   'tags_type': price_tag,
+                                   'price_tags': tag}
 
-    return result
+                    yield created_row
 
 
 def convert_table_data_to_json(data: list[list]) -> dict[str, list[dict]]:
@@ -214,24 +216,36 @@ def convert_table_data_to_json(data: list[list]) -> dict[str, list[dict]]:
     :return: a dictionary containing converted data
     """
     result = {}
+    parse_tasks = []
+    single_task = SchoolParseTask()
     previous_school = ''
     prof_list = []
     current_profession = INITIAL_PARSE_DATA.copy()
     for row in data:
         school, prof, tag_type = row[:3]
-        tags = row[3:len(row)]
+        tags = row[3:]
+
         if current_profession != INITIAL_PARSE_DATA \
                 and prof not in current_profession.values():
+
             prof_list.append(current_profession)
+            single_task.parse_requests.append(
+                ProfessionParseRequest(**current_profession))
+
             current_profession = INITIAL_PARSE_DATA.copy()
 
         if result and school not in result:
             result[previous_school].extend(prof_list)
+            single_task.school_name = previous_school  # оставить только то,
+            # что создает отдельный словарь с данными для парсинга
+            parse_tasks.append(single_task)
+            single_task = SchoolParseTask()
             current_profession = INITIAL_PARSE_DATA.copy()
             prof_list = []
 
         result.setdefault(school, [])
         current_profession['profession'] = prof
+
         if tag_type != 'url':
             if tag_type != 'additional_price_tags':
                 current_profession[PRICE_LEVELS[tag_type]] = ''
@@ -240,6 +254,10 @@ def convert_table_data_to_json(data: list[list]) -> dict[str, list[dict]]:
             current_profession[tag_type] = tags[0]
 
         previous_school = school
+
+    single_task.parse_requests.append(
+        ProfessionParseRequest(**current_profession))
+    parse_tasks.append(single_task)
     prof_list.append(current_profession)
     result[school].extend(prof_list)
 
@@ -252,8 +270,7 @@ def convert_json_to_table_data(data: dict[str, list]) -> list[list]:
     :return: a list of lists
     """
     rows = []
-    refactored_data = refactor_parse_tags(data)
-    for row in refactored_data:
+    for row in refactor_parse_tags(data):
         new_row = [row['school'], row['profession'], row['tags_type'],
                    ]
         if row['tags_type'] == 'url':
@@ -264,3 +281,16 @@ def convert_json_to_table_data(data: dict[str, list]) -> list[list]:
         rows.append(new_row)
 
     return rows
+
+# schools = load_from_json('data/schools_new.json')
+#
+# result = []
+# for school in schools:
+#     new_school = School(
+#         name=school,
+#         professions=[Profession(**item) for item in schools[school]])
+#
+#     result.append(new_school)
+#
+# print(result)
+

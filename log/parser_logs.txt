@@ -1,0 +1,5 @@
+[INFO] - [2023-03-09 22:20:41,910] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 30
+[INFO] - [2023-03-09 22:20:42,034] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 30
+[INFO] - [2023-03-09 22:20:42,135] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 30
+[INFO] - [2023-03-09 22:20:42,272] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 30
+[INFO] - [2023-03-09 22:20:42,408] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 30

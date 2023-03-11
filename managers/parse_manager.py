@@ -2,6 +2,7 @@
 from asyncio import run
 from typing import Any
 from async_utils import event_loop
+from constants import MULTY_THREAD_ATTEMPTS, ASYNC_ATTEMPTS
 from parsers.base_parser import BaseParser
 from utils import init_sync_driver, refactor_data, sort_parsed_unparsed
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -22,7 +23,7 @@ class ParseManager:
         self.parsers = parsers
         self.parser_mapper = parse_mapper
         self.parser_type = {'async': self._async_parser,
-                            'sync': self._sync_parser}
+                            'sync': self._multi_thread_parser}
 
     def parse_all(self, parse_data: dict):
         """This is a main method to start parsing by using provided parse
@@ -47,8 +48,8 @@ class ParseManager:
         return parse_data
 
     @staticmethod
-    def _async_parser(data: list[dict],
-                      async_parser: BaseParser) -> list[dict]:
+    def _async_parser(
+            data: list[dict], async_parser: BaseParser) -> list[dict]:
         """This method serves as main asynchronous parser
         :param data: list of dictionaries with full parse data
         :param async_parser: an instance of BaseParser for asynchronous parsing
@@ -57,7 +58,7 @@ class ParseManager:
         """
         try:
             total_parsed = []
-            for _ in range(10):
+            for _ in range(ASYNC_ATTEMPTS):
                 result = run(event_loop(data, async_parser))
                 parsed, unparsed = sort_parsed_unparsed(result)
                 total_parsed.extend(parsed)
@@ -74,7 +75,8 @@ class ParseManager:
             return data
 
     @staticmethod
-    def _sync_parser(data: list[dict], sync_parser: BaseParser) -> list[dict]:
+    def _multi_thread_parser(
+            data: list[dict], sync_parser: BaseParser) -> list[dict]:
         """This method serves as main synchronous parser
         :param data: list of dictionaries with full parse data
         :param sync_parser: an instance of BaseParser for synchronous parsing
@@ -83,7 +85,7 @@ class ParseManager:
         """
         result = []
 
-        for attempt in range(30):
+        for attempt in range(MULTY_THREAD_ATTEMPTS):
             with ThreadPoolExecutor() as executor:
                 tasks = []
 

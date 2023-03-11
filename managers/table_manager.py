@@ -1,8 +1,8 @@
 """This file contains GoogleTableManager to send parsed data to
 Google Sheets"""
-from typing import Any
-from gspread import Client
-from constants import RESULT_PATH, TITLES, HISTORY_TABLE
+from typing import Any, Optional
+from gspread import Client, Spreadsheet
+from constants import RESULT_PATH, TITLES, HISTORY_SHEET, RESULT_SHEET
 from create_loggers import logger
 from managers.parse_manager import ParseManager
 from utils import compare_data, remove_excessive_data, save_data_to_json, \
@@ -21,7 +21,7 @@ class GoogleTableManager:
         :param parse_manager: a ParseManager instance
         """
         self._connection = connection
-        self._table = None
+        self._table: Optional[Spreadsheet] = None
         self._parse_manager = parse_manager
 
     def open_table(self, table_name: str) -> None:
@@ -56,9 +56,9 @@ class GoogleTableManager:
                     row_list = self._create_row(row)
                     records.append(row_list)
 
-            self._table.sheet1.update(records)
+            self._table.worksheet(RESULT_SHEET).update(records)
             records[0] = []
-            self._table.worksheet(HISTORY_TABLE).append_rows(records)
+            self._table.worksheet(HISTORY_SHEET).append_rows(records)
             logger.info(f'Table refreshed successfully')
 
         except Exception as e:
@@ -88,6 +88,7 @@ class GoogleTableManager:
         """
         raw_parse_data = self._table.worksheet(table_name).get_all_values()
         parse_data = convert_table_data_to_json(raw_parse_data)
+
         return parse_data
 
     def send_from_json_to_table(self, json_data: dict[str, list],
