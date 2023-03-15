@@ -3,8 +3,11 @@ from asyncio import run
 from typing import Any
 from async_utils import event_loop
 from constants import MULTY_THREAD_ATTEMPTS, ASYNC_ATTEMPTS
+from parse_classes.school_parse_task import SchoolParseTask, \
+    ProfessionParseRequest, ProfessionParseResponse
 from parsers.base_parser import BaseParser
-from utils import init_sync_driver, refactor_data, sort_parsed_unparsed
+from utils import (init_sync_driver, refactor_parse_responses,
+                   sort_parsed_unparsed)
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from create_loggers import logger
 # ------------------------------------------------------------------------
@@ -20,79 +23,96 @@ class ParseManager:
         :param parse_mapper: Dictionary of site names with parse regimes -
         async or sync
         """
-        self.parsers = parsers
-        self.parser_mapper = parse_mapper
-        self.parser_type = {'async': self._async_parser,
-                            'sync': self._multi_thread_parser}
+        self._parsers = parsers
+        self._parser_mapper = parse_mapper
+        self._parser_type = {'async': self._async_parser,
+                             'sync': self._multi_thread_parser}
 
-    def parse_all(self, parse_data: dict):
+    def parse_all(
+            self, parse_data: list[SchoolParseTask]) -> list[SchoolParseTask]:
         """This is a main method to start parsing by using provided parse
-        data with sites, urls and tags
-        :param parse_data: Dictionary where keys are site names and values
-        are lists of dictionaries with full parse data
-        :return: Refactored dictionary with necessary information parsed from
-        provided sites
+        data with urls and tags
+        :param parse_data: A list of SchoolParseTask instances with having
+        parse request class with urls and tags necessary to parse data from
+        sites
+        :return: A SchoolParseTask instances filled with
+        ProfessionParseResponse instances containing data extracted from sites
         """
-        for key in parse_data:
-            parser_type = self.parser_mapper.get(key)
+        for task in parse_data:
+            parser_type = self._parser_mapper.get(task.school_name)
 
             if not parser_type:
                 logger.error(
                     'ParseManager cannot find parser type for the data')
-                return parse_data
+                continue
 
-            result = self.parser_type[parser_type](parse_data[key],
-                                                   self.parsers[key])
-            parse_data[key] = refactor_data(result)
+            result = self._parser_type[parser_type](
+                task.parse_requests, self._parsers[task.school_name])
+            task.parse_responses.extend(refactor_parse_responses(result))
 
         return parse_data
 
     @staticmethod
     def _async_parser(
-            data: list[dict], async_parser: BaseParser) -> list[dict]:
+            parse_requests: list[ProfessionParseRequest],
+            parser: BaseParser) -> list[ProfessionParseResponse]:
         """This method serves as main asynchronous parser
-        :param data: list of dictionaries with full parse data
-        :param async_parser: an instance of BaseParser for asynchronous parsing
-        :return: a list of dictionaries filled with data received from
-        provided sites or initial list instead
+        :param parse_requests: list of ProfessionParseRequest instances with
+        parse tags and urls
+        :param parser: an instance of BaseParser for asynchronous parsing
+        using BeautifulSoup package
+        :return: a list of ProfessionParseResponse instances filled with data
+        received from sites or a list of empty instances instead
         """
         try:
             total_parsed = []
             for _ in range(ASYNC_ATTEMPTS):
-                result = run(event_loop(data, async_parser))
+                result = run(event_loop(parse_requests, parser))
                 parsed, unparsed = sort_parsed_unparsed(result)
                 total_parsed.extend(parsed)
+
                 if not unparsed:
                     print('Asynch batch parsed successfully')
                     return total_parsed
-                data = unparsed
+
+                parse_requests = unparsed
+
             logger.error(f'Failed to parse {unparsed} attempts run out')
-            total_parsed.extend(unparsed)
+            total_parsed.extend([
+                ProfessionParseResponse.from_orm(item)
+                for item in unparsed
+            ])
+
             return total_parsed
 
         except Exception as e:
             print(f'There is an error during async parsing: {e}')
-            return data
+            return [
+                ProfessionParseResponse().from_orm(item)
+                for item in parse_requests
+            ]
 
     @staticmethod
     def _multi_thread_parser(
-            data: list[dict], sync_parser: BaseParser) -> list[dict]:
-        """This method serves as main synchronous parser
-        :param data: list of dictionaries with full parse data
-        :param sync_parser: an instance of BaseParser for synchronous parsing
-        :return: a list of dictionaries filled with data received from
-        provided sites or initial list otherwise
+            parse_requests: list[ProfessionParseRequest],
+            parser: BaseParser) -> list[ProfessionParseResponse]:
+        """This method serves as main multithread parser
+        :param parse_requests: list of ProfessionParseRequest instances
+        with tags and urls to parse
+        :param parser: an instance of BaseParser for multithread
+        parsing using selenium package
+        :return: a list of ProfessionParseResponse instances filled with data
+        received from provided sites or an empty instances otherwise
         """
         result = []
-
         for attempt in range(MULTY_THREAD_ATTEMPTS):
+
             with ThreadPoolExecutor() as executor:
                 tasks = []
-
-                for task in data:
-                    print(f'{task["url"]} in process')
+                for task in parse_requests:
+                    print(f'{task.url} in process')
                     driver = init_sync_driver()
-                    tasks.append(executor.submit(sync_parser, task, driver))
+                    tasks.append(executor.submit(parser, task, driver))
 
                 finished = as_completed(tasks)
                 parsed, unparsed = sort_parsed_unparsed(finished)
@@ -101,8 +121,11 @@ class ParseManager:
                 if not unparsed:
                     return result
 
-            data = unparsed
+            parse_requests = unparsed
 
         logger.error(f'Error during sync parsing, 30 attempts are run out')
-        result.extend(unparsed)
+        result.extend([
+                ProfessionParseResponse.from_orm(item)
+                for item in unparsed
+            ])
         return result

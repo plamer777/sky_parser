@@ -3,10 +3,9 @@ etc."""
 import os
 # ------------------------------------------------------------------------
 
-SCHOOLS_PATH = os.path.join('data', 'schools_new.json')
-RESULT_PATH = os.path.join('data', 'result.json')
+PARSE_DATA_PATH = os.path.join('data', 'parse_store')
+RESULT_PATH = os.path.join('data', 'results', 'result.json')
 AUTH_FILE = os.path.join('auth_data', 'skyparser-b7b18db49e8d.json')
-DRIVER_PATH = os.path.join('driver', 'chromedriver')
 LOG_PATH = os.path.join('log', 'parser_logs.txt')
 
 TIME_DELAY_24_H = 3600 * 24

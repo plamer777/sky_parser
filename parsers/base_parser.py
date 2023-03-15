@@ -2,13 +2,14 @@
 from abc import ABC, abstractmethod
 from bs4 import BeautifulSoup
 from selenium.webdriver.chrome.webdriver import WebDriver
+from parse_classes.school_parse_task import ProfessionParseRequest
 # ------------------------------------------------------------------------
 
 
 class BaseParser(ABC):
     """This abstract class provides an interface for all parsers"""
     @abstractmethod
-    def parse_data(self, parse_data: dict,
+    def _parse_data(self, parse_data: ProfessionParseRequest,
                    driver: BeautifulSoup | WebDriver):
         """The main method to parse data"""
         pass

@@ -5,8 +5,11 @@ from gspread import Client, Spreadsheet
 from constants import RESULT_PATH, TITLES, HISTORY_SHEET, RESULT_SHEET
 from create_loggers import logger
 from managers.parse_manager import ParseManager
-from utils import compare_data, remove_excessive_data, save_data_to_json, \
-    convert_json_to_table_data, convert_table_data_to_json
+from parse_classes.school_parse_task import SchoolParseTask
+from utils import (compare_data, save_data_to_json,
+                   convert_table_data_to_parse_tasks,
+                   convert_parse_tasks_to_json,
+                   refactor_parse_tags)
 # ------------------------------------------------------------------------
 
 
@@ -34,8 +37,8 @@ class GoogleTableManager:
         """This method serves to close previously opened table"""
         self._connection.session.close()
 
-    def refresh(self, parse_data: dict[str, list],
-                old_data: dict[str, list]) -> None:
+    def refresh(self, parse_data: list[SchoolParseTask],
+                old_data: dict[str, list] = None) -> None:
         """This is a main method to start parsing process and send parsed
         data to the Google Sheets
         :param parse_data: a dictionary with data to be parsed such as urls,
@@ -43,15 +46,15 @@ class GoogleTableManager:
         :param old_data: a dictionary with previously parsed data
         """
         try:
-            data = self._parse_manager.parse_all(parse_data)
-            cleaned = remove_excessive_data(data)
+            finished_tasks = self._parse_manager.parse_all(parse_data)
+            new_parse_data = convert_parse_tasks_to_json(finished_tasks, False)
             if old_data:
-                cleaned = compare_data(old_data, cleaned)
-            save_data_to_json(cleaned, RESULT_PATH)
+                new_parse_data = compare_data(old_data, new_parse_data)
+            save_data_to_json(new_parse_data, RESULT_PATH)
 
             records = [TITLES]
-            for key in cleaned:
-                for row in data[key]:
+            for key in new_parse_data:
+                for row in new_parse_data[key]:
                     row['school'] = key
                     row_list = self._create_row(row)
                     records.append(row_list)
@@ -80,14 +83,20 @@ class GoogleTableManager:
 
         return row
 
-    def load_from_table(self, table_name: str) -> dict[str, list]:
+    def load_from_table(
+            self, table_name: str) -> Optional[list[SchoolParseTask]]:
         """This method is used to load data from GoogleSheets and convert it
         to dictionary containing lists of dictionaries
         :param table_name: the name of the sheet to load data from
-        :return: a dictionary containing the parsed data
+        :return: a list of SchoolParseTask instances containing the
+        parse requests
         """
-        raw_parse_data = self._table.worksheet(table_name).get_all_values()
-        parse_data = convert_table_data_to_json(raw_parse_data)
+        try:
+            raw_parse_data = self._table.worksheet(table_name).get_all_values()
+            parse_data = convert_table_data_to_parse_tasks(raw_parse_data)
+        except Exception as e:
+            logger.error(f'Failed to load data from {table_name}, error: {e}')
+            parse_data = []
 
         return parse_data
 
@@ -97,5 +106,24 @@ class GoogleTableManager:
         :param json_data: dictionary containing parse data
         :param table_name: the name of the sheet to send data to
         """
-        refactored_data = convert_json_to_table_data(json_data)
-        self._table.worksheet(table_name).append_rows(refactored_data)
+        refactored_data = self._convert_json_to_table_data(json_data)
+        self._table.worksheet(table_name).update(refactored_data)
+
+    @staticmethod
+    def _convert_json_to_table_data(data: dict[str, list]) -> list[list]:
+        """This method converts dictionary with parse data into a list of lists
+        :param data: a dictionary with parse data
+        :return: a list of lists
+        """
+        rows = []
+        for row in refactor_parse_tags(data):
+            new_row = [row['school'], row['profession'], row['tags_type'],
+                       ]
+            if row['tags_type'] == 'url':
+                new_row.append(row['price_tags'])
+            else:
+                new_row.extend(row['price_tags'])
+
+            rows.append(new_row)
+
+        return rows

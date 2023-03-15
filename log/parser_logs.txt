@@ -3,3 +3,388 @@
 [INFO] - [2023-03-09 22:20:42,135] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 30
 [INFO] - [2023-03-09 22:20:42,272] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 30
 [INFO] - [2023-03-09 22:20:42,408] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 30
+[ERROR] - [2023-03-12 00:51:44,443] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/engineer?, error: list index out of range> : str№: 39
+[INFO] - [2023-03-12 00:51:44,590] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 36
+[INFO] - [2023-03-12 00:51:44,714] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 36
+[INFO] - [2023-03-12 00:51:44,893] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 36
+[INFO] - [2023-03-12 00:51:45,034] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 36
+[INFO] - [2023-03-12 00:51:45,167] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 36
+[INFO] - [2023-03-12 00:51:45,359] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 36
+[ERROR] - [2023-03-12 00:57:17,933] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/engineer?, error: list index out of range> : str№: 39
+[INFO] - [2023-03-12 00:57:18,081] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 36
+[INFO] - [2023-03-12 00:57:18,234] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 36
+[INFO] - [2023-03-12 00:57:18,366] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 36
+[INFO] - [2023-03-12 00:57:18,486] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 36
+[INFO] - [2023-03-12 00:57:18,635] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 36
+[INFO] - [2023-03-12 00:57:18,812] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 36
+[ERROR] - [2023-03-12 00:57:28,103] : <Failed to parse https://netology.ru/programs/python, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-03-12 00:57:28,105] : <Failed to parse https://netology.ru/programs/web-developer?recommended_by=instant_search, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-03-12 00:57:28,106] : <Failed to parse https://netology.ru/programs/java-developer, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-03-12 00:57:28,108] : <Failed to parse https://netology.ru/programs/designer-communication, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[INFO] - [2023-03-12 01:08:29,032] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 36
+[INFO] - [2023-03-12 01:08:29,143] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 36
+[INFO] - [2023-03-12 01:08:29,266] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 36
+[INFO] - [2023-03-12 01:08:29,358] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 36
+[INFO] - [2023-03-12 01:08:29,482] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 36
+[INFO] - [2023-03-12 01:08:29,639] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 36
+[ERROR] - [2023-03-12 01:08:29,803] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 39
+[ERROR] - [2023-03-12 01:08:30,066] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 39
+[ERROR] - [2023-03-12 01:08:30,345] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 39
+[ERROR] - [2023-03-12 01:08:30,613] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 39
+[ERROR] - [2023-03-12 01:08:30,891] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 39
+[ERROR] - [2023-03-12 01:08:31,169] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 39
+[ERROR] - [2023-03-12 01:08:31,445] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 39
+[ERROR] - [2023-03-12 01:08:31,789] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 39
+[INFO] - [2023-03-12 01:12:22,831] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 37
+[INFO] - [2023-03-12 01:12:22,956] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 37
+[INFO] - [2023-03-12 01:12:23,054] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 37
+[INFO] - [2023-03-12 01:12:23,172] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 37
+[INFO] - [2023-03-12 01:12:23,281] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 37
+[INFO] - [2023-03-12 01:12:23,450] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 37
+[ERROR] - [2023-03-12 01:12:23,649] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 40
+[ERROR] - [2023-03-12 01:12:23,919] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 40
+[INFO] - [2023-03-12 01:15:47,083] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:15:47,211] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:15:47,353] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:15:47,445] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:15:47,549] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:15:47,708] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[ERROR] - [2023-03-12 01:15:47,876] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:15:48,155] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:15:48,435] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[INFO] - [2023-03-12 01:19:48,878] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:19:48,988] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:19:49,119] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:19:49,234] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:19:49,358] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:19:49,492] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[ERROR] - [2023-03-12 01:19:49,654] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:19:49,916] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:19:50,182] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:19:50,414] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[INFO] - [2023-03-12 01:21:11,253] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:21:11,344] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:21:11,479] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:21:11,603] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:21:11,716] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:21:11,865] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[ERROR] - [2023-03-12 01:21:12,062] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:21:12,309] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:21:12,600] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:21:12,847] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:21:13,071] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:21:13,341] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[INFO] - [2023-03-12 01:22:52,800] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:22:52,895] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:22:53,027] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:22:53,143] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:22:53,249] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:22:53,426] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[ERROR] - [2023-03-12 01:22:56,925] : <Failed to parse https://netology.ru/programs/java-developer, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-03-12 01:22:56,929] : <Failed to parse https://netology.ru/programs/designer-communication, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-03-12 01:22:56,931] : <Failed to parse https://netology.ru/programs/python, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[INFO] - [2023-03-12 01:24:53,174] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:24:53,288] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:24:53,405] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:24:53,540] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:24:53,628] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:24:53,800] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[ERROR] - [2023-03-12 01:24:53,977] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:24:54,223] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:24:54,494] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:24:54,784] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:24:55,050] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[ERROR] - [2023-03-12 01:24:55,335] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 41
+[INFO] - [2023-03-12 01:25:41,930] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 39
+[INFO] - [2023-03-12 01:25:42,069] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 39
+[INFO] - [2023-03-12 01:25:42,178] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 39
+[INFO] - [2023-03-12 01:25:42,272] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 39
+[INFO] - [2023-03-12 01:25:42,390] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 39
+[INFO] - [2023-03-12 01:25:42,565] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 39
+[ERROR] - [2023-03-12 01:25:42,730] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 42
+[ERROR] - [2023-03-12 01:25:43,000] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 42
+[ERROR] - [2023-03-12 01:25:43,255] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 42
+[ERROR] - [2023-03-12 01:25:43,507] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 42
+[INFO] - [2023-03-12 01:27:24,364] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 39
+[INFO] - [2023-03-12 01:27:24,488] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 39
+[INFO] - [2023-03-12 01:27:24,595] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 39
+[INFO] - [2023-03-12 01:27:24,727] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 39
+[INFO] - [2023-03-12 01:27:24,822] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 39
+[INFO] - [2023-03-12 01:27:24,996] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 39
+[ERROR] - [2023-03-12 01:27:25,198] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 42
+[ERROR] - [2023-03-12 01:27:25,459] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 42
+[ERROR] - [2023-03-12 01:27:25,688] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 42
+[ERROR] - [2023-03-12 01:27:25,927] : <Could not parse https://gb.ru/geek_university/developer/qa-engineer/, error: list index out of range> : str№: 42
+[ERROR] - [2023-03-12 01:31:37,620] : <There was an error while refreshing the table: 'tuple' object has no attribute 'url'> : str№: 67
+[ERROR] - [2023-03-12 01:32:00,372] : <There was an error while refreshing the table: 'tuple' object has no attribute 'url'> : str№: 67
+[INFO] - [2023-03-12 01:33:54,469] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 39
+[INFO] - [2023-03-12 01:40:40,718] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:40:40,851] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:40:40,967] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:40:41,072] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:40:41,164] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:40:41,295] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:40:41,441] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-03-12 01:41:13,668] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-03-12 01:41:17,645] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-03-12 01:41:21,535] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-03-12 01:41:22,928] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-03-12 01:41:24,941] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[ERROR] - [2023-03-12 01:41:26,066] : <Failed to parse https://netology.ru/programs/java-developer, error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--grid--5BDml"}
+  (Session info: headless chrome=111.0.5563.64)
+Stacktrace:
+#0 0x55613dfab243 <unknown>
+#1 0x55613dd6f7a6 <unknown>
+#2 0x55613ddac64d <unknown>
+#3 0x55613ddac761 <unknown>
+#4 0x55613dde7da4 <unknown>
+#5 0x55613ddcd0ad <unknown>
+#6 0x55613dde5932 <unknown>
+#7 0x55613ddcce53 <unknown>
+#8 0x55613dd9f9ea <unknown>
+#9 0x55613dda0b2e <unknown>
+#10 0x55613dfffd5e <unknown>
+#11 0x55613e003a80 <unknown>
+#12 0x55613dfe58b0 <unknown>
+#13 0x55613e004b63 <unknown>
+#14 0x55613dfd6f75 <unknown>
+#15 0x55613e027998 <unknown>
+#16 0x55613e027b27 <unknown>
+#17 0x55613e042c23 <unknown>
+#18 0x7fe25f5b9b43 <unknown>
+> : str№: 34
+[INFO] - [2023-03-12 01:41:35,229] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-03-12 01:42:07,066] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[ERROR] - [2023-03-12 01:42:16,833] : <Could not parse https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 38
+[ERROR] - [2023-03-12 01:42:16,835] : <Could not parse https://skillfactory.ru/java-razrabotchik, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 38
+[ERROR] - [2023-03-12 01:42:16,838] : <Could not parse https://skillfactory.ru/python-developer-b, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 38
+[ERROR] - [2023-03-12 01:42:16,840] : <Could not parse https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 38
+[ERROR] - [2023-03-12 01:42:16,840] : <Could not parse https://skillfactory.ru/web-developer, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 38
+[ERROR] - [2023-03-12 01:42:16,846] : <Could not parse https://contented.ru/edu/graph-design?utm_source=skillfactory, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 38
+[ERROR] - [2023-03-12 01:42:16,853] : <Could not parse https://skillfactory.ru/data-analyst-pro, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 38
+[INFO] - [2023-03-14 17:12:36,053] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:12:36,154] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:12:36,262] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:12:36,376] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:12:36,502] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:12:36,635] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:12:36,783] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:13:08,436] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:13:09,344] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:13:10,748] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:13:11,653] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:13:13,126] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:13:14,846] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:13:19,750] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:13:51,930] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:13:52,878] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:13:53,695] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:13:55,020] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:13:56,070] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:13:57,820] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:14:00,553] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:14:01,305] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:14:01,551] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:14:01,921] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:14:02,287] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:14:04,240] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:14:05,399] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:14:05,724] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[ERROR] - [2023-03-14 17:14:11,297] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[INFO] - [2023-03-14 17:14:12,340] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:14:14,025] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:14:15,223] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[INFO] - [2023-03-14 17:14:16,105] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:14:16,890] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:14:17,774] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[INFO] - [2023-03-14 17:14:24,183] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:14:25,167] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[INFO] - [2023-03-14 17:14:26,976] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:14:27,038] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[INFO] - [2023-03-14 17:14:27,687] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:14:32,191] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:14:33,394] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:14:38,878] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:14:43,946] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:14:49,025] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:14:55,455] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:14:59,760] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[INFO] - [2023-03-14 17:15:04,525] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:15:04,591] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'int'> : str№: 180
+[ERROR] - [2023-03-14 17:15:04,591] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'int'> : str№: 180
+[ERROR] - [2023-03-14 17:15:04,591] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'int'> : str№: 180
+[INFO] - [2023-03-14 17:15:05,315] : <Table refreshed successfully> : str№: 65
+[INFO] - [2023-03-14 17:37:32,435] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:37:32,922] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:37:33,970] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:37:35,206] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:37:36,892] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:37:36,920] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:37:38,220] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:37:44,182] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:37:44,991] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:37:45,740] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:37:46,102] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:37:51,463] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:37:52,419] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:37:53,211] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[INFO] - [2023-03-14 17:37:54,246] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:38:00,573] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:38:01,229] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:01,359] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:05,949] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:06,837] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:11,613] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:13,107] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:18,689] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:18,938] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:23,647] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:24,458] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:29,011] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:30,347] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[INFO] - [2023-03-14 17:38:36,196] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:38:36,597] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:38:38,927] : <Could not parse https://practicum.yandex.ru/web/, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 54
+[INFO] - [2023-03-14 17:41:44,303] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:41:44,363] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:41:47,084] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:41:47,511] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:41:48,231] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:41:48,458] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[INFO] - [2023-03-14 17:41:48,691] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:51:45,530] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:51:45,625] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:51:45,740] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:51:45,870] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:51:45,989] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:51:46,112] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:51:46,280] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-03-14 17:52:00,755] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:52:17,752] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:52:18,750] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:52:20,639] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:52:21,328] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:52:22,587] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:52:30,043] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-03-14 17:53:02,058] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:53:03,196] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:53:03,871] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:53:06,384] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:53:08,325] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:53:11,075] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:54:49,925] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-03-14 17:54:50,642] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:54:50,892] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:54:51,226] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:54:51,457] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:54:51,606] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:54:51,763] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:54:55,069] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 17:55:07,173] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:55:07,999] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:55:08,663] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:55:08,805] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:55:09,003] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[INFO] - [2023-03-14 17:55:09,080] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:55:09,140] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:55:13,839] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-14 17:55:14,752] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[INFO] - [2023-03-14 17:55:19,321] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 17:55:20,419] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 17:55:20,493] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 187
+[ERROR] - [2023-03-14 17:55:20,493] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 187
+[ERROR] - [2023-03-14 17:55:20,493] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 187
+[INFO] - [2023-03-14 17:55:21,367] : <Table refreshed successfully> : str№: 65
+[ERROR] - [2023-03-14 18:34:48,693] : <Failed to load data from Парсинг теги, error: 'NoneType' object is not subscriptable> : str№: 99
+[ERROR] - [2023-03-14 18:35:47,070] : <Failed to load data from Парсинг теги, error: 'NoneType' object is not subscriptable> : str№: 100
+[ERROR] - [2023-03-14 18:38:04,341] : <Failed to load data from Парсинг теги, error: list indices must be integers or slices, not str> : str№: 100
+[ERROR] - [2023-03-14 18:39:15,514] : <Failed to load data from Парсинг теги, error: unhashable type: 'list'> : str№: 100
+[ERROR] - [2023-03-14 18:51:57,320] : <Failed to load data from Парсинг теги, error: update expected at most 1 argument, got 2> : str№: 100
+[INFO] - [2023-03-14 18:53:06,984] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-03-14 18:53:07,112] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-03-14 18:53:07,228] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-03-14 18:53:07,347] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-03-14 18:53:07,455] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-03-14 18:53:07,631] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-03-14 18:53:07,724] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-03-14 18:53:42,775] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-03-14 18:53:47,599] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-03-14 18:53:48,447] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-03-14 18:53:51,360] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-03-14 18:53:52,297] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-03-14 18:53:53,317] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-03-14 18:54:00,862] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-03-14 18:54:32,951] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-03-14 18:54:33,994] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-03-14 18:54:36,020] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-03-14 18:54:37,893] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-03-14 18:54:38,552] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-03-14 18:54:40,741] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-03-14 18:54:43,412] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-03-14 18:54:44,172] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 18:54:44,430] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 18:54:45,472] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 18:54:47,480] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 18:54:47,795] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 18:54:48,471] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 18:54:48,781] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-03-14 18:55:04,051] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 18:55:04,685] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[INFO] - [2023-03-14 18:55:07,314] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 18:55:08,538] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 18:55:39,685] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-03-14 18:55:40,158] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-03-14 18:55:40,703] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: headless chrome=111.0.5563.64)
+Stacktrace:
+#0 0x562ec0d75243 <unknown>
+#1 0x562ec0b397a6 <unknown>
+#2 0x562ec0b31728 <unknown>
+#3 0x562ec0b24772 <unknown>
+#4 0x562ec0b25e82 <unknown>
+#5 0x562ec0b24b3a <unknown>
+#6 0x562ec0b23bf8 <unknown>
+#7 0x562ec0b23a30 <unknown>
+#8 0x562ec0b22508 <unknown>
+#9 0x562ec0b22b3d <unknown>
+#10 0x562ec0b3b596 <unknown>
+#11 0x562ec0baffc5 <unknown>
+#12 0x562ec0b97082 <unknown>
+#13 0x562ec0baf932 <unknown>
+#14 0x562ec0b96e53 <unknown>
+#15 0x562ec0b699ea <unknown>
+#16 0x562ec0b6ab2e <unknown>
+#17 0x562ec0dc9d5e <unknown>
+#18 0x562ec0dcda80 <unknown>
+#19 0x562ec0daf8b0 <unknown>
+#20 0x562ec0dceb63 <unknown>
+#21 0x562ec0da0f75 <unknown>
+#22 0x562ec0df1998 <unknown>
+#23 0x562ec0df1b27 <unknown>
+#24 0x562ec0e0cc23 <unknown>
+#25 0x7f872bf92b43 <unknown>
+> : str№: 54
+[INFO] - [2023-03-14 18:55:51,948] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 18:55:53,785] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-14 18:55:54,572] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-03-14 18:55:56,167] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[INFO] - [2023-03-14 18:56:04,529] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 18:56:06,216] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-14 18:56:07,083] : <Table refreshed successfully> : str№: 65
+[ERROR] - [2023-03-15 00:25:37,124] : <Failed to load data from Парсинг теги1, error: Парсинг теги1> : str№: 98
+[ERROR] - [2023-03-15 00:27:08,924] : <Failed to load data from Парсинг теги1, error: Парсинг теги1> : str№: 98
+[ERROR] - [2023-03-15 00:28:38,824] : <Failed to load data from Парсинг теги1, error: Парсинг теги1> : str№: 98
+[ERROR] - [2023-03-15 00:30:46,391] : <Failed to load data from Парсинг теги1, error: Парсинг теги1> : str№: 98
+[ERROR] - [2023-03-15 00:31:37,636] : <Failed to load data from Парсинг теги1, error: Парсинг теги1> : str№: 98
+[ERROR] - [2023-03-15 00:33:55,720] : <Failed to load data from Парсинг теги1, error: Парсинг теги1> : str№: 98
+[INFO] - [2023-03-15 00:33:55,942] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-03-15 00:33:56,058] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-03-15 00:33:56,193] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-03-15 00:33:56,290] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-03-15 00:33:56,411] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-03-15 00:33:56,521] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-03-15 00:33:56,700] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[ERROR] - [2023-03-15 00:34:00,982] : <Failed to parse https://netology.ru/programs/java-developer, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-03-15 00:34:00,987] : <Failed to parse https://netology.ru/programs/web-developer?recommended_by=instant_search, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-03-15 00:34:00,990] : <Failed to parse https://netology.ru/programs/designer-communication, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-03-15 00:34:00,993] : <Failed to parse https://netology.ru/programs/python, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34

@@ -8,13 +8,12 @@ from typing import Any, Union, Iterator
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
-from constants import PRICE_TYPES, LEVELS, SERVICE_TAGS, \
-    INITIAL_PARSE_DATA, PRICE_LEVELS, REFACTOR_TAGS, PRICE_TAGS
+from constants import (LEVELS, SERVICE_TAGS,
+                       INITIAL_PARSE_DATA, PRICE_LEVELS,
+                       REFACTOR_TAGS, PRICE_TYPES)
 from create_loggers import logger
-from parse_classes.schools import SchoolParseTask, \
-    ProfessionParseRequest
-
-
+from parse_classes.school_parse_task import SchoolParseTask, \
+    ProfessionParseRequest, ProfessionParseResponse
 # ------------------------------------------------------------------------
 
 
@@ -46,24 +45,23 @@ def load_from_json(filename: str) -> dict:
         return {}
 
 
-def refactor_data(data: list[dict]) -> list[dict]:
-    """refactor_data function serves to change provided data structure. It
-    can make up to 3 dictionaries from each provided if there are special
-    fields in the dictionaries
-    :param data: a list of dictionaries
-    :return: a list of refactored dictionaries
+def refactor_parse_responses(
+        data: list[ProfessionParseResponse]) -> list[ProfessionParseResponse]:
+    """The refactor_data function serves to change provided data structure. It
+    can make up to 3 instances from each provided if there are special
+    fields in the ProfessionParseResponse dictionaries
+    :param data: a list of ProfessionParseResponse instances
+    :return: a list of refactored instances
     """
     result = []
     for row in data:
-        for price_tag in PRICE_TAGS:
-            new_row = row.copy()
-            tag = new_row.get(price_tag, None)
-            price = new_row.pop(PRICE_LEVELS[tag], None)
-            new_row = remove_excessive_data(new_row)
+        for price_type in PRICE_TYPES:
 
-            if tag:
-                new_row['course_level'] = LEVELS[PRICE_LEVELS[tag]]
-                new_row['price'] = price
+            price = getattr(row, price_type)
+            if price is not None:
+                new_row = ProfessionParseResponse.from_orm(row)
+                new_row.course_level = LEVELS[price_type]
+                new_row.price = price
                 new_row = update_parsed_data(new_row)
                 result.append(new_row)
 
@@ -90,28 +88,27 @@ def init_sync_driver() -> WebDriver | None:
         return None
 
 
-def update_parsed_data(parse_data: dict[str, Any]) -> dict[str, Any]:
+def update_parsed_data(
+        parse_result: ProfessionParseResponse) -> ProfessionParseResponse:
     """This function updates provided parse_data dictionary
-    :param parse_data: a dictionary containing parsed data to update
-    :return: updated dictionary with initial data
+    :param parse_result: a ProfessionParseResponse instance containing parsed
+    data to update
+    :return: updated ProfessionParseResponse instance
     """
-    price = parse_data.get('price')
-    period = parse_data.get('period')
-    price = clean_digits(price)
-    period = clean_digits(period)
+    price = clean_digits(parse_result.price)
+    period = clean_digits(parse_result.period)
 
     try:
-        parse_data['price'] = price
-        parse_data['period'] = period
-        parse_data['total'] = round(price * period) if price and period else ''
-        parse_data['price_change'] = 0
-        parse_data['period_change'] = 0
-        parse_data['updated_at'] = str(datetime.now()).split('.')[0]
+        parse_result.price = price
+        parse_result.period = period
+        parse_result.total = round(price * period) if price and period else ''
+        parse_result.updated_at = str(datetime.now()).split('.')[0]
+
     except Exception as e:
         logger.error(
             f'There was an error in the update_parsed_data function: {e}')
 
-    return parse_data
+    return parse_result
 
 
 def save_data_to_json(data: dict[str, list], filename: str) -> None:
@@ -138,6 +135,50 @@ def remove_excessive_data(data: dict[str, Any]) -> dict[str, Any]:
     return data
 
 
+def convert_parse_tasks_to_json(
+        parse_data: list[SchoolParseTask],
+        is_convert_request: bool = True) -> dict[str, list[dict]]:
+    """This function converts a list of SchoolParseTask instances into
+    a dictionary
+    :param parse_data: list of SchoolParseTask instances
+    :param is_convert_request: boolean indicating if you want to convert
+    requests of responses of SchoolParseTask instances
+    :return: dictionary containing list of dictionaries
+    """
+    result = {}
+    for task in parse_data:
+        if is_convert_request:
+            result[task.school_name] = [
+                request.dict() for request in
+                task.parse_requests
+                ]
+        else:
+            result[task.school_name] = [
+                remove_excessive_data(response.dict()) for response in
+                task.parse_responses
+                ]
+
+    return result
+
+
+def convert_json_to_parse_tasks(
+        data: dict[str, list[dict]]) -> list[SchoolParseTask]:
+    """This function converts a dictionary into a list of SchoolParseTask
+    instances
+    :param data: dictionary containing list of dictionaries
+    :return: list of SchoolParseTask instances
+    """
+    tasks = []
+    for key in data:
+        new_task = SchoolParseTask()
+        new_task.school_name = key
+        new_task.parse_requests.extend(
+            [ProfessionParseRequest(**task) for task in data[key]])
+        tasks.append(new_task)
+
+    return tasks
+
+
 def compare_data(old_data: dict[str, list], new_data: dict[str, list]):
     """This function serves to compare parsed data with loaded from json file
     :param old_data: dictionary with previous parse data
@@ -150,15 +191,22 @@ def compare_data(old_data: dict[str, list], new_data: dict[str, list]):
 
         professions = []
         for prof_old, prof_new in zip(old_data[key], new_data[key]):
+
             old_price, new_price = prof_old.get('price'), prof_new.get('price')
             old_period, new_period = prof_old.get('period'), prof_new.get(
                 'period')
 
-            prof_new['price_change'] = new_price - old_price \
-                if type(new_price) is int and type(old_price) is int else 0
+            try:
+                prof_new['price_change'] = new_price - old_price
+            except Exception as e:
+                logger.error(f'Cannot calculate price change, error {e}')
+                prof_new['price_change'] = 0
 
-            prof_new['period_change'] = new_period - old_period \
-                if type(new_period) is int and type(old_period) is int else 0
+            try:
+                prof_new['period_change'] = new_period - old_period
+            except Exception as e:
+                logger.error(f'Cannot calculate period change, error {e}')
+                prof_new['period_change'] = 0
 
             professions.append(prof_new)
 
@@ -168,9 +216,11 @@ def compare_data(old_data: dict[str, list], new_data: dict[str, list]):
 
 
 def sort_parsed_unparsed(
-        data: Union[Iterator[Future], list[dict]]) -> tuple[list, list]:
+        data: Union[Iterator[Future], list[ProfessionParseResponse],
+                    list[ProfessionParseRequest]]) -> tuple[list, list]:
     """This function sorts provided data into parsed and unparsed
-    :param data: a list of dictionaries or Iterator containing Futures
+    :param data: a list of ProfessionParseResponse, ProfessionParseRequest
+    instances or Iterator containing Futures
     :return: a tuple of lists of parsed and unparsed data
     """
     unparsed = []
@@ -178,11 +228,11 @@ def sort_parsed_unparsed(
     for row in data:
         if type(row) is Future:
             row = row.result()
-        if not row.get('price'):
-            print(f'{row.get("url")} failed, one more attempt')
+        if not getattr(row, 'price', None):
+            print(f'{row.url} failed, one more attempt')
             unparsed.append(row)
         else:
-            print(f'Task {row.get("url")} finished')
+            print(f'Task {row.url} finished')
             parsed.append(row)
 
     return parsed, unparsed
@@ -209,41 +259,35 @@ def refactor_parse_tags(data: dict[str, list[dict]]) -> list[dict]:
                     yield created_row
 
 
-def convert_table_data_to_json(data: list[list]) -> dict[str, list[dict]]:
+def convert_table_data_to_parse_tasks(
+        data: list[list]) -> list[SchoolParseTask]:
     """This function serves to convert a list of lists loaded from Google
-    Sheets into dictionary
+    Sheets into list of SchoolParseTask instances
     :param data: a list of lists
-    :return: a dictionary containing converted data
+    :return: a list of SchoolParseTask instances
     """
-    result = {}
     parse_tasks = []
     single_task = SchoolParseTask()
-    previous_school = ''
-    prof_list = []
     current_profession = INITIAL_PARSE_DATA.copy()
-    for row in data:
+
+    for index, row in enumerate(data):
         school, prof, tag_type = row[:3]
         tags = row[3:]
 
         if current_profession != INITIAL_PARSE_DATA \
                 and prof not in current_profession.values():
-
-            prof_list.append(current_profession)
             single_task.parse_requests.append(
                 ProfessionParseRequest(**current_profession))
-
             current_profession = INITIAL_PARSE_DATA.copy()
 
-        if result and school not in result:
-            result[previous_school].extend(prof_list)
-            single_task.school_name = previous_school  # оставить только то,
-            # что создает отдельный словарь с данными для парсинга
+        if single_task.school_name and school != single_task.school_name:
+            previous_school = data[index - 1][0]
+            single_task.school_name = previous_school
             parse_tasks.append(single_task)
             single_task = SchoolParseTask()
             current_profession = INITIAL_PARSE_DATA.copy()
-            prof_list = []
 
-        result.setdefault(school, [])
+        single_task.school_name = school
         current_profession['profession'] = prof
 
         if tag_type != 'url':
@@ -253,44 +297,8 @@ def convert_table_data_to_json(data: list[list]) -> dict[str, list[dict]]:
         else:
             current_profession[tag_type] = tags[0]
 
-        previous_school = school
-
     single_task.parse_requests.append(
         ProfessionParseRequest(**current_profession))
     parse_tasks.append(single_task)
-    prof_list.append(current_profession)
-    result[school].extend(prof_list)
 
-    return result
-
-
-def convert_json_to_table_data(data: dict[str, list]) -> list[list]:
-    """This function converts dictionary with parse data into a list of lists
-    :param data: a dictionary with parse data
-    :return: a list of lists
-    """
-    rows = []
-    for row in refactor_parse_tags(data):
-        new_row = [row['school'], row['profession'], row['tags_type'],
-                   ]
-        if row['tags_type'] == 'url':
-            new_row.append(row['price_tags'])
-        else:
-            new_row.extend(row['price_tags'])
-
-        rows.append(new_row)
-
-    return rows
-
-# schools = load_from_json('data/schools_new.json')
-#
-# result = []
-# for school in schools:
-#     new_school = School(
-#         name=school,
-#         professions=[Profession(**item) for item in schools[school]])
-#
-#     result.append(new_school)
-#
-# print(result)
-
+    return parse_tasks
