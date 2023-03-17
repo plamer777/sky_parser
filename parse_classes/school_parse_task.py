@@ -29,6 +29,8 @@ class ProfessionParseResponse(BaseProfessionParseTask):
     """This class represents a response with results of the parsing"""
     price: Union[int, str] = ''
     period: Union[float, int, str] = ''
+    middle_period: Union[float, int, str] = None
+    pro_period: Union[float, int, str] = None
     price_change: int = 0
     period_change: int = 0
     total: Union[int, str] = ''

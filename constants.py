@@ -49,6 +49,12 @@ REFACTOR_TAGS = PRICE_TAGS + (
 
 PRICE_TYPES = ('price', 'middle_price', 'pro_price')
 
+PERIODS = {
+    'price': 'period',
+    'middle_price': 'middle_period',
+    'pro_price': 'pro_period'
+}
+
 LEVELS = {
     'price': 'basic',
     'middle_price': 'middle',
@@ -70,7 +76,9 @@ SERVICE_TAGS = ('price_tags',
                 'middle_price_tags',
                 'pro_price_tags',
                 'pro_price',
-                'middle_price')
+                'middle_price',
+                'middle_period',
+                'pro_period')
 
 INITIAL_PARSE_DATA = {
       "price": "",

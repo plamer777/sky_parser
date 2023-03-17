@@ -10,7 +10,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 from constants import (LEVELS, SERVICE_TAGS,
                        INITIAL_PARSE_DATA, PRICE_LEVELS,
-                       REFACTOR_TAGS, PRICE_TYPES)
+                       REFACTOR_TAGS, PRICE_TYPES, PERIODS)
 from create_loggers import logger
 from parse_classes.school_parse_task import SchoolParseTask, \
     ProfessionParseRequest, ProfessionParseResponse
@@ -62,6 +62,8 @@ def refactor_parse_responses(
                 new_row = ProfessionParseResponse.from_orm(row)
                 new_row.course_level = LEVELS[price_type]
                 new_row.price = price
+                period = getattr(new_row, PERIODS[price_type], None)
+                new_row.period = period if period else new_row.period
                 new_row = update_parsed_data(new_row)
                 result.append(new_row)
 
@@ -203,7 +205,7 @@ def compare_data(old_data: dict[str, list], new_data: dict[str, list]):
                 prof_new['price_change'] = 0
 
             try:
-                prof_new['period_change'] = new_period - old_period
+                prof_new['period_change'] = round(new_period - old_period, 2)
             except Exception as e:
                 logger.error(f'Cannot calculate period change, error {e}')
                 prof_new['period_change'] = 0
@@ -302,3 +304,32 @@ def convert_table_data_to_parse_tasks(
     parse_tasks.append(single_task)
 
     return parse_tasks
+
+#
+# def recursive_func(data: list, current_profession=INITIAL_PARSE_DATA.copy()):
+#
+#     if len(data) == 1:
+#         row = data[0]
+#         school, prof, tag_type = row[:3]
+#         tags = row[3:]
+#         if current_profession != INITIAL_PARSE_DATA and current_profession[
+#             'profession'] != prof:
+#             return current_profession
+#
+#         current_profession['profession'] = prof
+#
+#         if tag_type != 'url':
+#             if tag_type != 'additional_price_tags':
+#                 current_profession[PRICE_LEVELS[tag_type]] = ''
+#             current_profession.setdefault(tag_type, []).extend(tags)
+#         else:
+#             current_profession[tag_type] = tags[0]
+#
+#         return current_profession
+#
+#     else:
+#         current_profession.update(recursive_func(data[1:]), current_profession)
+#         data.insert(-1, current_profession)
+#         return data
+
+

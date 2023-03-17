@@ -2,7 +2,7 @@
 YandexPracticum site"""
 from typing import Union, Optional
 from selenium.webdriver import Chrome
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from create_loggers import logger
 from parse_classes.school_parse_task import ProfessionParseRequest, \
     ProfessionParseResponse
@@ -57,8 +57,7 @@ class YandexPracticumParser(BaseParser):
 
         return result
 
-    @staticmethod
-    def _filter_data(data: ProfessionParseRequest,
+    def _filter_data(self, data: ProfessionParseRequest,
                      sup: BeautifulSoup) -> ProfessionParseResponse:
         """This method helps extract data from previously loaded html page
         by using BeautifulSoup
@@ -77,23 +76,48 @@ class YandexPracticumParser(BaseParser):
             price, period = price_data.text.split('на')[:2]
 
         else:
-            total_price = sup.find(*data.total_tags)
+            total_prices = sup.find_all(*data.total_tags)
             price_data = sup.find_all(*data.price_tags)
 
             if getattr(data, 'pro_price_tags', None):
                 parse_response.pro_price = price_data[-2].text
+                parse_response.pro_period = self._get_period(
+                    price_data, total_prices, 'pro')
 
             parse_response.middle_price = price_data[-1].text
+            parse_response.middle_period = self._get_period(
+                price_data, total_prices, 'middle')
 
-            price = clean_digits(price_data[0].text)
-            total = clean_digits(total_price.text)
-            period = round(total / price, 2)
+            price = price_data[0].text
+            period = self._get_period(price_data, total_prices, 'basic')
 
         parse_response.period = period
-        parse_response.price = str(price)
+        parse_response.price = price
 
         return parse_response
 
     def __call__(self, *args, **kwargs):
         """This method serves to use the class instance as a function"""
         return self._parse_data(*args, **kwargs)
+
+    @staticmethod
+    def _get_period(price_data: list[Tag], total_prices: list[Tag],
+                    period_type: str) -> float:
+        """This secondary method serves to calculate period for different
+        types of prices
+        :param price_data: list of Tag instances with price data
+        :param total_prices: list of Tag instances with total price data
+        :param period_type: a string indicating the type of period to calculate
+        :return: a float representing the period
+        """
+        index = 0
+
+        if period_type == 'middle':
+            index = -1
+        elif period_type == 'pro':
+            index = -2
+
+        total = clean_digits(total_prices[index].text)
+        price_per_month = clean_digits(price_data[index].text)
+
+        return round(total / price_per_month, 2)
