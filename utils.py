@@ -304,32 +304,3 @@ def convert_table_data_to_parse_tasks(
     parse_tasks.append(single_task)
 
     return parse_tasks
-
-#
-# def recursive_func(data: list, current_profession=INITIAL_PARSE_DATA.copy()):
-#
-#     if len(data) == 1:
-#         row = data[0]
-#         school, prof, tag_type = row[:3]
-#         tags = row[3:]
-#         if current_profession != INITIAL_PARSE_DATA and current_profession[
-#             'profession'] != prof:
-#             return current_profession
-#
-#         current_profession['profession'] = prof
-#
-#         if tag_type != 'url':
-#             if tag_type != 'additional_price_tags':
-#                 current_profession[PRICE_LEVELS[tag_type]] = ''
-#             current_profession.setdefault(tag_type, []).extend(tags)
-#         else:
-#             current_profession[tag_type] = tags[0]
-#
-#         return current_profession
-#
-#     else:
-#         current_profession.update(recursive_func(data[1:]), current_profession)
-#         data.insert(-1, current_profession)
-#         return data
-
-
