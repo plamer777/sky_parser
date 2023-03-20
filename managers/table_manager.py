@@ -94,6 +94,7 @@ class GoogleTableManager:
         try:
             raw_parse_data = self._table.worksheet(table_name).get_all_values()
             parse_data = convert_table_data_to_parse_tasks(raw_parse_data)
+
         except Exception as e:
             logger.error(f'Failed to load data from {table_name}, error: {e}')
             parse_data = []

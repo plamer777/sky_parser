@@ -261,46 +261,38 @@ def refactor_parse_tags(data: dict[str, list[dict]]) -> list[dict]:
                     yield created_row
 
 
-def convert_table_data_to_parse_tasks(
-        data: list[list]) -> list[SchoolParseTask]:
+def convert_table_data_to_parse_tasks(data: list[list]):
     """This function serves to convert a list of lists loaded from Google
     Sheets into list of SchoolParseTask instances
     :param data: a list of lists
     :return: a list of SchoolParseTask instances
     """
-    parse_tasks = []
-    single_task = SchoolParseTask()
-    current_profession = INITIAL_PARSE_DATA.copy()
+    tasks = []
+    school_names = tuple({row[0]: 0 for row in data})
+    professions = tuple({row[1]: 0 for row in data})
 
-    for index, row in enumerate(data):
-        school, prof, tag_type = row[:3]
-        tags = row[3:]
+    for school in school_names:
+        school_data = tuple(filter(lambda x: x[0] == school, data))
+        single_task = SchoolParseTask(school_name=school)
 
-        if current_profession != INITIAL_PARSE_DATA \
-                and prof not in current_profession.values():
+        for profession in professions:
+            current_profession = INITIAL_PARSE_DATA.copy()
+            current_profession['profession'] = profession
+
+            for prof_data in filter(lambda x: x[1] == profession, school_data):
+                tag_type = prof_data[2]
+                tags = prof_data[3:]
+
+                if tag_type != 'url':
+                    if tag_type != 'additional_price_tags':
+                        current_profession[PRICE_LEVELS[tag_type]] = ''
+                    current_profession.setdefault(tag_type, []).extend(tags)
+                else:
+                    current_profession[tag_type] = tags[0]
+
             single_task.parse_requests.append(
                 ProfessionParseRequest(**current_profession))
-            current_profession = INITIAL_PARSE_DATA.copy()
 
-        if single_task.school_name and school != single_task.school_name:
-            previous_school = data[index - 1][0]
-            single_task.school_name = previous_school
-            parse_tasks.append(single_task)
-            single_task = SchoolParseTask()
-            current_profession = INITIAL_PARSE_DATA.copy()
+        tasks.append(single_task)
 
-        single_task.school_name = school
-        current_profession['profession'] = prof
-
-        if tag_type != 'url':
-            if tag_type != 'additional_price_tags':
-                current_profession[PRICE_LEVELS[tag_type]] = ''
-            current_profession.setdefault(tag_type, []).extend(tags)
-        else:
-            current_profession[tag_type] = tags[0]
-
-    single_task.parse_requests.append(
-        ProfessionParseRequest(**current_profession))
-    parse_tasks.append(single_task)
-
-    return parse_tasks
+    return tasks

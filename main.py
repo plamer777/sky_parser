@@ -15,6 +15,7 @@ def main() -> None:
 
         table_manager.open_table(TABLE_NAME)
         parse_data = table_manager.load_from_table(PARSE_TAGS_SHEET)
+
         if not parse_data:
             parse_data = storage_manager.load_from_storage()
 
