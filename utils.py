@@ -2,14 +2,9 @@
 refactor dictionaries, etc."""
 import json
 import re
-from concurrent.futures import Future
 from datetime import datetime
-from typing import Any, Union, Iterator
-from selenium.webdriver.chrome.options import Options
-from selenium import webdriver
-from selenium.webdriver.chrome.webdriver import WebDriver
+from typing import Any, Union
 from constants import (LEVELS, SERVICE_TAGS,
-                       INITIAL_PARSE_DATA, PRICE_LEVELS,
                        REFACTOR_TAGS, PRICE_TYPES, PERIODS)
 from create_loggers import logger
 from parse_classes.school_parse_task import SchoolParseTask, \
@@ -68,26 +63,6 @@ def refactor_parse_responses(
                 result.append(new_row)
 
     return result
-
-
-def init_sync_driver() -> WebDriver | None:
-    """This function initializes the sync selenium driver to parse sites with
-    JS or having another problems for standard asynchronous parsing
-    :return: a configured WebDriver instance
-    """
-    try:
-        options = Options()
-        options.add_argument("--headless")
-        options.add_argument("--no-sandbox")
-        options.add_argument("--window-size=640x480")
-        options.add_argument("'--blink-settings=imagesEnabled=false'")
-
-        driver = webdriver.Chrome(options=options)
-        return driver
-    except Exception as e:
-        logger.error(
-            f'There was an error in the init_sync_driver function: {e}')
-        return None
 
 
 def update_parsed_data(
@@ -217,29 +192,6 @@ def compare_data(old_data: dict[str, list], new_data: dict[str, list]):
     return new_data
 
 
-def sort_parsed_unparsed(
-        data: Union[Iterator[Future], list[ProfessionParseResponse],
-                    list[ProfessionParseRequest]]) -> tuple[list, list]:
-    """This function sorts provided data into parsed and unparsed
-    :param data: a list of ProfessionParseResponse, ProfessionParseRequest
-    instances or Iterator containing Futures
-    :return: a tuple of lists of parsed and unparsed data
-    """
-    unparsed = []
-    parsed = []
-    for row in data:
-        if type(row) is Future:
-            row = row.result()
-        if not getattr(row, 'price', None):
-            print(f'{row.url} failed, one more attempt')
-            unparsed.append(row)
-        else:
-            print(f'Task {row.url} finished')
-            parsed.append(row)
-
-    return parsed, unparsed
-
-
 def refactor_parse_tags(data: dict[str, list[dict]]) -> list[dict]:
     """This function serves to refactor initial dictionary with parse data to
     upload in Google Sheets
@@ -259,40 +211,3 @@ def refactor_parse_tags(data: dict[str, list[dict]]) -> list[dict]:
                                    'price_tags': tag}
 
                     yield created_row
-
-
-def convert_table_data_to_parse_tasks(data: list[list]):
-    """This function serves to convert a list of lists loaded from Google
-    Sheets into list of SchoolParseTask instances
-    :param data: a list of lists
-    :return: a list of SchoolParseTask instances
-    """
-    tasks = []
-    school_names = tuple({row[0]: 0 for row in data})
-    professions = tuple({row[1]: 0 for row in data})
-
-    for school in school_names:
-        school_data = tuple(filter(lambda x: x[0] == school, data))
-        single_task = SchoolParseTask(school_name=school)
-
-        for profession in professions:
-            current_profession = INITIAL_PARSE_DATA.copy()
-            current_profession['profession'] = profession
-
-            for prof_data in filter(lambda x: x[1] == profession, school_data):
-                tag_type = prof_data[2]
-                tags = prof_data[3:]
-
-                if tag_type != 'url':
-                    if tag_type != 'additional_price_tags':
-                        current_profession[PRICE_LEVELS[tag_type]] = ''
-                    current_profession.setdefault(tag_type, []).extend(tags)
-                else:
-                    current_profession[tag_type] = tags[0]
-
-            single_task.parse_requests.append(
-                ProfessionParseRequest(**current_profession))
-
-        tasks.append(single_task)
-
-    return tasks

@@ -2,12 +2,13 @@
 Google Sheets"""
 from typing import Any, Optional
 from gspread import Client, Spreadsheet
-from constants import RESULT_PATH, TITLES, HISTORY_SHEET, RESULT_SHEET
+from constants import RESULT_PATH, TITLES, HISTORY_SHEET, RESULT_SHEET, \
+    INITIAL_PARSE_DATA, PRICE_LEVELS
 from create_loggers import logger
 from managers.parse_manager import ParseManager
-from parse_classes.school_parse_task import SchoolParseTask
+from parse_classes.school_parse_task import SchoolParseTask, \
+    ProfessionParseRequest
 from utils import (compare_data, save_data_to_json,
-                   convert_table_data_to_parse_tasks,
                    convert_parse_tasks_to_json,
                    refactor_parse_tags)
 # ------------------------------------------------------------------------
@@ -93,7 +94,7 @@ class GoogleTableManager:
         """
         try:
             raw_parse_data = self._table.worksheet(table_name).get_all_values()
-            parse_data = convert_table_data_to_parse_tasks(raw_parse_data)
+            parse_data = self._convert_table_data_to_parse_tasks(raw_parse_data)
 
         except Exception as e:
             logger.error(f'Failed to load data from {table_name}, error: {e}')
@@ -128,3 +129,40 @@ class GoogleTableManager:
             rows.append(new_row)
 
         return rows
+
+    @staticmethod
+    def _convert_table_data_to_parse_tasks(data: list[list]):
+        """This method serves to convert a list of lists loaded from Google
+        Sheets into list of SchoolParseTask instances
+        :param data: a list of lists
+        :return: a list of SchoolParseTask instances
+        """
+        tasks = []
+        school_names = tuple({row[0]: 0 for row in data})
+        professions = tuple({row[1]: 0 for row in data})
+
+        for school in school_names:
+            school_data = tuple(filter(lambda x: x[0] == school, data))
+            single_task = SchoolParseTask(school_name=school)
+
+            for profession in professions:
+                current_profession = INITIAL_PARSE_DATA.copy()
+                current_profession['profession'] = profession
+
+                for prof_data in filter(lambda x: x[1] == profession,
+                                        school_data):
+                    tag_type, tags = prof_data[2], prof_data[3:]
+
+                    if tag_type != 'url':
+                        if tag_type != 'additional_price_tags':
+                            current_profession[PRICE_LEVELS[tag_type]] = ''
+                        current_profession.setdefault(tag_type, []).extend(tags)
+                    else:
+                        current_profession[tag_type] = tags[0]
+
+                single_task.parse_requests.append(
+                    ProfessionParseRequest(**current_profession))
+
+            tasks.append(single_task)
+
+        return tasks

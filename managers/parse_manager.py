@@ -1,14 +1,16 @@
 """This unit contains ParseManager class to rule parsing processes"""
 from asyncio import run
-from typing import Any
+from typing import Any, Union, Iterator
+from selenium.webdriver.chrome.options import Options
+from selenium import webdriver
+from selenium.webdriver.chrome.webdriver import WebDriver
 from async_utils import event_loop
 from constants import MULTY_THREAD_ATTEMPTS, ASYNC_ATTEMPTS
 from parse_classes.school_parse_task import SchoolParseTask, \
     ProfessionParseRequest, ProfessionParseResponse
 from parsers.base_parser import BaseParser
-from utils import (init_sync_driver, refactor_parse_responses,
-                   sort_parsed_unparsed)
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from utils import  refactor_parse_responses
+from concurrent.futures import ThreadPoolExecutor, as_completed, Future
 from create_loggers import logger
 # ------------------------------------------------------------------------
 
@@ -52,8 +54,8 @@ class ParseManager:
 
         return parse_data
 
-    @staticmethod
     def _async_parser(
+            self,
             parse_requests: list[ProfessionParseRequest],
             parser: BaseParser) -> list[ProfessionParseResponse]:
         """This method serves as main asynchronous parser
@@ -68,7 +70,7 @@ class ParseManager:
             total_parsed = []
             for _ in range(ASYNC_ATTEMPTS):
                 result = run(event_loop(parse_requests, parser))
-                parsed, unparsed = sort_parsed_unparsed(result)
+                parsed, unparsed = self._sort_parsed_unparsed(result)
                 total_parsed.extend(parsed)
 
                 if not unparsed:
@@ -92,8 +94,8 @@ class ParseManager:
                 for item in parse_requests
             ]
 
-    @staticmethod
     def _multi_thread_parser(
+            self,
             parse_requests: list[ProfessionParseRequest],
             parser: BaseParser) -> list[ProfessionParseResponse]:
         """This method serves as main multithread parser
@@ -111,11 +113,11 @@ class ParseManager:
                 tasks = []
                 for task in parse_requests:
                     print(f'{task.url} in process')
-                    driver = init_sync_driver()
+                    driver = self._init_sync_driver()
                     tasks.append(executor.submit(parser, task, driver))
 
                 finished = as_completed(tasks)
-                parsed, unparsed = sort_parsed_unparsed(finished)
+                parsed, unparsed = self._sort_parsed_unparsed(finished)
 
                 result.extend(parsed)
                 if not unparsed:
@@ -129,3 +131,46 @@ class ParseManager:
                 for item in unparsed
             ])
         return result
+
+    @staticmethod
+    def _sort_parsed_unparsed(
+            data: Union[Iterator[Future], list[ProfessionParseResponse],
+                        list[ProfessionParseRequest]]) -> tuple[list, list]:
+        """This method sorts provided data into parsed and unparsed
+        :param data: a list of ProfessionParseResponse, ProfessionParseRequest
+        instances or Iterator containing Futures
+        :return: a tuple of lists of parsed and unparsed data
+        """
+        unparsed = []
+        parsed = []
+        for row in data:
+            if type(row) is Future:
+                row = row.result()
+            if not getattr(row, 'price', None):
+                print(f'{row.url} failed, one more attempt')
+                unparsed.append(row)
+            else:
+                print(f'Task {row.url} finished')
+                parsed.append(row)
+
+        return parsed, unparsed
+
+    @staticmethod
+    def _init_sync_driver() -> WebDriver | None:
+        """This method initializes the sync selenium driver to parse sites with
+        JS or having another problems for standard asynchronous parsing
+        :return: a configured WebDriver instance
+        """
+        try:
+            options = Options()
+            options.add_argument("--headless")
+            options.add_argument("--no-sandbox")
+            options.add_argument("--window-size=640x480")
+            options.add_argument("'--blink-settings=imagesEnabled=false'")
+
+            driver = webdriver.Chrome(options=options)
+            return driver
+        except Exception as e:
+            logger.error(
+                f'There was an error in the init_sync_driver function: {e}')
+            return None
