@@ -39,7 +39,7 @@ class GoogleTableManager:
         self._connection.session.close()
 
     def refresh(self, parse_data: list[SchoolParseTask],
-                old_data: dict[str, list] = None) -> None:
+                old_data: dict[str, list] = None):
         """This is a main method to start parsing process and send parsed
         data to the Google Sheets
         :param parse_data: a dictionary with data to be parsed such as urls,
@@ -50,7 +50,7 @@ class GoogleTableManager:
             finished_tasks = self._parse_manager.parse_all(parse_data)
             new_parse_data = convert_parse_tasks_to_json(finished_tasks, False)
             if old_data:
-                new_parse_data = compare_data(old_data, new_parse_data)
+                new_parse_data, changes = compare_data(old_data, new_parse_data)
             save_data_to_json(new_parse_data, RESULT_PATH)
 
             records = [TITLES]
@@ -62,7 +62,7 @@ class GoogleTableManager:
 
             self._table.worksheet(RESULT_SHEET).update(records)
             records[0] = []
-            self._table.worksheet(HISTORY_SHEET).append_rows(records)
+            # self._table.worksheet(HISTORY_SHEET).append_rows(records)
             logger.info(f'Table refreshed successfully')
 
         except Exception as e:

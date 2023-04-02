@@ -1,0 +1,67 @@
+[ERROR] - [2023-03-22 15:20:44,708] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[INFO] - [2023-03-22 15:20:44,934] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-03-22 15:20:45,060] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-03-22 15:20:45,188] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-03-22 15:20:45,322] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-03-22 15:20:45,418] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-03-22 15:20:45,590] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-03-22 15:20:45,698] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-03-22 15:21:17,576] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-03-22 15:21:19,285] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-03-22 15:21:19,443] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-03-22 15:21:21,848] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-03-22 15:21:22,264] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-03-22 15:21:25,386] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-03-22 15:21:25,854] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-03-22 15:21:58,012] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-03-22 15:21:59,724] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-03-22 15:22:01,031] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-03-22 15:22:02,317] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-03-22 15:22:04,345] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-03-22 15:22:07,070] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-03-22 15:23:50,315] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-03-22 15:23:50,858] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-03-22 15:23:51,967] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-03-22 15:23:55,257] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-03-22 15:23:55,443] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-03-22 15:23:56,271] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-03-22 15:23:56,680] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 45
+[INFO] - [2023-03-22 15:23:56,994] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-03-22 15:24:04,451] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-22 15:24:05,155] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-22 15:24:05,512] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-03-22 15:24:08,085] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[INFO] - [2023-03-22 15:24:08,664] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[INFO] - [2023-03-22 15:24:09,349] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 51
+[INFO] - [2023-03-22 15:24:09,510] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-22 15:24:14,222] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-03-22 15:24:15,066] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[INFO] - [2023-03-22 15:24:19,894] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[ERROR] - [2023-03-22 15:24:20,600] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-22 15:24:25,328] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-03-22 15:24:29,791] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[INFO] - [2023-03-22 15:24:34,346] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 51
+[INFO] - [2023-03-22 15:24:35,431] : <Table refreshed successfully> : str№: 66
+[ERROR] - [2023-04-02 16:19:36,287] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-02 16:19:36,291] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-02 16:19:38,615] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-02 16:20:57,708] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-02 16:20:57,709] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-02 16:20:59,748] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-02 16:21:04,669] : <Failed to parse https://netology.ru/programs/designer-communication, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-04-02 16:21:04,671] : <Failed to parse https://netology.ru/programs/web-developer?recommended_by=instant_search, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-04-02 16:21:04,672] : <Failed to parse https://netology.ru/programs/java-developer, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-04-02 16:21:04,681] : <Failed to parse https://netology.ru/programs/python, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 34
+[ERROR] - [2023-04-02 16:32:05,158] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-02 16:32:05,158] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-02 16:32:07,317] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-02 16:36:43,644] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-02 16:36:43,645] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-02 16:38:07,096] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-02 16:38:07,097] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-02 16:40:19,962] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-02 16:40:19,963] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-02 16:43:42,179] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-02 16:43:42,179] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-02 16:52:02,708] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-02 16:52:02,709] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39

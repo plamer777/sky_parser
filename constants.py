@@ -7,6 +7,8 @@ PARSE_DATA_PATH = os.path.join('data', 'parse_store')
 RESULT_PATH = os.path.join('data', 'results', 'result.json')
 AUTH_FILE = os.path.join('auth_data', 'skyparser-b7b18db49e8d.json')
 LOG_PATH = os.path.join('log', 'parser_logs.txt')
+BOT_PHRASES_PATH = os.path.join('data', 'telebot_data', 'bot_phrases.json')
+CHAT_IDS_PATH = os.path.join('data', 'telebot_data', 'chats.json')
 
 TIME_DELAY_24_H = 3600 * 24
 
@@ -17,7 +19,7 @@ ASYNC_ATTEMPTS = 10
 TABLE_NAME = 'sky_parser'
 PARSE_TAGS_SHEET = 'Парсинг теги'
 HISTORY_SHEET = 'История'
-RESULT_SHEET = 'Парсинг'
+RESULT_SHEET = 'Для тестов'
 
 
 TITLES = ['school',

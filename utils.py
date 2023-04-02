@@ -88,7 +88,7 @@ def update_parsed_data(
     return parse_result
 
 
-def save_data_to_json(data: dict[str, list], filename: str) -> None:
+def save_data_to_json(data: Union[dict, list], filename: str) -> None:
     """This function saves data to json file
     :param data: a dictionary containing data to save
     :param filename: the file path to save
@@ -156,7 +156,8 @@ def convert_json_to_parse_tasks(
     return tasks
 
 
-def compare_data(old_data: dict[str, list], new_data: dict[str, list]):
+def compare_data(old_data: dict[str, list],
+                 new_data: dict[str, list]) -> dict[str, Any]:
     """This function serves to compare parsed data with loaded from json file
     :param old_data: dictionary with previous parse data
     :param new_data: dictionary with new parse data
@@ -175,6 +176,7 @@ def compare_data(old_data: dict[str, list], new_data: dict[str, list]):
 
             try:
                 prof_new['price_change'] = new_price - old_price
+
             except Exception as e:
                 logger.error(f'Cannot calculate price change, error {e}')
                 prof_new['price_change'] = 0
