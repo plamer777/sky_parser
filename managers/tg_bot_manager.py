@@ -1,6 +1,7 @@
 """This file contains a TelebotManager class providing functionality to work
 with messages sending to users"""
 from telebot.async_telebot import AsyncTeleBot
+from telebot.util import MAX_MESSAGE_LENGTH
 from constants import RESULT_PATH
 from tg_bot import bot_phrases, load_from_json
 # ---------------------------------------------------------------------------
@@ -20,9 +21,19 @@ class TelebotManager:
         :param chats: A list of ids of users' chats
         """
         self._create_change_messages()
+        texts = []
         for chat in chats:
-            await self.tg_bot.send_message(
-                chat, text='\n'.join(self.price_changes))
+            text = '\n'.join(self.price_changes)
+            if len(text) > MAX_MESSAGE_LENGTH:
+                first_part = text[:MAX_MESSAGE_LENGTH].rsplit('\n', 1)[0]
+                second_part = text.replace(first_part, '')
+                texts.extend([first_part, second_part])
+            else:
+                texts = [text]
+
+            for text in texts:
+                await self.tg_bot.send_message(
+                    chat, text=text)
 
         self._clear_changes_list()
 

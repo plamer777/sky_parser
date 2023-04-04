@@ -105,18 +105,18 @@ async def all_prices_handler(message) -> None:
     buttons = types.ReplyKeyboardMarkup(resize_keyboard=True)
     menu_button = types.KeyboardButton(text='Меню')
     buttons.add(menu_button)
-    text = data_manager.get_all_prices()
-
-    await bot.send_message(
-        message.chat.id,
-        text=text,
-        reply_markup=buttons)
+    texts = data_manager.get_all_prices()
+    for text in texts:
+        await bot.send_message(
+            message.chat.id,
+            text=text,
+            reply_markup=buttons)
 
 
 @bot.message_handler(
     func=lambda message: message.text == 'Прайсы по профессии'
     or message.text in data_manager.get_common_courses() and not
-    data_manager.chosen_school)
+    data_manager.get_chosen_school(message.chat.id))
 async def common_profs_handler(message) -> None:
     """This async handler serves to show prices by certain profession and
     menu with all available professions
@@ -131,14 +131,16 @@ async def common_profs_handler(message) -> None:
     buttons.add(*prof_buttons)
 
     if message.text == 'Прайсы по профессии':
-        text = 'А теперь выберите профессию и узнаете прайсы всех конкурентов'
+        texts = [
+            'А теперь выберите профессию и узнаете прайсы всех конкурентов']
     else:
-        text = data_manager.get_prices_by_profession(message.text)
+        texts = data_manager.get_prices_by_profession(message.text)
 
-    await bot.send_message(
-        message.chat.id,
-        text=text,
-        reply_markup=buttons)
+    for text in texts:
+        await bot.send_message(
+            message.chat.id,
+            text=text,
+            reply_markup=buttons)
 
 
 @bot.message_handler(
@@ -177,15 +179,14 @@ async def choose_school_handler(message) -> None:
 @bot.message_handler(
     func=lambda message: message.text
     in ['Все курсы', *data_manager.get_course_by_school(
-        data_manager.get_chosen_school(message.chat.id))])
+        data_manager.get_chosen_school(message.chat.id), message.chat.id)])
 async def price_by_school_prof_handler(message) -> None:
     """This async handler serves to show prices by previously chosen school
     and certain profession or by all professions available in the school
     :param message: A message object containing chat id, text and so on
     """
     school_courses = data_manager.get_course_by_school(
-        data_manager.chosen_school)
-
+        data_manager.get_chosen_school(message.chat.id), message.chat.id)
     buttons = types.ReplyKeyboardMarkup(resize_keyboard=True)
 
     menu_button = types.KeyboardButton(text='Меню')
@@ -196,14 +197,15 @@ async def price_by_school_prof_handler(message) -> None:
     buttons.add(menu_button, all_courses_button, *school_courses_buttons)
 
     if message.text == 'Все курсы':
-        text = data_manager.get_prices_by_school(
+        texts = data_manager.get_prices_by_school(
             data_manager.get_chosen_school(message.chat.id))
 
     else:
-        text = data_manager.get_by_school_and_prof(
-            data_manager.chosen_school, message.text)
+        texts = data_manager.get_by_school_and_prof(
+            data_manager.get_chosen_school(message.chat.id), message.text)
 
-    await bot.send_message(
-        message.chat.id,
-        text=text,
-        reply_markup=buttons)
+    for text in texts:
+        await bot.send_message(
+            message.chat.id,
+            text=text,
+            reply_markup=buttons)

@@ -1,5 +1,6 @@
 """This file contains GoogleTableManager to send parsed data to
 Google Sheets"""
+from asyncio import gather
 from typing import Any, Optional
 from gspread import Client, Spreadsheet
 from constants import RESULT_PATH, TITLES, HISTORY_SHEET, RESULT_SHEET, \
@@ -38,8 +39,8 @@ class GoogleTableManager:
         """This method serves to close previously opened table"""
         self._connection.session.close()
 
-    def refresh(self, parse_data: list[SchoolParseTask],
-                old_data: dict[str, list] = None):
+    async def refresh(self, parse_data: list[SchoolParseTask],
+                      old_data: dict[str, list] = None):
         """This is a main method to start parsing process and send parsed
         data to the Google Sheets
         :param parse_data: a dictionary with data to be parsed such as urls,
@@ -47,7 +48,8 @@ class GoogleTableManager:
         :param old_data: a dictionary with previously parsed data
         """
         try:
-            finished_tasks = self._parse_manager.parse_all(parse_data)
+            finished_tasks = await self._parse_manager.parse_all(
+                parse_data)
             new_parse_data = convert_parse_tasks_to_json(finished_tasks, False)
             if old_data:
                 new_parse_data, changes = compare_data(old_data, new_parse_data)

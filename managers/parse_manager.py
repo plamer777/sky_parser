@@ -1,5 +1,5 @@
 """This unit contains ParseManager class to rule parsing processes"""
-from asyncio import run
+from asyncio import run, gather
 from typing import Any, Union, Iterator
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
@@ -30,7 +30,7 @@ class ParseManager:
         self._parser_type = {'async': self._async_parser,
                              'sync': self._multi_thread_parser}
 
-    def parse_all(
+    async def parse_all(
             self, parse_data: list[SchoolParseTask]) -> list[SchoolParseTask]:
         """This is a main method to start parsing by using provided parse
         data with urls and tags
@@ -48,13 +48,14 @@ class ParseManager:
                     'ParseManager cannot find parser type for the data')
                 continue
 
-            result = self._parser_type[parser_type](
+            result = await self._parser_type[parser_type](
                 task.parse_requests, self._parsers[task.school_name])
+
             task.parse_responses.extend(refactor_parse_responses(result))
 
         return parse_data
 
-    def _async_parser(
+    async def _async_parser(
             self,
             parse_requests: list[ProfessionParseRequest],
             parser: BaseParser) -> list[ProfessionParseResponse]:
@@ -69,7 +70,7 @@ class ParseManager:
         try:
             total_parsed = []
             for _ in range(ASYNC_ATTEMPTS):
-                result = run(event_loop(parse_requests, parser))
+                result = await event_loop(parse_requests, parser)
                 parsed, unparsed = self._sort_parsed_unparsed(result)
                 total_parsed.extend(parsed)
 
@@ -94,7 +95,7 @@ class ParseManager:
                 for item in parse_requests
             ]
 
-    def _multi_thread_parser(
+    async def _multi_thread_parser(
             self,
             parse_requests: list[ProfessionParseRequest],
             parser: BaseParser) -> list[ProfessionParseResponse]:

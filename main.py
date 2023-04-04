@@ -5,7 +5,7 @@ from constants import RESULT_PATH, TIME_DELAY_24_H, TABLE_NAME, \
     PARSE_TAGS_SHEET, CHAT_IDS_PATH
 from container import table_manager, storage_manager, chat_ids
 from utils import load_from_json
-from container import bot, telebot_manager
+from container import bot, telebot_manager, data_manager
 from tg_bot import main_handlers
 # ------------------------------------------------------------------------
 
@@ -32,11 +32,12 @@ async def main() -> None:
 
         if parse_data:
             old_data = load_from_json(RESULT_PATH)
-            table_manager.refresh(parse_data, old_data)
+            await table_manager.refresh(parse_data, old_data)
             storage_manager.save_to_storage(parse_data)
             await telebot_manager.send_messages(chat_ids)
 
         table_manager.close_table()
+        data_manager.refresh_data()
 
         work_time = (datetime.now() - start_time).seconds
         await sleep(TIME_DELAY_24_H - work_time)
@@ -46,9 +47,8 @@ async def event_loop() -> None:
     """This function serves as an event loop to allow parser and telegram
     bot work together"""
     parse_task = create_task(main())
-    tg_bot_task = create_task(bot.polling())
-    while True:
-        await gather(parse_task, tg_bot_task)
+    tg_bot_task = create_task(bot.polling(non_stop=True))
+    await gather(parse_task, tg_bot_task)
 
 
 if __name__ == '__main__':

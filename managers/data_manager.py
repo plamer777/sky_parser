@@ -1,5 +1,8 @@
 """This unit contains a DataManager class serves to get requested data"""
-from typing import Optional
+from typing import Optional, Union
+
+from telebot.util import MAX_MESSAGE_LENGTH
+
 from utils import load_from_json
 # --------------------------------------------------------------------------
 
@@ -12,6 +15,7 @@ class DataManager:
         """
         self.data = load_from_json(filename)
         self._chosen_school = {}
+        self.data_file = filename
 
     def get_school_names(self) -> Optional[list[str]]:
         """This method returns a list of all available school names
@@ -23,6 +27,7 @@ class DataManager:
         """This method returns a list of professions available for
         a given school
         :param school_name: The string representing the school name
+        :param chat_id: The id of the chat to send school list
         :return: A list of available courses for a given school
         """
         self._chosen_school[chat_id] = school_name
@@ -53,53 +58,81 @@ class DataManager:
 
         return common_courses
 
-    def get_all_prices(self) -> str:
+    def get_all_prices(self) -> list[str]:
         """This method creates a string with all prices existing in the file
-        :return: A string containing all prices
+        :return: A list of strings containing all prices
         """
+        messages = []
         result = ''
+
         for school in self.data:
-            result += f'{school}:\n'
-
             for course_data in self.data.get(school, []):
-                result += self._create_record(course_data)
+                result += f'{school}:\n'
+                record = self._create_record(course_data)
+                messages, result = self._create_message_list(
+                    result, record, messages)
+                result += record
 
-        return result
+        if result not in messages:
+            messages.append(result)
 
-    def get_prices_by_school(self, school_name: str) -> str:
+        return messages if messages else [result]
+
+    @staticmethod
+    def _create_message_list(
+            message: str, current_record: str,
+            messages: list) -> tuple[list, str]:
+        """This method creates a list of strings from a single string if the
+        message has a length greater than the maximum allowed length
+        :param message: A string representing the message to check
+        :param current_record: A part of message to add to the message
+        :param messages: A list to add messages
+        :return: A tuple containing a list of messages and a message string
+        """
+        if len(current_record + message) > MAX_MESSAGE_LENGTH:
+            messages.append(f'\n{message}')
+            message = ''
+
+        return messages, message
+
+    def get_prices_by_school(self, school_name: str) -> list[str]:
         """This method returns a string containing all prices for a
         given school
         :param school_name: The string representing the school name
-        :return: A string containing all prices for a given school
+        :return: A list of strings containing all prices for a given school
         """
         result = f'{school_name}\n'
         for course_data in self.data.get(school_name, []):
             result += self._create_record(course_data)
 
-        return result
+        return [result]
 
-    def get_prices_by_profession(self, profession: str) -> str:
+    def get_prices_by_profession(self, profession: str) -> list[str]:
         """This method returns a string containing all prices from all schools
         for a given profession
         :param profession: The string representing the profession name
-        :return: A string containing all prices for a given profession
+        :return: A list of strings containing all prices for a given profession
         """
         result = ''
+        messages = []
         for school, courses in self.data.items():
-            result += f'{school}:\n'
             for course_data in filter(
                     lambda x: x['profession'] == profession, courses):
+                result += f'{school}:\n'
+                record = self._create_record(course_data)
+                messages, result = self._create_message_list(
+                    result, record, messages)
+                result += record
 
-                result += self._create_record(course_data)
+        return messages if messages else [result]
 
-        return result
-
-    def get_by_school_and_prof(self, school_name: str, prof_name: str) -> str:
+    def get_by_school_and_prof(
+            self, school_name: str, prof_name: str) -> list[str]:
         """This method returns a string containing all prices from chosen
         school and profession
         :param school_name: The string representing the school name
         :param prof_name: The string representing the profession name
-        :return: A string containing all prices for a given school and
+        :return: A list of strings containing all prices for a given school and
         profession
         """
         result = f'{school_name}\n'
@@ -107,7 +140,7 @@ class DataManager:
         for course in filter(lambda x: x['profession'] == prof_name, courses):
             result += self._create_record(course)
 
-        return result
+        return [result]
 
     def get_chosen_school(self, chat_id: int) -> str:
         """This method returns a string containing the chosen school
@@ -128,9 +161,13 @@ class DataManager:
         record = f'''
             {course_data.get("profession")}\n
             Тариф: {course_data.get("course_level")}\n
-            Цена в месяц - {course_data.get("price")}\n
+            Цена в месяц - {course_data.get("price")} руб.\n
             Кол-во месяцев - {course_data.get("period")}\n
-            Итоговая цена - {course_data.get("total")}\n
+            Итоговая цена - {course_data.get("total")} руб.\n
             {'-' * 30}
             '''
         return record
+
+    def refresh_data(self) -> None:
+        """This method serves to actualize data"""
+        self.data = load_from_json(self.data_file)
