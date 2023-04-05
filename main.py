@@ -47,7 +47,7 @@ async def event_loop() -> None:
     """This function serves as an event loop to allow parser and telegram
     bot work together"""
     parse_task = create_task(main())
-    tg_bot_task = create_task(bot.polling(non_stop=True))
+    tg_bot_task = create_task(bot.infinity_polling(non_stop=True))
     await gather(parse_task, tg_bot_task)
 
 
