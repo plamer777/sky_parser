@@ -64,7 +64,7 @@ class GoogleTableManager:
 
             self._table.worksheet(RESULT_SHEET).update(records)
             records[0] = []
-            self._table.worksheet(HISTORY_SHEET).append_rows(records)
+            # self._table.worksheet(HISTORY_SHEET).append_rows(records)
             logger.info(f'Table refreshed successfully')
 
         except Exception as e:

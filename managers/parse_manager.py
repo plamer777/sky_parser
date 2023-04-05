@@ -40,7 +40,7 @@ class ParseManager:
         :return: A SchoolParseTask instances filled with
         ProfessionParseResponse instances containing data extracted from sites
         """
-        for task in parse_data:
+        for task in parse_data[:1]:
             parser_type = self._parser_mapper.get(task.school_name)
 
             if not parser_type:

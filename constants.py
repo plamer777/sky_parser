@@ -19,7 +19,7 @@ ASYNC_ATTEMPTS = 10
 TABLE_NAME = 'sky_parser'
 PARSE_TAGS_SHEET = 'Парсинг теги'
 HISTORY_SHEET = 'История'
-RESULT_SHEET = 'Парсинг'
+RESULT_SHEET = 'Для тестов'
 
 
 TITLES = ['school',

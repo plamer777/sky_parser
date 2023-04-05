@@ -3,6 +3,7 @@ with messages sending to users"""
 from telebot.async_telebot import AsyncTeleBot
 from telebot.util import MAX_MESSAGE_LENGTH
 from constants import RESULT_PATH
+from create_loggers import logger
 from tg_bot import bot_phrases, load_from_json
 # ---------------------------------------------------------------------------
 
@@ -22,18 +23,28 @@ class TelebotManager:
         """
         self._create_change_messages()
         texts = []
-        for chat in chats:
-            text = '\n'.join(self.price_changes)
-            if len(text) > MAX_MESSAGE_LENGTH:
-                first_part = text[:MAX_MESSAGE_LENGTH].rsplit('\n', 1)[0]
-                second_part = text.replace(first_part, '')
-                texts.extend([first_part, second_part])
-            else:
-                texts = [text]
+        try:
+            for chat in chats:
+                text = '\n'.join(self.price_changes)
 
-            for text in texts:
-                await self.tg_bot.send_message(
-                    chat, text=text)
+                if not text:
+                    return None
+
+                if len(text) > MAX_MESSAGE_LENGTH:
+                    first_part = text[:MAX_MESSAGE_LENGTH].rsplit('\n', 1)[0]
+                    second_part = text.replace(first_part, '')
+                    texts.extend([first_part, second_part])
+                else:
+                    texts = [text]
+
+                for text in texts:
+                    print(texts)
+                    await self.tg_bot.send_message(
+                        chat, text=text)
+
+        except Exception as e:
+            logger.error(
+                f"There was an error trying to send messages to users: {e}")
 
         self._clear_changes_list()
 
