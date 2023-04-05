@@ -52,7 +52,7 @@ class GoogleTableManager:
                 parse_data)
             new_parse_data = convert_parse_tasks_to_json(finished_tasks, False)
             if old_data:
-                new_parse_data, changes = compare_data(old_data, new_parse_data)
+                new_parse_data = compare_data(old_data, new_parse_data)
             save_data_to_json(new_parse_data, RESULT_PATH)
 
             records = [TITLES]

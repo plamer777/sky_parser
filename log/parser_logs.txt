@@ -360,3 +360,259 @@ Stacktrace:
 [ERROR] - [2023-04-04 01:25:37,434] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
 [ERROR] - [2023-04-04 01:26:10,175] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
 [ERROR] - [2023-04-04 13:16:24,876] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-05 15:34:18,495] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[INFO] - [2023-04-05 15:34:20,679] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-04-05 15:34:20,783] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-04-05 15:34:20,940] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-04-05 15:34:21,052] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-04-05 15:34:21,182] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-04-05 15:34:21,361] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-04-05 15:34:21,500] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-04-05 15:34:54,336] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-04-05 15:34:55,826] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-04-05 15:34:57,248] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-04-05 15:34:59,892] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-04-05 15:35:04,176] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-04-05 15:35:05,939] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-04-05 15:35:07,464] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-04-05 15:35:27,506] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-04-05 15:35:39,564] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-04-05 15:35:40,741] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-04-05 15:35:42,689] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-04-05 15:35:43,419] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-04-05 15:35:44,243] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-04-05 15:35:51,568] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[ERROR] - [2023-04-05 15:35:52,158] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:52,605] : <Could not parse https://skillbox.ru/course/java/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:52,930] : <Could not parse https://skillbox.ru/course/data-analyst-cv/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:53,179] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:53,479] : <Could not parse https://skillbox.ru/course/profession-test-onboarding/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:53,722] : <Could not parse https://skillbox.ru/course/profession-marketolog-program/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[INFO] - [2023-04-05 15:35:54,178] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-05 15:35:54,822] : <Could not parse https://skillbox.ru/course/profession-test-onboarding/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:55,002] : <Could not parse https://skillbox.ru/course/java/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:55,401] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:55,578] : <Could not parse https://skillbox.ru/course/data-analyst-cv/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:55,902] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:56,214] : <Could not parse https://skillbox.ru/course/profession-marketolog-program/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:56,718] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:56,881] : <Could not parse https://skillbox.ru/course/java/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:57,243] : <Could not parse https://skillbox.ru/course/profession-test-onboarding/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:57,486] : <Could not parse https://skillbox.ru/course/profession-marketolog-program/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:57,724] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:57,886] : <Could not parse https://skillbox.ru/course/data-analyst-cv/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:58,386] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:58,548] : <Could not parse https://skillbox.ru/course/data-analyst-cv/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:58,727] : <Could not parse https://skillbox.ru/course/java/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:59,025] : <Could not parse https://skillbox.ru/course/profession-test-onboarding/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:59,354] : <Could not parse https://skillbox.ru/course/profession-marketolog-program/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:59,672] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 15:35:59,982] : <Could not parse https://skillbox.ru/course/data-analyst-cv/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 16:06:33,181] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[INFO] - [2023-04-05 16:06:35,091] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-05 16:06:35,332] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-05 16:06:35,488] : <Could not parse https://skillbox.ru/course/java/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 16:06:35,843] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 16:06:36,072] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[INFO] - [2023-04-05 16:06:36,449] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 45
+[INFO] - [2023-04-05 16:06:36,734] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-05 16:06:37,038] : <Could not parse https://skillbox.ru/course/java/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 16:06:37,329] : <Could not parse https://skillbox.ru/course/java/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 16:06:37,595] : <Could not parse https://skillbox.ru/course/java/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 16:06:37,936] : <Could not parse https://skillbox.ru/course/java/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 16:06:38,324] : <Could not parse https://skillbox.ru/course/java/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 16:06:38,637] : <Could not parse https://skillbox.ru/course/java/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 16:22:41,711] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-05 16:22:41,712] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-05 16:22:43,204] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[INFO] - [2023-04-05 16:22:43,455] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:22:43,595] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:22:43,728] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:22:43,837] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:22:43,962] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:22:44,138] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:22:44,235] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:23:21,142] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:23:21,210] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:23:22,160] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:23:23,131] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:23:24,319] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:23:27,780] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:23:27,920] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:23:44,546] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:24:00,912] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:24:01,751] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:24:02,787] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:24:05,920] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:24:38,931] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:27:41,254] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:27:41,850] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 45
+[INFO] - [2023-04-05 16:27:42,093] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-05 16:27:42,314] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-05 16:27:42,555] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[INFO] - [2023-04-05 16:27:42,711] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-05 16:27:43,000] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-05 16:27:43,400] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 16:27:54,068] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:28:48,721] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:45,297] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:46,125] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:46,944] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:47,724] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:49,359] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:50,472] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:51,270] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:52,095] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:52,928] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:53,759] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:54,591] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:55,503] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:56,684] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:57,485] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:58,275] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:29:59,094] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:00,017] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:00,706] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:01,523] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:02,642] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:03,450] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:04,324] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:05,122] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:06,245] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:06,756] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:07,663] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:08,791] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:09,628] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:10,487] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:11,324] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:12,088] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:12,913] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:13,766] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:14,854] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:15,674] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:16,508] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:17,311] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:18,113] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:18,960] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:19,829] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:30:20,912] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:09,075] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-05 16:32:09,075] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-05 16:32:10,620] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-05 16:32:11,690] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:12,522] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:13,634] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:14,231] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:15,235] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:17,054] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:17,647] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:18,772] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:19,623] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:20,617] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:21,180] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:21,993] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:22,800] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:23,661] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:24,975] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:25,930] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:26,420] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:27,231] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:28,229] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:30,366] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:30,828] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:32:31,773] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 54
+[ERROR] - [2023-04-05 16:41:36,502] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[ERROR] - [2023-04-05 16:41:36,503] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-05 16:41:38,030] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 39
+[INFO] - [2023-04-05 16:41:38,261] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:41:38,403] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:41:38,528] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:41:38,622] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:41:38,730] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:41:38,892] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:41:39,019] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-04-05 16:42:10,961] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:42:11,489] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:42:13,136] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:42:14,573] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:42:15,145] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:42:18,532] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:42:19,575] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-04-05 16:42:51,415] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:42:52,679] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:42:53,395] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:42:55,196] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:42:55,972] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:42:57,552] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:44:58,453] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-04-05 16:44:59,315] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-05 16:44:59,640] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-05 16:44:59,904] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[ERROR] - [2023-04-05 16:45:00,281] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: 'NoneType' object has no attribute 'text'> : str№: 48
+[INFO] - [2023-04-05 16:45:00,566] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-05 16:45:00,798] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-05 16:45:01,186] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-05 16:45:04,585] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:07,211] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:07,511] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[INFO] - [2023-04-05 16:45:11,583] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[INFO] - [2023-04-05 16:45:11,944] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 51
+[INFO] - [2023-04-05 16:45:12,779] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-05 16:45:13,107] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[ERROR] - [2023-04-05 16:45:14,456] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:15,381] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[INFO] - [2023-04-05 16:45:19,446] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[ERROR] - [2023-04-05 16:45:20,879] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[INFO] - [2023-04-05 16:45:27,113] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[ERROR] - [2023-04-05 16:45:33,186] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:37,693] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:39,023] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:44,032] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:45,530] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:46,886] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:48,261] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:52,902] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:54,308] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:45:59,090] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:46:00,419] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:46:01,904] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:46:03,480] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:46:04,927] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:46:11,094] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:46:15,705] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:46:17,156] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-05 16:46:21,873] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[INFO] - [2023-04-05 16:46:26,690] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-05 16:46:27,403] : <Table refreshed successfully> : str№: 68
+[ERROR] - [2023-04-05 17:11:06,016] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[ERROR] - [2023-04-05 17:11:07,914] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: 'NoneType' object has no attribute 'text'> : str№: 53
+[ERROR] - [2023-04-05 17:11:08,252] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: 'NoneType' object has no attribute 'text'> : str№: 53
+[INFO] - [2023-04-05 17:11:08,565] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 50
+[INFO] - [2023-04-05 17:11:08,722] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 50
+[INFO] - [2023-04-05 17:11:09,023] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 50
+[INFO] - [2023-04-05 17:11:09,326] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 50
+[INFO] - [2023-04-05 17:11:09,652] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 50
+[ERROR] - [2023-04-05 17:11:09,655] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 187
+[ERROR] - [2023-04-05 17:11:09,655] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 187
+[ERROR] - [2023-04-05 17:11:09,655] : <There was an error while refreshing the table: too many values to unpack (expected 2)> : str№: 71
+[ERROR] - [2023-04-05 17:13:17,984] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[INFO] - [2023-04-05 17:13:20,083] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 50
+[ERROR] - [2023-04-05 17:13:20,336] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: 'NoneType' object has no attribute 'text'> : str№: 53
+[INFO] - [2023-04-05 17:13:20,495] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 50
+[INFO] - [2023-04-05 17:13:20,777] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 50
+[INFO] - [2023-04-05 17:13:21,068] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 50
+[INFO] - [2023-04-05 17:13:21,449] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 50
+[ERROR] - [2023-04-05 17:13:21,768] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: 'NoneType' object has no attribute 'text'> : str№: 53
+[ERROR] - [2023-04-05 17:13:21,771] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 187
+[ERROR] - [2023-04-05 17:13:21,771] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 187
+[ERROR] - [2023-04-05 17:14:48,732] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 39
+[INFO] - [2023-04-05 17:14:50,673] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 50
+[INFO] - [2023-04-05 17:14:51,032] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 50
+[INFO] - [2023-04-05 17:14:51,239] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 50
+[ERROR] - [2023-04-05 17:14:51,558] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: 'NoneType' object has no attribute 'text'> : str№: 53
+[ERROR] - [2023-04-05 17:14:51,801] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: 'NoneType' object has no attribute 'text'> : str№: 53
+[INFO] - [2023-04-05 17:14:52,115] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 50
+[INFO] - [2023-04-05 17:14:52,417] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 50
+[ERROR] - [2023-04-05 17:14:52,420] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 187
+[ERROR] - [2023-04-05 17:14:52,420] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 187
+[INFO] - [2023-04-05 17:14:52,915] : <Table refreshed successfully> : str№: 68

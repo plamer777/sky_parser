@@ -38,7 +38,12 @@ class SkillBoxParser(BaseParser):
                         self._get_from_parsed_data(price_data, additional_tags)
                     )
 
-            parse_response.price = driver.find(*price_tags).text
+            if parse_response.profession != 'Python_developer':
+                index = -1
+            else:
+                index = 0
+
+            parse_response.price = driver.find_all(*price_tags)[index].text
             parse_response.period = driver.find(*period_tags).text
 
             parse_data = self._clean_data(parse_response)
@@ -73,11 +78,11 @@ class SkillBoxParser(BaseParser):
         if data.profession == 'Python_developer':
             data.period = data.period.split('.')[0]
 
-        elif data.profession in ['Java_developer', 'Data_analyst']:
+        else:
             pass
 
-        else:
-            data.period = data.period.split('Отсрочка платежа')[-2]
+        # else:
+        #     data.period = data.period.split('Отсрочка платежа')[-2]
 
         return data
 
