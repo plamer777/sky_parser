@@ -55,7 +55,7 @@ jobs:
           script: |
             cd /home/sky_parser
             echo ${{secrets.PASSWORD}} | sudo -S cp sky_parser.service /etc/systemd/system
-            systemctl stop sky_parser.service
-            systemctl daemon-reload
-            systemctl start sky_parser
-            systemctl enable sky_parser    
+            sudo systemctl stop sky_parser.service
+            sudo systemctl daemon-reload
+            sudo systemctl start sky_parser
+            sudo systemctl enable sky_parser    
