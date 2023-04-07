@@ -20,7 +20,7 @@ jobs:
       - name: push parser image
         run: docker push plamer88/sky_parser:parser-$GITHUB_RUN_ID
       - name: push telebot image
-        run: plamer88/sky_parser:telebot-$GITHUB_RUN_ID
+        run: docker push plamer88/sky_parser:telebot-$GITHUB_RUN_ID
 
   deploy_application:
     needs: build_images
