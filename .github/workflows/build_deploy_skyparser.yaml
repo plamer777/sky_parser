@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: clone repo
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
       - name: copy files
         run: |          
           cp constants.py telegram_bot/
@@ -31,7 +31,7 @@ jobs:
       SERVER_PASSWORD: ${{secrets.PASSWORD}}
     steps:
       - name: clone repo
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
       - name: prepare files
         run: |
           cat telegram_bot/.env-ci | envsubst > .env
