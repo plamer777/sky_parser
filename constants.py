@@ -11,6 +11,7 @@ BOT_PHRASES_PATH = os.path.join('data', 'telebot_data', 'bot_phrases.json')
 CHAT_IDS_PATH = os.path.join('data', 'telebot_data', 'chats.json')
 
 TIME_DELAY_24_H = 3600 * 24
+CHECK_UPDATES_DELAY_10M = 60 * 10
 
 MULTY_THREAD_ATTEMPTS = 30
 ASYNC_ATTEMPTS = 10
@@ -19,7 +20,7 @@ ASYNC_ATTEMPTS = 10
 TABLE_NAME = 'sky_parser'
 PARSE_TAGS_SHEET = 'Парсинг теги'
 HISTORY_SHEET = 'История'
-RESULT_SHEET = 'Парсинг'
+RESULT_SHEET = 'Для тестов'
 
 
 TITLES = ['school',

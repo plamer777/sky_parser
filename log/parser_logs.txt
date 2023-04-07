@@ -1,0 +1,1277 @@
+[ERROR] - [2023-04-07 00:55:31,457] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 19
+[INFO] - [2023-04-07 00:55:33,902] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-04-07 00:55:34,063] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-04-07 00:55:34,211] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-04-07 00:55:34,319] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-04-07 00:55:34,436] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-04-07 00:55:34,572] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-04-07 00:55:34,771] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-04-07 00:56:07,489] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-04-07 00:56:08,484] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-04-07 00:56:09,904] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-04-07 00:56:10,707] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-04-07 00:56:12,140] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-04-07 00:56:13,732] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-04-07 00:56:15,510] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-04-07 00:56:34,402] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-04-07 00:56:47,551] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-04-07 00:56:48,672] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-04-07 00:56:49,362] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-04-07 00:56:50,185] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-04-07 00:56:51,392] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-04-07 00:56:53,037] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-04-07 00:56:53,686] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 00:56:54,058] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 00:56:54,241] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 00:56:54,722] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 00:56:55,094] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 00:56:55,358] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 00:56:55,712] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 00:56:56,417] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 00:56:57,105] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 00:56:57,920] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 00:56:58,604] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 00:56:59,439] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 00:57:00,182] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 00:57:00,903] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 00:57:01,730] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 00:57:02,422] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 00:57:02,424] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 83
+[ERROR] - [2023-04-07 00:57:02,426] : <There was an error while refreshing the table: 5 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 71
+[ERROR] - [2023-04-07 01:13:11,856] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 19
+[INFO] - [2023-04-07 01:13:14,044] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:13:14,195] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:13:14,335] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:13:14,442] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:13:14,591] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:13:14,803] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:13:14,922] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:13:48,196] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:13:48,923] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:13:49,969] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:13:52,154] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:13:53,217] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:13:55,639] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:13:57,068] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:14:14,858] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:14:29,137] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:14:30,029] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:14:30,807] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:14:32,245] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:14:33,533] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:14:35,290] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:14:35,916] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:14:36,243] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 01:14:36,677] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 01:14:36,949] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:14:37,220] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:14:37,399] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:14:37,840] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 01:14:38,541] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:14:39,229] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:14:40,028] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:14:40,724] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:14:41,527] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:14:42,205] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:14:42,909] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:14:43,748] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:14:44,456] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:14:44,458] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 86
+[ERROR] - [2023-04-07 01:14:44,460] : <There was an error in the main parsing cycle: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 57
+[INFO] - [2023-04-07 01:14:45,279] : <Table refreshed successfully> : str№: 68
+[ERROR] - [2023-04-07 01:28:35,527] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 19
+[INFO] - [2023-04-07 01:28:37,504] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:28:37,666] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:28:37,825] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:28:37,985] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:28:38,103] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:28:38,290] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:28:38,527] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:29:11,969] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:29:13,258] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:29:13,526] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:29:17,194] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:29:17,369] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:29:18,363] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:29:19,290] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:29:36,287] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:29:51,372] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:29:52,310] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:29:52,699] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:29:54,007] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:29:54,919] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:29:56,317] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[ERROR] - [2023-04-07 01:29:57,113] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 01:29:57,390] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:29:57,629] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:29:57,895] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:29:58,223] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:29:58,406] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:29:58,848] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 01:29:59,559] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:30:00,319] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:30:01,152] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:30:01,830] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:30:02,685] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:30:03,404] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:30:04,134] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:30:04,973] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:30:05,660] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:30:05,661] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 88
+[ERROR] - [2023-04-07 01:30:05,662] : <There was an error in the main parsing cycle: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 58
+[INFO] - [2023-04-07 01:30:18,143] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:30:19,357] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:30:19,424] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 51
+[ERROR] - [2023-04-07 01:30:19,495] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[INFO] - [2023-04-07 01:30:19,545] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:30:19,600] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:30:19,656] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[ERROR] - [2023-04-07 01:30:24,092] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-07 01:30:28,364] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-07 01:30:32,900] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-07 01:30:37,362] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[INFO] - [2023-04-07 01:30:41,919] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:30:42,531] : <Table refreshed successfully> : str№: 68
+[ERROR] - [2023-04-07 01:51:26,472] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 19
+[INFO] - [2023-04-07 01:51:28,183] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:51:28,310] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:51:28,466] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:51:28,616] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:51:28,766] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:51:28,952] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:51:29,069] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-04-07 01:52:01,903] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:52:03,049] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:52:04,046] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:52:05,317] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:52:07,724] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:52:09,725] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:52:09,834] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-04-07 01:52:29,992] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:52:42,069] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:52:43,024] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:52:43,675] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:52:44,934] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:52:46,117] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:52:47,994] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-04-07 01:52:48,909] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:52:49,294] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:52:49,541] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 01:52:49,950] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 01:52:50,264] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:52:50,444] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 01:52:50,792] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 01:52:51,540] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:52:52,240] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:52:53,078] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:52:53,799] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:52:54,628] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:52:55,344] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:52:56,092] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:52:56,944] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:52:57,641] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 01:52:57,642] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 88
+[ERROR] - [2023-04-07 01:52:57,643] : <There was an error in the main parsing cycle: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 58
+[INFO] - [2023-04-07 01:53:06,476] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:53:07,615] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:53:07,997] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:53:10,995] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:53:11,143] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:53:11,366] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:53:11,606] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 01:53:12,306] : <Table refreshed successfully> : str№: 68
+[ERROR] - [2023-04-07 02:16:49,927] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 19
+[INFO] - [2023-04-07 02:16:51,771] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:16:51,887] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:16:52,026] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:16:52,178] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:16:52,328] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:16:52,473] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:16:52,698] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:17:25,456] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:17:26,684] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:17:28,141] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:17:30,252] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:17:30,361] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:17:32,914] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:17:34,235] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:17:52,422] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:18:06,431] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:18:07,558] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:18:08,024] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:18:09,120] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:18:10,196] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:18:12,046] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:18:12,771] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 02:18:12,980] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 02:18:13,480] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 02:18:13,696] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 02:18:14,037] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 02:18:14,452] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 02:18:15,011] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 02:18:15,779] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:18:16,505] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:18:17,381] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:18:18,131] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:18:18,963] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:18:19,652] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:18:20,413] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:18:21,257] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:18:21,970] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:18:21,971] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 87
+[ERROR] - [2023-04-07 02:18:21,972] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 02:18:21,973] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 02:18:21,973] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 02:18:21,973] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 02:18:21,974] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 02:18:21,974] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[INFO] - [2023-04-07 02:18:34,717] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:18:36,546] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:18:37,207] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:18:37,796] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:18:38,053] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:18:38,188] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:18:38,191] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:18:38,820] : <Table refreshed successfully> : str№: 68
+[ERROR] - [2023-04-07 02:27:43,173] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 19
+[INFO] - [2023-04-07 02:27:45,119] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:27:45,272] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:27:45,418] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:27:45,552] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:27:45,696] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:27:45,845] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:27:45,962] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-04-07 02:28:23,974] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:28:23,981] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:28:24,035] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:28:24,070] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:28:24,135] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:28:25,437] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:28:26,719] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-04-07 02:28:45,391] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:28:58,849] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:29:00,436] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:29:00,863] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:29:02,369] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:29:03,474] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-04-07 02:29:05,082] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[ERROR] - [2023-04-07 02:29:05,919] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 02:29:06,130] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 02:29:06,331] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 02:29:06,687] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 02:29:07,074] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 02:29:07,431] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 02:29:07,812] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 02:29:08,527] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:29:09,304] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:29:10,214] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:29:11,012] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:29:11,894] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:29:12,647] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:29:13,405] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:29:14,269] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:29:14,973] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 02:29:14,974] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 87
+[ERROR] - [2023-04-07 02:29:14,974] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 02:29:14,974] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 02:29:14,975] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 02:29:14,975] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 02:29:14,975] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 02:29:14,975] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[INFO] - [2023-04-07 02:29:24,333] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:29:24,869] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:29:28,060] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:29:30,489] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:29:30,714] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:29:31,498] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 02:29:31,522] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[ERROR] - [2023-04-07 02:29:32,583] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 02:29:32,584] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 02:29:32,584] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 02:29:32,584] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 02:29:32,584] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 02:29:32,584] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[INFO] - [2023-04-07 02:29:33,199] : <Table refreshed successfully> : str№: 68
+[INFO] - [2023-04-07 05:39:47,082] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:39:47,255] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:39:47,601] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:39:47,929] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:39:48,273] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 05:39:48,550] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:39:48,825] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:39:49,489] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:39:50,290] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:39:50,927] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:39:51,641] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:39:52,458] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:39:53,117] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:39:53,746] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:39:54,554] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:39:55,227] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:39:55,228] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 87
+[ERROR] - [2023-04-07 05:39:55,228] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:39:55,228] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:39:55,229] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:39:55,229] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:39:55,229] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:39:55,229] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:39:55,230] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:39:55,230] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 05:39:55,230] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:39:55,230] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 05:39:55,230] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:39:55,230] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[INFO] - [2023-04-07 05:39:55,725] : <Table refreshed successfully> : str№: 68
+[INFO] - [2023-04-07 05:41:45,702] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:41:46,027] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:41:46,202] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:41:46,542] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:41:46,792] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:41:47,205] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 05:41:47,448] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:41:48,143] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:41:48,889] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:41:49,531] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:41:50,154] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:41:50,923] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:41:51,572] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:41:52,261] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:41:53,189] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:41:53,820] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:41:53,822] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 88
+[ERROR] - [2023-04-07 05:41:53,823] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:41:53,823] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:41:53,823] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:41:53,824] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:41:53,824] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:41:53,824] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:41:53,826] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:41:53,826] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 05:41:53,826] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:41:53,826] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 05:41:53,826] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:41:53,826] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[INFO] - [2023-04-07 05:41:54,313] : <Table refreshed successfully> : str№: 68
+[INFO] - [2023-04-07 05:42:41,115] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:42:41,290] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:42:41,587] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:42:41,877] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:42:42,133] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:42:42,484] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 05:42:42,884] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:42:43,516] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:42:44,248] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:42:45,131] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:42:45,815] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:42:46,571] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:42:47,261] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:42:47,962] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:42:48,737] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:42:49,365] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:42:49,366] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 89
+[ERROR] - [2023-04-07 05:42:49,367] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:42:49,367] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:42:49,367] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:42:49,368] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:42:49,368] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:42:49,368] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:42:49,370] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:42:49,370] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 05:42:49,370] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:42:49,370] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 05:42:49,370] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:42:49,370] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[INFO] - [2023-04-07 05:42:49,856] : <Table refreshed successfully> : str№: 68
+[ERROR] - [2023-04-07 05:43:42,499] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 05:43:42,802] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:43:43,020] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:43:43,182] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:43:43,429] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:43:43,671] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:43:44,062] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:43:44,764] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:43:45,547] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:43:46,189] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:43:46,821] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:43:47,615] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:43:48,291] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:43:48,979] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:43:49,793] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:43:50,434] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:43:50,436] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 88
+[ERROR] - [2023-04-07 05:43:50,437] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:43:50,437] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:43:50,437] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:43:50,437] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:43:50,437] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:43:50,437] : <Error in the refactor_parse_responses function: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 67
+[ERROR] - [2023-04-07 05:43:50,438] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:43:50,438] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 05:43:50,438] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:43:50,438] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 05:43:50,438] : <Cannot calculate price change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 05:43:50,438] : <Cannot calculate period change, error unsupported operand type(s) for -: 'str' and 'str'> : str№: 192
+[INFO] - [2023-04-07 05:43:50,912] : <Table refreshed successfully> : str№: 68
+[INFO] - [2023-04-07 05:48:26,878] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:48:27,127] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:48:27,513] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 05:48:27,838] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:48:27,998] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:48:28,237] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:48:28,607] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:48:29,292] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:48:30,093] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:48:30,718] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:48:31,396] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:48:32,190] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:48:32,866] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:48:33,515] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:48:34,317] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:48:35,010] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:48:35,011] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 88
+[ERROR] - [2023-04-07 05:48:35,011] : <There was an error in the main parsing cycle: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 58
+[INFO] - [2023-04-07 05:48:35,493] : <Table refreshed successfully> : str№: 68
+[INFO] - [2023-04-07 05:56:54,676] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:56:54,834] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:56:55,130] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:56:55,366] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:56:55,700] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 05:56:55,875] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:56:56,267] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:56:56,942] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:56:57,664] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:56:58,289] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:56:58,997] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:56:59,835] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:57:00,514] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:57:01,200] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:57:01,984] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:57:02,667] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:57:02,668] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 88
+[ERROR] - [2023-04-07 05:57:02,668] : <There was an error in the main parsing cycle: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 58
+[INFO] - [2023-04-07 05:57:03,153] : <Table refreshed successfully> : str№: 68
+[ERROR] - [2023-04-07 05:59:16,579] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 05:59:16,747] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:59:16,911] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:59:17,203] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:59:17,505] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:59:17,745] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 05:59:18,140] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 05:59:18,835] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:59:19,575] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:59:20,235] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:59:20,925] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:59:21,713] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:59:22,353] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:59:23,018] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:59:23,793] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:59:24,469] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 05:59:24,470] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 88
+[ERROR] - [2023-04-07 05:59:24,470] : <There was an error in the main parsing cycle: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 58
+[INFO] - [2023-04-07 05:59:24,970] : <Table refreshed successfully> : str№: 68
+[ERROR] - [2023-04-07 06:03:15,055] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 06:03:15,381] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:03:15,591] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:03:15,749] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:03:15,996] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:03:16,236] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:03:16,596] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:03:17,288] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:03:18,082] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:03:18,865] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:03:19,600] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:03:20,372] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:03:21,051] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:03:21,741] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:03:22,559] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:03:23,189] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:03:23,190] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 84
+[ERROR] - [2023-04-07 06:03:23,191] : <There was an error while refreshing the table: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 71
+[ERROR] - [2023-04-07 06:04:06,751] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 06:04:07,001] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:04:07,210] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:04:07,442] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:04:07,599] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:04:07,897] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:04:08,281] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:04:08,992] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:04:09,794] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:04:10,432] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:04:11,060] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:04:11,863] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:04:12,522] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:04:13,185] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:04:13,929] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:04:14,599] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:04:14,600] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 84
+[ERROR] - [2023-04-07 06:04:14,601] : <There was an error while refreshing the table: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 71
+[INFO] - [2023-04-07 06:08:33,852] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:08:34,208] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 06:08:34,371] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:08:34,658] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:08:34,901] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:08:35,210] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:08:35,600] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:08:36,300] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:08:37,100] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:08:37,800] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:08:38,490] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:08:39,311] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:08:39,955] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:08:40,632] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:08:41,449] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:08:42,135] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:08:42,136] : <Failed to parse [ProfessionParseRequest(profession='Python_developer', url='https://skillbox.ru/course/profession-python-tariff/', middle_price='', pro_price='', pro_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--vip'], middle_price_tags=['li', 'tariffs-v2__item tariffs-v2__item--popular'], additional_price_tags=['li', 'tariffs-v2__price h h--4'], price_tags=['li', 'tariffs-v2__price h h--4'], period_tags=['ul', 'f f--12 ui-list ui-list--bullets tariffs-v2__desc'], total_tags=None)] attempts run out> : str№: 84
+[ERROR] - [2023-04-07 06:08:42,136] : <There was an error while refreshing the table: 6 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid float (type=type_error.float)
+period
+  value is not a valid integer (type=type_error.integer)
+period
+  str type expected (type=type_error.str)> : str№: 71
+[INFO] - [2023-04-07 06:13:59,600] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:13:59,938] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:14:00,342] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 06:14:00,510] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:14:00,676] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:14:00,928] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:14:01,341] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:14:02,065] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:14:02,869] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:14:03,574] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:14:04,275] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:14:05,117] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:14:05,770] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 06:14:31,597] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:14:31,905] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:14:32,198] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:14:32,438] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:14:32,601] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:14:32,770] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:14:33,185] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:14:33,868] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:14:34,668] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:14:35,353] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:14:36,034] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:14:36,807] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 06:19:34,253] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 44
+[INFO] - [2023-04-07 06:19:34,427] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 44
+[INFO] - [2023-04-07 06:19:34,723] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 44
+[ERROR] - [2023-04-07 06:19:35,111] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 47
+[INFO] - [2023-04-07 06:19:35,360] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 44
+[INFO] - [2023-04-07 06:19:35,603] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 44
+[INFO] - [2023-04-07 06:19:36,002] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 44
+[ERROR] - [2023-04-07 06:19:36,692] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 47
+[ERROR] - [2023-04-07 06:19:37,490] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 47
+[ERROR] - [2023-04-07 06:19:38,189] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 47
+[ERROR] - [2023-04-07 06:19:38,884] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 47
+[ERROR] - [2023-04-07 06:19:39,726] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 47
+[INFO] - [2023-04-07 06:20:29,697] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 44
+[INFO] - [2023-04-07 06:20:30,002] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 44
+[INFO] - [2023-04-07 06:20:30,201] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 44
+[INFO] - [2023-04-07 06:20:30,504] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 44
+[INFO] - [2023-04-07 06:20:31,109] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 44
+[INFO] - [2023-04-07 06:20:31,519] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 44
+[INFO] - [2023-04-07 06:20:32,001] : <Table refreshed successfully> : str№: 68
+[INFO] - [2023-04-07 06:26:25,227] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:26:25,486] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:26:25,854] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:26:26,195] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 06:26:26,358] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:26:26,608] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:26:26,981] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:26:27,635] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:26:28,444] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:26:29,124] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[ERROR] - [2023-04-07 06:26:29,823] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 48
+[INFO] - [2023-04-07 06:28:04,997] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:28:05,171] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:28:05,559] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 49
+[INFO] - [2023-04-07 06:28:05,805] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:28:05,987] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:28:06,315] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:28:06,751] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:28:07,438] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 49
+[ERROR] - [2023-04-07 06:28:08,187] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 49
+[ERROR] - [2023-04-07 06:28:08,880] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 49
+[ERROR] - [2023-04-07 06:28:09,589] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: 'NoneType' object is not callable> : str№: 49
+[INFO] - [2023-04-07 06:35:26,452] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:35:26,705] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:35:26,867] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:35:27,248] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:35:27,568] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:35:27,935] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:35:28,180] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:35:28,182] : <There was an error while refreshing the table: 3 validation errors for ProfessionParseResponse
+price
+  value is not a valid integer (type=type_error.integer)
+price
+  str type expected (type=type_error.str)
+price
+  value is not a valid float (type=type_error.float)> : str№: 71
+[INFO] - [2023-04-07 06:37:44,102] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:37:44,359] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:37:44,759] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:37:45,063] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:37:45,312] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:37:45,477] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 45
+[INFO] - [2023-04-07 06:37:45,871] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 45
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 192
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 186
+[ERROR] - [2023-04-07 06:37:45,875] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 192
+[INFO] - [2023-04-07 06:37:46,434] : <Table refreshed successfully> : str№: 68
+[ERROR] - [2023-04-07 13:49:17,223] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:17,476] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:17,766] : <Could not parse https://skillbox.ru/course/profession-marketolog-program/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:18,061] : <Could not parse https://skillbox.ru/course/profession-test-onboarding/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:18,230] : <Could not parse https://skillbox.ru/course/java/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:18,607] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:18,781] : <Could not parse https://skillbox.ru/course/data-analyst-cv/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:19,403] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:19,727] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:19,971] : <Could not parse https://skillbox.ru/course/java/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:20,213] : <Could not parse https://skillbox.ru/course/profession-marketolog-program/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:20,374] : <Could not parse https://skillbox.ru/course/data-analyst-cv/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:20,724] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:21,017] : <Could not parse https://skillbox.ru/course/profession-test-onboarding/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:21,676] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:22,069] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:22,240] : <Could not parse https://skillbox.ru/course/data-analyst-cv/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:22,399] : <Could not parse https://skillbox.ru/course/java/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:22,641] : <Could not parse https://skillbox.ru/course/profession-marketolog-program/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:22,944] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:23,237] : <Could not parse https://skillbox.ru/course/profession-test-onboarding/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:23,848] : <Could not parse https://skillbox.ru/course/profession-marketolog-program/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:24,223] : <Could not parse https://skillbox.ru/course/profession-test-onboarding/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:24,387] : <Could not parse https://skillbox.ru/course/java/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:49:24,634] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: SkillBoxParser._clean_data() missing 1 required positional argument: 'periods'> : str№: 38
+[ERROR] - [2023-04-07 13:51:04,341] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:04,511] : <Could not parse https://skillbox.ru/course/java/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:04,671] : <Could not parse https://skillbox.ru/course/data-analyst-cv/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:04,950] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:05,209] : <Could not parse https://skillbox.ru/course/profession-marketolog-program/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:05,525] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:05,868] : <Could not parse https://skillbox.ru/course/profession-test-onboarding/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:06,412] : <Could not parse https://skillbox.ru/course/data-analyst-cv/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:06,686] : <Could not parse https://skillbox.ru/course/profession-marketolog-program/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:06,898] : <Could not parse https://skillbox.ru/course/java/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:07,215] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:07,501] : <Could not parse https://skillbox.ru/course/profession-test-onboarding/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:07,863] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:08,101] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:51:08,837] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: not enough values to unpack (expected 3, got 2)> : str№: 40
+[ERROR] - [2023-04-07 13:54:50,051] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: enumerate() takes at most 2 arguments (3 given)> : str№: 40
+[ERROR] - [2023-04-07 13:54:50,349] : <Could not parse https://skillbox.ru/course/profession-python-tariff/, error: enumerate() takes at most 2 arguments (3 given)> : str№: 40
+[ERROR] - [2023-04-07 13:54:50,561] : <Could not parse https://skillbox.ru/course/java/, error: enumerate() takes at most 2 arguments (3 given)> : str№: 40
+[ERROR] - [2023-04-07 13:54:50,720] : <Could not parse https://skillbox.ru/course/data-analyst-cv/, error: enumerate() takes at most 2 arguments (3 given)> : str№: 40
+[ERROR] - [2023-04-07 13:54:50,958] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: enumerate() takes at most 2 arguments (3 given)> : str№: 40
+[ERROR] - [2023-04-07 13:54:51,200] : <Could not parse https://skillbox.ru/course/profession-marketolog-program/, error: enumerate() takes at most 2 arguments (3 given)> : str№: 40
+[ERROR] - [2023-04-07 13:54:51,544] : <Could not parse https://skillbox.ru/course/profession-test-onboarding/, error: enumerate() takes at most 2 arguments (3 given)> : str№: 40
+[ERROR] - [2023-04-07 13:54:52,178] : <Could not parse https://skillbox.ru/course/profession-graphdesigner/, error: enumerate() takes at most 2 arguments (3 given)> : str№: 40
+[ERROR] - [2023-04-07 13:54:52,492] : <Could not parse https://skillbox.ru/course/profession-webdev/, error: enumerate() takes at most 2 arguments (3 given)> : str№: 40
+[INFO] - [2023-04-07 13:56:01,704] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 13:56:01,942] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 13:56:02,145] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 13:56:02,470] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 13:56:03,122] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 13:56:04,586] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 13:56:04,834] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 13:56:05,431] : <Table refreshed successfully> : str№: 68
+[ERROR] - [2023-04-07 11:16:47,466] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/telebot_data/chats.json'> : str№: 19
+[INFO] - [2023-04-07 11:16:49,815] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-04-07 11:16:49,964] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-04-07 11:16:50,088] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-04-07 11:16:50,229] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-04-07 11:16:50,374] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-04-07 11:16:50,556] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-04-07 11:16:50,666] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-04-07 11:17:28,414] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 31
+[INFO] - [2023-04-07 11:17:28,480] : <https://netology.ru/programs/python parsed successfully> : str№: 31
+[INFO] - [2023-04-07 11:17:29,626] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 31
+[INFO] - [2023-04-07 11:17:30,965] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 31
+[INFO] - [2023-04-07 11:17:32,517] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 31
+[INFO] - [2023-04-07 11:17:33,782] : <https://netology.ru/programs/qa parsed successfully> : str№: 31
+[INFO] - [2023-04-07 11:17:35,272] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 31
+[INFO] - [2023-04-07 11:17:53,765] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-04-07 11:18:07,285] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-04-07 11:18:08,434] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-04-07 11:18:08,812] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-04-07 11:18:10,172] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-04-07 11:18:11,933] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-04-07 11:18:13,632] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-04-07 11:18:14,406] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 11:18:14,672] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 11:18:14,995] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 11:18:15,170] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 11:18:15,517] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 11:18:15,888] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 11:18:16,060] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 36
+[INFO] - [2023-04-07 11:18:22,569] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 11:18:24,159] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 11:18:25,486] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 11:18:27,138] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 51
+[ERROR] - [2023-04-07 11:18:27,293] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-07 11:18:27,841] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[INFO] - [2023-04-07 11:18:28,249] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 11:18:33,046] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 11:18:34,108] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 51
+[INFO] - [2023-04-07 11:18:34,757] : <Table refreshed successfully> : str№: 68

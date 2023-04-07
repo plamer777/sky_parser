@@ -1,0 +1,11 @@
+.gitignore
+.env
+telegram_bot
+sky_parser.service
+Dockerfile
+.dockerignore
+docker-compose.yaml
+docker-compose-ci.yaml
+data/telebot_data
+data/school_data.json
+data/schools_new.json

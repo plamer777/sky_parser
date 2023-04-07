@@ -1,7 +1,6 @@
 """This file contains LoggingManager class to create loggers by provided
 settings"""
 import logging
-from error_classes.logging_errors import FileHandlerError, FormatterError
 # ------------------------------------------------------------------------
 
 
@@ -32,17 +31,12 @@ class LoggingManager:
         formatter = logging.Formatter(self._format_str)
         return formatter
 
-    def get_logger(self, name: str, level: int):
+    def get_logger(self, name: str, level: int = logging.DEBUG):
         """This is a main method to get a new logger
         :param name: name of the logger
         :param level: level of the logger (DEBUG, INFO, WARNING, ERROR, etc)
         :return: a configured logger object
         """
-        if self._file_handler is None:
-            raise FileHandlerError('Filehandler was not initialized')
-        elif self._formatter is None:
-            raise FormatterError('Formatter was not initialized')
-
         logger = logging.getLogger(name)
         logger.setLevel(level)
 

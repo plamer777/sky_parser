@@ -8,8 +8,8 @@ class BaseProfessionParseTask(BaseModel):
     """The base class containing common fields"""
     profession: str = None
     url: str = None
-    middle_price: Union[int, str] = None
-    pro_price: Union[int, str] = None
+    middle_price: Union[int, str, None] = None
+    pro_price: Union[int, str, None] = None
 
 
 class ProfessionParseRequest(BaseProfessionParseTask):
@@ -27,13 +27,13 @@ class ProfessionParseRequest(BaseProfessionParseTask):
 
 class ProfessionParseResponse(BaseProfessionParseTask):
     """This class represents a response with results of the parsing"""
-    price: Union[int, str] = ''
-    period: Union[float, int, str] = ''
+    price: Union[int, str, float, None] = ''
+    period: Union[float, int, str, None] = ''
     middle_period: Union[float, int, str] = None
     pro_period: Union[float, int, str] = None
     price_change: int = 0
     period_change: int = 0
-    total: Union[int, str] = ''
+    total: Union[int, str, float, None] = ''
     course_level: str = None
     updated_at: str = None
 

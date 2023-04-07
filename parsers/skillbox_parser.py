@@ -2,8 +2,8 @@
 from typing import Union
 from bs4 import BeautifulSoup
 from create_loggers import logger
-from parse_classes.school_parse_task import ProfessionParseResponse, \
-    ProfessionParseRequest
+from parse_classes.school_parse_task import (
+    ProfessionParseResponse, ProfessionParseRequest)
 from parsers.base_parser import BaseParser
 from constants import PRICE_TAGS, PRICE_TYPES
 # ------------------------------------------------------------------------
@@ -24,29 +24,15 @@ class SkillBoxParser(BaseParser):
         SkillBox site or ProfessionParseRequest instance if parsing failed
         """
         price_tags = parse_data.price_tags
-        additional_tags = parse_data.additional_price_tags
         period_tags = parse_data.period_tags
         parse_response = ProfessionParseResponse.from_orm(parse_data)
 
         try:
-            for price_type, price_tag in zip(PRICE_TYPES[1:], PRICE_TAGS[1:]):
-                if getattr(parse_data, price_tag, None):
-                    price_data = str(
-                        driver.find(*getattr(parse_data, price_tag)))
-                    setattr(
-                        parse_response, price_type,
-                        self._get_from_parsed_data(price_data, additional_tags)
-                    )
+            prices = driver.find_all(*price_tags)
+            periods = driver.find_all(*period_tags)
+            parse_response = self._sort_extracted_data(
+                parse_response, parse_data, prices, periods)
 
-            if parse_response.profession != 'Python_developer':
-                index = -1
-            else:
-                index = 0
-
-            parse_response.price = driver.find_all(*price_tags)[index].text
-            parse_response.period = driver.find(*period_tags).text
-
-            parse_data = self._clean_data(parse_response)
             logger.info(f'{parse_data.url} parsed successfully')
 
         except Exception as e:
@@ -56,35 +42,37 @@ class SkillBoxParser(BaseParser):
         return parse_response if parse_response.price else parse_data
 
     @staticmethod
-    def _get_from_parsed_data(parsed_data: str,
-                              additional_tags: list[str]) -> str:
-        """This method serves to extract data from previously parsed one
-        :param parsed_data: a string representing a part of the
-        html document
-        :param additional_tags: a list of strings representing tags to
-        extract from the parsed data
-        :return: a string containing the extracted data
-        """
-        sup = BeautifulSoup(parsed_data, 'html.parser')
-        result = sup.find(*additional_tags).text
-        return result
-
-    @staticmethod
-    def _clean_data(data: ProfessionParseResponse) -> ProfessionParseResponse:
-        """This as an additional method helps to extract parsed data
-        :param data: a ProfessionParseResponse instance with parsed data
+    def _sort_extracted_data(
+            parse_response: ProfessionParseResponse,
+            parse_request: ProfessionParseRequest,
+            prices: list, periods: list) -> ProfessionParseResponse:
+        """This as an additional method helps to sort parsed data by the
+        profession, course type (basic, middle, pro) etc.
+        :param parse_response: a ProfessionParseResponse instance with
+        parsed data
+        :param parse_request: a ProfessionParseRequest instance with
+        necessary tags
+        :param prices: a list of strings representing parsed prices
+        :param periods: a list of strings representing parsed periods
         :return: a ProfessionParseResponse instance with refactored data
         """
-        if data.profession == 'Python_developer':
-            data.period = data.period.split('.')[0]
+
+        if parse_response.profession == 'Python_developer':
+            parse_response.period = periods[0].text.split('.')[0] or ''
+
+        elif parse_response.profession in (
+                'Web_developer', 'QA_engineer', 'Graphic_designer'):
+            parse_response.period = periods[1].text or ''
 
         else:
-            pass
+            parse_response.period = periods[0].text or ''
 
-        # else:
-        #     data.period = data.period.split('Отсрочка платежа')[-2]
+        for index, (price_type, price_tag) in enumerate(
+                zip(PRICE_TYPES, PRICE_TAGS)):
+            if getattr(parse_request, price_tag, None):
+                setattr(parse_response, price_type, prices[index].text or '')
 
-        return data
+        return parse_response
 
     def __call__(self, *args, **kwargs):
         """This method serves to use the class instance as a function"""

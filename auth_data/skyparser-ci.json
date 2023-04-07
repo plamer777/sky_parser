@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "skyparser",
+  "private_key_id": "b7b18db49e8d7d4df93da33da79114948446e43f",
+  "private_key": "$GOOGLE_SHEET_PRIVATE_KEY",
+  "client_email": "sky-parser@skyparser.iam.gserviceaccount.com",
+  "client_id": "101468553903284140476",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sky-parser%40skyparser.iam.gserviceaccount.com"
+}

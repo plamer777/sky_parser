@@ -1,14 +1,14 @@
 """This file contains GoogleTableManager to send parsed data to
 Google Sheets"""
-from asyncio import gather
 from typing import Any, Optional
 from gspread import Client, Spreadsheet
-from constants import RESULT_PATH, TITLES, HISTORY_SHEET, RESULT_SHEET, \
-    INITIAL_PARSE_DATA, PRICE_LEVELS
+from constants import (
+    RESULT_PATH, TITLES, HISTORY_SHEET, RESULT_SHEET,
+    INITIAL_PARSE_DATA, PRICE_LEVELS)
 from create_loggers import logger
 from managers.parse_manager import ParseManager
-from parse_classes.school_parse_task import SchoolParseTask, \
-    ProfessionParseRequest
+from parse_classes.school_parse_task import (
+    SchoolParseTask, ProfessionParseRequest)
 from utils import (compare_data, save_data_to_json,
                    convert_parse_tasks_to_json,
                    refactor_parse_tags)
@@ -39,8 +39,8 @@ class GoogleTableManager:
         """This method serves to close previously opened table"""
         self._connection.session.close()
 
-    async def refresh(self, parse_data: list[SchoolParseTask],
-                      old_data: dict[str, list] = None):
+    def refresh(self, parse_data: list[SchoolParseTask],
+                old_data: dict[str, list] = None):
         """This is a main method to start parsing process and send parsed
         data to the Google Sheets
         :param parse_data: a dictionary with data to be parsed such as urls,
@@ -48,7 +48,7 @@ class GoogleTableManager:
         :param old_data: a dictionary with previously parsed data
         """
         try:
-            finished_tasks = await self._parse_manager.parse_all(
+            finished_tasks = self._parse_manager.parse_all(
                 parse_data)
             new_parse_data = convert_parse_tasks_to_json(finished_tasks, False)
             if old_data:
@@ -64,7 +64,7 @@ class GoogleTableManager:
 
             self._table.worksheet(RESULT_SHEET).update(records)
             records[0] = []
-            self._table.worksheet(HISTORY_SHEET).append_rows(records)
+            # self._table.worksheet(HISTORY_SHEET).append_rows(records)
             logger.info(f'Table refreshed successfully')
 
         except Exception as e:

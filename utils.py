@@ -52,16 +52,20 @@ def refactor_parse_responses(
     for row in data:
         for price_type in PRICE_TYPES:
 
-            price = getattr(row, price_type)
+            price = getattr(row, price_type, '')
             if price is not None:
                 new_row = ProfessionParseResponse.from_orm(row)
-                new_row.course_level = LEVELS[price_type]
-                new_row.price = price
-                period = getattr(new_row, PERIODS[price_type], None)
-                new_row.period = period if period else new_row.period
-                new_row = update_parsed_data(new_row)
-                result.append(new_row)
+                try:
+                    new_row.course_level = LEVELS[price_type]
+                    new_row.price = price
+                    period = getattr(new_row, PERIODS[price_type], None)
+                    new_row.period = period if period else new_row.period
+                    new_row = update_parsed_data(new_row)
 
+                except Exception as e:
+                    logger.error(
+                        f'Error in the refactor_parse_responses function: {e}')
+                result.append(new_row)
     return result
 
 
@@ -189,7 +193,9 @@ def compare_data(old_data: dict[str, list],
 
             professions.append(prof_new)
 
-        new_data[key] = professions
+        new_data[key] = (
+            professions if len(professions) >= len(new_data[key])
+            else new_data[key])
 
     return new_data
 

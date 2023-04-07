@@ -1,8 +1,6 @@
 """This unit contains a DataManager class serves to get requested data"""
-from typing import Optional, Union
-
+from typing import Optional
 from telebot.util import MAX_MESSAGE_LENGTH
-
 from utils import load_from_json
 # --------------------------------------------------------------------------
 

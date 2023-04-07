@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  parser:
+    image: plamer88/sky_parser:parser-$GITHUB_RUN_ID
+    volumes:
+      - ./log:/sky_parser/log
+      - ./data:/sky_parser/data
+      - ./skyparser_auth.json:/sky_parser/auth_data/skyparser-b7b18db49e8d.json
+
+  telebot:
+    build: build plamer88/sky_parser:telebot-$GITHUB_RUN_ID
+    depends_on:
+      parser:
+        condition: service_started
+    env_file:
+      - .env
+    volumes:
+      - ./data:/telegram_bot/data
+      - ./log:/telegram_bot/log
