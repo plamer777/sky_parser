@@ -1,26 +1,26 @@
 name: skyparser
 on: [push]
 jobs:
-  build_images:
-    runs-on: ubuntu-latest
-    steps:
-      - name: clone repo
-        uses: actions/checkout@v3
-      - name: copy files
-        run: |
-          cp constants.py telegram_bot/
-          cp create_loggers.py telegram_bot/
-          cp managers/logging_manager.py telegram_bot/managers/
-      - name: build skyparser image
-        run: docker build -t plamer88/sky_parser:parser-$GITHUB_RUN_ID .
-      - name: build telebot image
-        run: docker build -t plamer88/sky_parser:telebot-$GITHUB_RUN_ID telegram_bot/.
-      - name: docker login
-        run: echo ${{secrets.DOCKER_TOKEN}} | docker login -u plamer88 --password-stdin
-      - name: push parser image
-        run: docker push plamer88/sky_parser:parser-$GITHUB_RUN_ID
-      - name: push telebot image
-        run: docker push plamer88/sky_parser:telebot-$GITHUB_RUN_ID
+#  build_images:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: clone repo
+#        uses: actions/checkout@v3
+#      - name: copy files
+#        run: |
+#          cp constants.py telegram_bot/
+#          cp create_loggers.py telegram_bot/
+#          cp managers/logging_manager.py telegram_bot/managers/
+#      - name: build skyparser image
+#        run: docker build -t plamer88/sky_parser:parser-$GITHUB_RUN_ID .
+#      - name: build telebot image
+#        run: docker build -t plamer88/sky_parser:telebot-$GITHUB_RUN_ID telegram_bot/.
+#      - name: docker login
+#        run: echo ${{secrets.DOCKER_TOKEN}} | docker login -u plamer88 --password-stdin
+#      - name: push parser image
+#        run: docker push plamer88/sky_parser:parser-$GITHUB_RUN_ID
+#      - name: push telebot image
+#        run: docker push plamer88/sky_parser:telebot-$GITHUB_RUN_ID
 
   deploy_application:
     runs-on: ubuntu-latest
@@ -28,7 +28,7 @@ jobs:
       BOT_TOKEN: ${{secrets.BOT_TOKEN}}
       GOOGLE_SHEET_PRIVATE_KEY: ${{secrets.GOOGLE_SHEET_PRIVATE_KEY}}
       SERVER_PASSWORD: ${{secrets.PASSWORD}}
-      TAG_ID: $GITHUB_RUN_ID
+      TAG_ID: 4638062695
     steps:
       - name: clone repo
         uses: actions/checkout@v3
