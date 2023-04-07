@@ -1,6 +1,6 @@
-#name: skyparser
-#on: [push]
-#jobs:
+name: skyparser
+on: [push]
+jobs:
 #  build_images:
 #    runs-on: ubuntu-latest
 #    steps:
