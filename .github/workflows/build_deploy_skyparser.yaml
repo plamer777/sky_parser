@@ -23,7 +23,6 @@ jobs:
 #        run: docker push plamer88/sky_parser:telebot-$GITHUB_RUN_ID
 
   deploy_application:
-    needs: build_images
     runs-on: ubuntu-latest
     env:
       BOT_TOKEN: ${{secrets.BOT_TOKEN}}
