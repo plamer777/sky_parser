@@ -29,7 +29,7 @@ jobs:
       BOT_TOKEN: ${{secrets.BOT_TOKEN}}
       GOOGLE_SHEET_PRIVATE_KEY: ${{secrets.GOOGLE_SHEET_PRIVATE_KEY}}
       SERVER_PASSWORD: ${{secrets.PASSWORD}}
-      TAG_ID: $GITHUB_RUN_ID
+      TAG_ID: ${{GITHUB_RUN_ID}}
     steps:
       - name: clone repo
         uses: actions/checkout@v3
