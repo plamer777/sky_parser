@@ -60,8 +60,7 @@ class SkillBoxParser(BaseParser):
         if parse_response.profession == 'Python_developer':
             parse_response.period = periods[0].text.split('.')[0] or ''
 
-        elif parse_response.profession in (
-                'Web_developer', 'QA_engineer', 'Graphic_designer'):
+        elif parse_response.profession in ('Graphic_designer',):
             parse_response.period = periods[1].text or ''
 
         else:
