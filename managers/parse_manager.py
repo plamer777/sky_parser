@@ -1,8 +1,7 @@
 """This unit contains ParseManager class to rule parsing processes"""
 from asyncio import run
 from typing import Any, Union, Iterator
-from selenium.webdriver.chrome.options import Options
-from selenium import webdriver
+import undetected_chromedriver as chromedriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 from async_utils import event_loop
 from constants import MULTY_THREAD_ATTEMPTS, ASYNC_ATTEMPTS
@@ -163,18 +162,21 @@ class ParseManager:
         :return: a configured WebDriver instance
         """
         try:
-            options = Options()
+
+            options = chromedriver.ChromeOptions()
             options.add_argument("--headless")
             options.add_argument("--no-sandbox")
             options.add_argument("--window-size=640x480")
             options.add_argument("--disable-dev-shm-usage")
+            options.add_argument("--enable-javascript")
             options.add_argument(
                 "--disable-blink-features=AutomationControlled")
             options.add_argument("--blink-settings=imagesEnabled=false")
             options.add_argument("--disable-setuid-sandbox")
             options.add_argument("--use-gl=egl")
 
-            driver = webdriver.Chrome(options=options)
+            driver = chromedriver.Chrome(options=options)
+
             return driver
         except Exception as e:
             logger.error(

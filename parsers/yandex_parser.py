@@ -1,5 +1,6 @@
 """This file contains a YandexPracticumParser class to parse
 YandexPracticum site"""
+import time
 from typing import Union, Optional
 from selenium.webdriver import Chrome
 from bs4 import BeautifulSoup, Tag
@@ -46,6 +47,7 @@ class YandexPracticumParser(BaseParser):
         """
         try:
             driver.get(parse_data.url)
+            time.sleep(10)
             sup = BeautifulSoup(driver.page_source, 'html.parser')
             result = self._filter_data(parse_data, sup)
             logger.info(f'{parse_data.url} parsed successfully')
@@ -65,7 +67,7 @@ class YandexPracticumParser(BaseParser):
         :param sup: a configured BeautifulSoup instance with loaded html page
         :return: a ProfessionParseResponse instance containing extracted data
         """
-        price_data = sup.find(*data.price_tags)
+        price_data = sup.find_all(*data.price_tags)
         parse_response = ProfessionParseResponse.from_orm(data)
         if not price_data:
             raise ValueError
@@ -73,23 +75,22 @@ class YandexPracticumParser(BaseParser):
         profession = data.profession
         if profession in ['Java_developer', 'Graphic_designer',
                           'Internet_marketer']:
-            price, period = price_data.text.split('на')[:2]
+            price, period = price_data[0].text.split('на')[:2]
 
         else:
-            total_prices = sup.find_all(*data.total_tags)
-            price_data = sup.find_all(*data.price_tags)
+            periods = sup.find_all(*data.period_tags)
 
             if getattr(data, 'pro_price_tags', None):
-                parse_response.pro_price = price_data[-2].text
+                parse_response.pro_price = price_data[-2].text.split('мес')[0]
                 parse_response.pro_period = self._get_period(
-                    price_data, total_prices, 'pro')
+                    periods, 'pro')
 
-            parse_response.middle_price = price_data[-1].text
+            parse_response.middle_price = price_data[-1].text.split('мес')[0]
             parse_response.middle_period = self._get_period(
-                price_data, total_prices, 'middle')
+                periods, 'middle')
 
-            price = price_data[0].text
-            period = self._get_period(price_data, total_prices, 'basic')
+            price = price_data[0].text.split('мес')[0]
+            period = self._get_period(periods, 'basic')
 
         parse_response.period = period
         parse_response.price = price
@@ -101,12 +102,10 @@ class YandexPracticumParser(BaseParser):
         return self._parse_data(*args, **kwargs)
 
     @staticmethod
-    def _get_period(price_data: list[Tag], total_prices: list[Tag],
-                    period_type: str) -> float:
+    def _get_period(periods: list[Tag], period_type: str) -> str:
         """This secondary method serves to calculate period for different
         types of prices
-        :param price_data: list of Tag instances with price data
-        :param total_prices: list of Tag instances with total price data
+        :param periods: list of Tag instances with periods data
         :param period_type: a string indicating the type of period to calculate
         :return: a float representing the period
         """
@@ -117,7 +116,6 @@ class YandexPracticumParser(BaseParser):
         elif period_type == 'pro':
             index = -2
 
-        total = clean_digits(total_prices[index].text)
-        price_per_month = clean_digits(price_data[index].text)
+        period = periods[index].text.split('или')[0]
 
-        return round(total / price_per_month, 2)
+        return period

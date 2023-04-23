@@ -1,7 +1,12 @@
 """This file contains a NetologyParser class to parse Netology site"""
+import time
 from typing import Union
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.expected_conditions import \
+    presence_of_element_located
+from selenium.webdriver.support.wait import WebDriverWait
+
 from create_loggers import logger
 from parse_classes.school_parse_task import ProfessionParseRequest, \
     ProfessionParseResponse
@@ -48,12 +53,12 @@ class NetologyParser(BaseParser):
         :return: a tuple containing data from html page
         """
         driver.get(parse_data.url)
-
+        driver.maximize_window()
+        time.sleep(10)
         all_data = driver.find_element(By.CLASS_NAME, parse_data.price_tags[0])
-
         data_list = all_data.text.split('\n')
         price = data_list[1]
-        period = data_list[2].split(' ')[-2]
+        period = data_list[2].split('на')[-1]
 
         return price, period
 
