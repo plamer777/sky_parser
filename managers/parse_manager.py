@@ -168,12 +168,10 @@ class ParseManager:
             options.add_argument("--no-sandbox")
             options.add_argument("--window-size=640x480")
             options.add_argument("--disable-dev-shm-usage")
-            options.add_argument("--enable-javascript")
             options.add_argument(
                 "--disable-blink-features=AutomationControlled")
             options.add_argument("--blink-settings=imagesEnabled=false")
             options.add_argument("--disable-setuid-sandbox")
-            options.add_argument("--use-gl=egl")
 
             driver = chromedriver.Chrome(options=options)
 

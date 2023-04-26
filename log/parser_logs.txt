@@ -4761,3 +4761,760 @@ Stacktrace:
 [INFO] - [2023-04-23 14:24:30,038] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 53
 [ERROR] - [2023-04-23 14:24:31,818] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 56
 [ERROR] - [2023-04-23 14:24:33,137] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: HTTPConnectionPool(host='localhost', port=55409): Max retries exceeded with url: /session/8820cdd04f72c363823c76a11d3ad6b9/source (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8d35c53f70>: Failed to establish a new connection: [Errno 111] Connection refused'))> : str№: 56
+[ERROR] - [2023-04-23 14:52:34,178] : <Failed to parse https://netology.ru/programs/python, error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--root--zW5gk"}
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x55d508805fe3 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x55d508544d36 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x55d508581c4d (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462c4c)
+#3 0x55d508581d61 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#4 0x55d5085bd6a4 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#5 0x55d5085a28ed (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#6 0x55d5085bb232 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#7 0x55d5085a2693 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#8 0x55d50857503a (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#9 0x55d50857617e (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#10 0x55d5087c7dbd (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#11 0x55d5087cbc6c (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#12 0x55d5087d54b0 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#13 0x55d5087ccd63 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#14 0x55d50879fc35 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#15 0x55d5087f0138 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#16 0x55d5087f02c7 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#17 0x55d5087fe093 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#18 0x7f4754e12b43 <unknown>
+> : str№: 39
+[INFO] - [2023-04-23 14:52:34,503] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 36
+[ERROR] - [2023-04-23 14:52:34,982] : <Failed to parse https://netology.ru/programs/qa, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x5653309ddfe3 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x56533071cd36 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x565330720283 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x56533071fff2 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x56533072030c (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x565330759821 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x565330759d61 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x5653307956a4 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x56533077a8ed (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x565330793232 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x56533077a693 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x56533074d03a (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x56533074e17e (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x56533099fdbd (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x5653309a3c6c (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x5653309ad4b0 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x5653309a4d63 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x565330977c35 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x5653309c8138 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x5653309c82c7 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x5653309d6093 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7fa74a652b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 14:52:35,330] : <Failed to parse https://netology.ru/programs/data_analyst_ultimate, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x561350ee1fe3 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x561350c20d36 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x561350c24283 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x561350c23ff2 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x561350c2430c (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x561350c5d821 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x561350c5dd61 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x561350c996a4 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x561350c7e8ed (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x561350c97232 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x561350c7e693 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x561350c5103a (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x561350c5217e (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x561350ea3dbd (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x561350ea7c6c (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x561350eb14b0 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x561350ea8d63 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x561350e7bc35 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x561350ecc138 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x561350ecc2c7 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x561350eda093 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f0eca09ab43 <unknown>
+> : str№: 39
+[INFO] - [2023-04-23 14:52:35,593] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 36
+[ERROR] - [2023-04-23 14:52:35,997] : <Failed to parse https://netology.ru/programs/web-developer?recommended_by=instant_search, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x5605407d0fe3 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x56054050fd36 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x560540513283 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x560540512ff2 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x56054051330c (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x56054054c821 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x56054054cd61 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x5605405886a4 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x56054056d8ed (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x560540586232 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x56054056d693 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x56054054003a (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x56054054117e (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x560540792dbd (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x560540796c6c (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x5605407a04b0 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x560540797d63 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x56054076ac35 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x5605407bb138 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x5605407bb2c7 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x5605407c9093 (/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f356c292b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 14:52:36,920] : <Failed to parse https://netology.ru/programs/distance-course-internet-marketing, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x5631ac9cffe3 <unknown>
+#1 0x5631ac70ed36 <unknown>
+#2 0x5631ac712283 <unknown>
+#3 0x5631ac711ff2 <unknown>
+#4 0x5631ac71230c <unknown>
+#5 0x5631ac74b821 <unknown>
+#6 0x5631ac74bd61 <unknown>
+#7 0x5631ac7876a4 <unknown>
+#8 0x5631ac76c8ed <unknown>
+#9 0x5631ac785232 <unknown>
+#10 0x5631ac76c693 <unknown>
+#11 0x5631ac73f03a <unknown>
+#12 0x5631ac74017e <unknown>
+#13 0x5631ac991dbd <unknown>
+#14 0x5631ac995c6c <unknown>
+#15 0x5631ac99f4b0 <unknown>
+#16 0x5631ac996d63 <unknown>
+#17 0x5631ac969c35 <unknown>
+#18 0x5631ac9ba138 <unknown>
+#19 0x5631ac9ba2c7 <unknown>
+#20 0x5631ac9c8093 <unknown>
+#21 0x7fa4eb212b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 14:52:39,845] : <Failed to parse https://netology.ru/programs/python, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 39
+[INFO] - [2023-04-23 11:59:08,680] : <https://netology.ru/programs/python parsed successfully> : str№: 36
+[INFO] - [2023-04-23 11:59:09,901] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 36
+[INFO] - [2023-04-23 11:59:12,516] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 36
+[ERROR] - [2023-04-23 11:59:15,555] : <Failed to parse https://netology.ru/programs/web-developer?recommended_by=instant_search, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x5638b6363fe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x5638b60a2d36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x5638b60a6283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x5638b60a5ff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x5638b60a630c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x5638b60df821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x5638b60dfd61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x5638b611b6a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x5638b61008ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x5638b6119232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x5638b6100693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x5638b60d303a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x5638b60d417e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x5638b6325dbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x5638b6329c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x5638b63334b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x5638b632ad63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x5638b62fdc35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x5638b634e138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x5638b634e2c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x5638b635c093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f33c1ef2b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 11:59:17,464] : <Failed to parse https://netology.ru/programs/data_analyst_ultimate, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x55d2dab3cfe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x55d2da87bd36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x55d2da87f283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x55d2da87eff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x55d2da87f30c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x55d2da8b8821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x55d2da8b8d61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x55d2da8f46a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x55d2da8d98ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x55d2da8f2232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x55d2da8d9693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x55d2da8ac03a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x55d2da8ad17e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x55d2daafedbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x55d2dab02c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x55d2dab0c4b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x55d2dab03d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x55d2daad6c35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x55d2dab27138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x55d2dab272c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x55d2dab35093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f1305312b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 11:59:20,632] : <Failed to parse https://netology.ru/programs/qa, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x558a3c212fe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x558a3bf51d36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x558a3bf55283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x558a3bf54ff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x558a3bf5530c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x558a3bf8e821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x558a3bf8ed61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x558a3bfca6a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x558a3bfaf8ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x558a3bfc8232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x558a3bfaf693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x558a3bf8203a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x558a3bf8317e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x558a3c1d4dbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x558a3c1d8c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x558a3c1e24b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x558a3c1d9d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x558a3c1acc35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x558a3c1fd138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x558a3c1fd2c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x558a3c20b093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f82d04fab43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 11:59:28,332] : <Failed to parse https://netology.ru/programs/distance-course-internet-marketing, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x55fb33567fe3 <unknown>
+#1 0x55fb332a6d36 <unknown>
+#2 0x55fb332aa283 <unknown>
+#3 0x55fb332a9ff2 <unknown>
+#4 0x55fb332aa30c <unknown>
+#5 0x55fb332e3821 <unknown>
+#6 0x55fb332e3d61 <unknown>
+#7 0x55fb3331f6a4 <unknown>
+#8 0x55fb333048ed <unknown>
+#9 0x55fb3331d232 <unknown>
+#10 0x55fb33304693 <unknown>
+#11 0x55fb332d703a <unknown>
+#12 0x55fb332d817e <unknown>
+#13 0x55fb33529dbd <unknown>
+#14 0x55fb3352dc6c <unknown>
+#15 0x55fb335374b0 <unknown>
+#16 0x55fb3352ed63 <unknown>
+#17 0x55fb33501c35 <unknown>
+#18 0x55fb33552138 <unknown>
+#19 0x55fb335522c7 <unknown>
+#20 0x55fb33560093 <unknown>
+#21 0x7fac7253ab43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 11:59:40,642] : <Failed to parse https://netology.ru/programs/web-developer?recommended_by=instant_search, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x5582485cafe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x558248309d36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x55824830d283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x55824830cff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x55824830d30c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x558248346821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x558248346d61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x5582483826a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x5582483678ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x558248380232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x558248367693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x55824833a03a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x55824833b17e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x55824858cdbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x558248590c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x55824859a4b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x558248591d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x558248564c35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x5582485b5138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x5582485b52c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x5582485c3093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7fc4d6fc2b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 11:59:42,450] : <Failed to parse https://netology.ru/programs/data_analyst_ultimate, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x55bbdf6f3fe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x55bbdf432d36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x55bbdf436283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x55bbdf435ff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x55bbdf43630c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x55bbdf46f821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x55bbdf46fd61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x55bbdf4ab6a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x55bbdf4908ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x55bbdf4a9232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x55bbdf490693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x55bbdf46303a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x55bbdf46417e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x55bbdf6b5dbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x55bbdf6b9c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x55bbdf6c34b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x55bbdf6bad63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x55bbdf68dc35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x55bbdf6de138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x55bbdf6de2c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x55bbdf6ec093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7efc7e64ab43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 11:59:45,550] : <Failed to parse https://netology.ru/programs/qa, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x55e79e46afe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x55e79e1a9d36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x55e79e1ad283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x55e79e1acff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x55e79e1ad30c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x55e79e1e6821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x55e79e1e6d61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x55e79e2226a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x55e79e2078ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x55e79e220232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x55e79e207693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x55e79e1da03a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x55e79e1db17e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x55e79e42cdbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x55e79e430c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x55e79e43a4b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x55e79e431d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x55e79e404c35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x55e79e455138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x55e79e4552c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x55e79e463093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7ff42631ab43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 11:59:47,452] : <Failed to parse https://netology.ru/programs/distance-course-internet-marketing, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x564cf22befe3 <unknown>
+#1 0x564cf1ffdd36 <unknown>
+#2 0x564cf2001283 <unknown>
+#3 0x564cf2000ff2 <unknown>
+#4 0x564cf200130c <unknown>
+#5 0x564cf203a821 <unknown>
+#6 0x564cf203ad61 <unknown>
+#7 0x564cf20766a4 <unknown>
+#8 0x564cf205b8ed <unknown>
+#9 0x564cf2074232 <unknown>
+#10 0x564cf205b693 <unknown>
+#11 0x564cf202e03a <unknown>
+#12 0x564cf202f17e <unknown>
+#13 0x564cf2280dbd <unknown>
+#14 0x564cf2284c6c <unknown>
+#15 0x564cf228e4b0 <unknown>
+#16 0x564cf2285d63 <unknown>
+#17 0x564cf2258c35 <unknown>
+#18 0x564cf22a9138 <unknown>
+#19 0x564cf22a92c7 <unknown>
+#20 0x564cf22b7093 <unknown>
+#21 0x7f12bdac2b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:05,052] : <Failed to parse https://netology.ru/programs/data_analyst_ultimate, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x5571baa8dfe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x5571ba7ccd36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x5571ba7d0283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x5571ba7cfff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x5571ba7d030c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x5571ba809821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x5571ba809d61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x5571ba8456a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x5571ba82a8ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x5571ba843232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x5571ba82a693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x5571ba7fd03a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x5571ba7fe17e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x5571baa4fdbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x5571baa53c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x5571baa5d4b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x5571baa54d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x5571baa27c35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x5571baa78138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x5571baa782c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x5571baa86093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f3aaaf42b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:05,075] : <Failed to parse https://netology.ru/programs/qa, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x55b194914fe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x55b194653d36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x55b194657283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x55b194656ff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x55b19465730c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x55b194690821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x55b194690d61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x55b1946cc6a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x55b1946b18ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x55b1946ca232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x55b1946b1693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x55b19468403a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x55b19468517e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x55b1948d6dbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x55b1948dac6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x55b1948e44b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x55b1948dbd63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x55b1948aec35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x55b1948ff138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x55b1948ff2c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x55b19490d093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f725eb72b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:06,441] : <Failed to parse https://netology.ru/programs/web-developer?recommended_by=instant_search, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x56518202dfe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x565181d6cd36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x565181d70283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x565181d6fff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x565181d7030c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x565181da9821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x565181da9d61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x565181de56a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x565181dca8ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x565181de3232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x565181dca693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x565181d9d03a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x565181d9e17e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x565181fefdbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x565181ff3c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x565181ffd4b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x565181ff4d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x565181fc7c35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x565182018138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x5651820182c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x565182026093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7fa754262b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:07,082] : <Failed to parse https://netology.ru/programs/distance-course-internet-marketing, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x55763550efe3 <unknown>
+#1 0x55763524dd36 <unknown>
+#2 0x557635251283 <unknown>
+#3 0x557635250ff2 <unknown>
+#4 0x55763525130c <unknown>
+#5 0x55763528a821 <unknown>
+#6 0x55763528ad61 <unknown>
+#7 0x5576352c66a4 <unknown>
+#8 0x5576352ab8ed <unknown>
+#9 0x5576352c4232 <unknown>
+#10 0x5576352ab693 <unknown>
+#11 0x55763527e03a <unknown>
+#12 0x55763527f17e <unknown>
+#13 0x5576354d0dbd <unknown>
+#14 0x5576354d4c6c <unknown>
+#15 0x5576354de4b0 <unknown>
+#16 0x5576354d5d63 <unknown>
+#17 0x5576354a8c35 <unknown>
+#18 0x5576354f9138 <unknown>
+#19 0x5576354f92c7 <unknown>
+#20 0x557635507093 <unknown>
+#21 0x7f7a0e772b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:20,016] : <Failed to parse https://netology.ru/programs/data_analyst_ultimate, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x5612abcf5fe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x5612aba34d36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x5612aba38283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x5612aba37ff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x5612aba3830c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x5612aba71821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x5612aba71d61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x5612abaad6a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x5612aba928ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x5612abaab232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x5612aba92693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x5612aba6503a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x5612aba6617e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x5612abcb7dbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x5612abcbbc6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x5612abcc54b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x5612abcbcd63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x5612abc8fc35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x5612abce0138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x5612abce02c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x5612abcee093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f0ae06f2b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:22,576] : <Failed to parse https://netology.ru/programs/qa, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x562e41caefe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x562e419edd36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x562e419f1283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x562e419f0ff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x562e419f130c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x562e41a2a821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x562e41a2ad61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x562e41a666a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x562e41a4b8ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x562e41a64232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x562e41a4b693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x562e41a1e03a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x562e41a1f17e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x562e41c70dbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x562e41c74c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x562e41c7e4b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x562e41c75d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x562e41c48c35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x562e41c99138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x562e41c992c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x562e41ca7093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f19a82d2b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:26,301] : <Failed to parse https://netology.ru/programs/distance-course-internet-marketing, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x55c9d8710fe3 <unknown>
+#1 0x55c9d844fd36 <unknown>
+#2 0x55c9d8453283 <unknown>
+#3 0x55c9d8452ff2 <unknown>
+#4 0x55c9d845330c <unknown>
+#5 0x55c9d848c821 <unknown>
+#6 0x55c9d848cd61 <unknown>
+#7 0x55c9d84c86a4 <unknown>
+#8 0x55c9d84ad8ed <unknown>
+#9 0x55c9d84c6232 <unknown>
+#10 0x55c9d84ad693 <unknown>
+#11 0x55c9d848003a <unknown>
+#12 0x55c9d848117e <unknown>
+#13 0x55c9d86d2dbd <unknown>
+#14 0x55c9d86d6c6c <unknown>
+#15 0x55c9d86e04b0 <unknown>
+#16 0x55c9d86d7d63 <unknown>
+#17 0x55c9d86aac35 <unknown>
+#18 0x55c9d86fb138 <unknown>
+#19 0x55c9d86fb2c7 <unknown>
+#20 0x55c9d8709093 <unknown>
+#21 0x7f1a8eebab43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:26,630] : <Failed to parse https://netology.ru/programs/web-developer?recommended_by=instant_search, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x5566957bffe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x5566954fed36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x556695502283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x556695501ff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x55669550230c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x55669553b821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x55669553bd61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x5566955776a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x55669555c8ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x556695575232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x55669555c693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x55669552f03a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x55669553017e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x556695781dbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x556695785c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x55669578f4b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x556695786d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x556695759c35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x5566957aa138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x5566957aa2c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x5566957b8093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f8d3d472b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:40,381] : <Failed to parse https://netology.ru/programs/data_analyst_ultimate, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x56007805bfe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x560077d9ad36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x560077d9e283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x560077d9dff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x560077d9e30c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x560077dd7821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x560077dd7d61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x560077e136a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x560077df88ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x560077e11232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x560077df8693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x560077dcb03a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x560077dcc17e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x56007801ddbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x560078021c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x56007802b4b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x560078022d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x560077ff5c35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x560078046138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x5600780462c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x560078054093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7efdf33d2b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:40,808] : <Failed to parse https://netology.ru/programs/qa, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x563844706fe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x563844445d36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x563844449283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x563844448ff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x56384444930c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x563844482821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x563844482d61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x5638444be6a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x5638444a38ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x5638444bc232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x5638444a3693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x56384447603a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x56384447717e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x5638446c8dbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x5638446ccc6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x5638446d64b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x5638446cdd63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x5638446a0c35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x5638446f1138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x5638446f12c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x5638446ff093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f06faac2b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:42,955] : <Failed to parse https://netology.ru/programs/distance-course-internet-marketing, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x556c2e911fe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x556c2e650d36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x556c2e654283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x556c2e653ff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x556c2e65430c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x556c2e68d821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x556c2e68dd61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x556c2e6c96a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x556c2e6ae8ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x556c2e6c7232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x556c2e6ae693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x556c2e68103a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x556c2e68217e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x556c2e8d3dbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x556c2e8d7c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x556c2e8e14b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x556c2e8d8d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x556c2e8abc35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x556c2e8fc138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x556c2e8fc2c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x556c2e90a093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7fc76e482b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:45,755] : <Failed to parse https://netology.ru/programs/web-developer?recommended_by=instant_search, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x55dca16ccfe3 <unknown>
+#1 0x55dca140bd36 <unknown>
+#2 0x55dca140f283 <unknown>
+#3 0x55dca140eff2 <unknown>
+#4 0x55dca140f30c <unknown>
+#5 0x55dca1448821 <unknown>
+#6 0x55dca1448d61 <unknown>
+#7 0x55dca14846a4 <unknown>
+#8 0x55dca14698ed <unknown>
+#9 0x55dca1482232 <unknown>
+#10 0x55dca1469693 <unknown>
+#11 0x55dca143c03a <unknown>
+#12 0x55dca143d17e <unknown>
+#13 0x55dca168edbd <unknown>
+#14 0x55dca1692c6c <unknown>
+#15 0x55dca169c4b0 <unknown>
+#16 0x55dca1693d63 <unknown>
+#17 0x55dca1666c35 <unknown>
+#18 0x55dca16b7138 <unknown>
+#19 0x55dca16b72c7 <unknown>
+#20 0x55dca16c5093 <unknown>
+#21 0x7fefee5bab43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:00:58,624] : <Failed to parse https://netology.ru/programs/data_analyst_ultimate, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x561ff49c1fe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x561ff4700d36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x561ff4704283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x561ff4703ff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x561ff470430c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x561ff473d821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x561ff473dd61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x561ff47796a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x561ff475e8ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x561ff4777232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x561ff475e693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x561ff473103a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x561ff473217e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x561ff4983dbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x561ff4987c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x561ff49914b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x561ff4988d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x561ff495bc35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x561ff49ac138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x561ff49ac2c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x561ff49ba093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f5c6567ab43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:01:01,921] : <Failed to parse https://netology.ru/programs/qa, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x555df2474fe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x555df21b3d36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x555df21b7283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x555df21b6ff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x555df21b730c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x555df21f0821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x555df21f0d61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x555df222c6a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x555df22118ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x555df222a232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x555df2211693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x555df21e403a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x555df21e517e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x555df2436dbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x555df243ac6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x555df24444b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x555df243bd63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x555df240ec35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x555df245f138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x555df245f2c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x555df246d093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f6639342b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:01:02,506] : <Failed to parse https://netology.ru/programs/distance-course-internet-marketing, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x55c78028cfe3 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6e6fe2)
+#1 0x55c77ffcbd36 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x425d35)
+#2 0x55c77ffcf283 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x429282)
+#3 0x55c77ffceff2 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x428ff1)
+#4 0x55c77ffcf30c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x42930b)
+#5 0x55c780008821 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462820)
+#6 0x55c780008d61 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x462d60)
+#7 0x55c7800446a4 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49e6a3)
+#8 0x55c7800298ed (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x4838ec)
+#9 0x55c780042232 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x49c231)
+#10 0x55c780029693 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x483692)
+#11 0x55c77fffc03a (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x456039)
+#12 0x55c77fffd17e (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x45717d)
+#13 0x55c78024edbd (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6a8dbc)
+#14 0x55c780252c6c (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6acc6b)
+#15 0x55c78025c4b0 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6b64af)
+#16 0x55c780253d63 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6add62)
+#17 0x55c780226c35 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x680c34)
+#18 0x55c780277138 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d1137)
+#19 0x55c7802772c7 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6d12c6)
+#20 0x55c780285093 (/root/.local/share/undetected_chromedriver/undetected_chromedriver (deleted)+0x6df092)
+#21 0x7f694dcaab43 <unknown>
+> : str№: 39
+[ERROR] - [2023-04-23 12:01:03,020] : <Failed to parse https://netology.ru/programs/web-developer?recommended_by=instant_search, error: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.165)
+Stacktrace:
+#0 0x55d09cd59fe3 <unknown>
+#1 0x55d09ca98d36 <unknown>
+#2 0x55d09ca9c283 <unknown>
+#3 0x55d09ca9bff2 <unknown>
+#4 0x55d09ca9c30c <unknown>
+#5 0x55d09cad5821 <unknown>
+#6 0x55d09cad5d61 <unknown>
+#7 0x55d09cb116a4 <unknown>
+#8 0x55d09caf68ed <unknown>
+#9 0x55d09cb0f232 <unknown>
+#10 0x55d09caf6693 <unknown>
+#11 0x55d09cac903a <unknown>
+#12 0x55d09caca17e <unknown>
+#13 0x55d09cd1bdbd <unknown>
+#14 0x55d09cd1fc6c <unknown>
+#15 0x55d09cd294b0 <unknown>
+#16 0x55d09cd20d63 <unknown>
+#17 0x55d09ccf3c35 <unknown>
+#18 0x55d09cd44138 <unknown>
+#19 0x55d09cd442c7 <unknown>
+#20 0x55d09cd52093 <unknown>
+#21 0x7f937c2b2b43 <unknown>
+> : str№: 39
