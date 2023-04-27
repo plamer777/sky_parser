@@ -51,4 +51,4 @@ jobs:
             cd /home/sky_parser
             echo ${{secrets.PASSWORD}} | sudo -S docker-compose up -d --build
             echo ${{secrets.PASSWORD}} | sudo -S docker system prune -a -f
-            python3 main.py
+            venv/bin/python main.py

@@ -9,9 +9,6 @@ services:
 
   telebot:
     image: plamer88/sky_parser:telebot-$GITHUB_RUN_ID
-    depends_on:
-      parser:
-        condition: service_started
     env_file:
       - .env
     volumes:
