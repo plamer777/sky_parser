@@ -5518,3 +5518,19 @@ Stacktrace:
 #20 0x55d09cd52093 <unknown>
 #21 0x7f937c2b2b43 <unknown>
 > : str№: 39
+[INFO] - [2023-04-27 23:45:27,108] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-04-27 23:45:27,254] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-04-27 23:45:27,383] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-04-27 23:45:27,480] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-04-27 23:45:27,626] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-04-27 23:45:27,755] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-04-27 23:45:27,886] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-04-27 23:45:46,993] : <https://netology.ru/programs/python parsed successfully> : str№: 36
+[INFO] - [2023-04-27 23:45:58,013] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 36
+[INFO] - [2023-04-27 23:46:07,808] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 36
+[INFO] - [2023-04-27 23:46:14,976] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 36
+[INFO] - [2023-04-27 23:46:27,815] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 36
+[INFO] - [2023-04-27 23:46:36,139] : <https://netology.ru/programs/qa parsed successfully> : str№: 36
+[INFO] - [2023-04-27 23:46:42,925] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 36
+[ERROR] - [2023-04-27 23:47:05,107] : <Could not parse https://skillfactory.ru/java-razrabotchik, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 38
+[ERROR] - [2023-04-27 23:47:05,119] : <Could not parse https://skillfactory.ru/python-developer-b, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 38

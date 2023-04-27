@@ -1,11 +1,11 @@
 version: "3.8"
 services:
-  parser:
-    image: plamer88/sky_parser:parser-$GITHUB_RUN_ID
-    volumes:
-      - ./log:/sky_parser/log
-      - ./data:/sky_parser/data
-      - ./skyparser_auth.json:/sky_parser/auth_data/skyparser-b7b18db49e8d.json
+#  parser:
+#    image: plamer88/sky_parser:parser-$GITHUB_RUN_ID
+#    volumes:
+#      - ./log:/sky_parser/log
+#      - ./data:/sky_parser/data
+#      - ./skyparser_auth.json:/sky_parser/auth_data/skyparser-b7b18db49e8d.json
 
   telebot:
     image: plamer88/sky_parser:telebot-$GITHUB_RUN_ID
