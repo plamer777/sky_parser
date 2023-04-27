@@ -51,4 +51,9 @@ jobs:
             cd /home/sky_parser
             echo ${{secrets.PASSWORD}} | sudo -S docker-compose up -d --build
             echo ${{secrets.PASSWORD}} | sudo -S docker system prune -a -f
-            venv/bin/python main.py
+            echo ${{secrets.PASSWORD}} | sudo -S cp sky_parser.service /etc/systemd/system/
+            echo ${{secrets.PASSWORD}} | sudo -S systemctl stop sky_parser
+            echo ${{secrets.PASSWORD}} | sudo -S systemctl daemon-reload
+            echo ${{secrets.PASSWORD}} | sudo -S systemctl start sky_parser
+            echo ${{secrets.PASSWORD}} | sudo -S systemctl enable sky_parser
+            
