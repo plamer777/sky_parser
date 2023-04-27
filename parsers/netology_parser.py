@@ -40,7 +40,7 @@ class NetologyParser(BaseParser):
                 f'Failed to parse {parse_data.url}, error: {e}')
 
         driver.stop_client()
-        driver.close()
+        driver.quit()
         return parse_response if parse_response.price else parse_data
 
     @staticmethod
@@ -54,7 +54,7 @@ class NetologyParser(BaseParser):
         """
         driver.get(parse_data.url)
         driver.maximize_window()
-        time.sleep(10)
+        time.sleep(4)
         all_data = driver.find_element(By.CLASS_NAME, parse_data.price_tags[0])
         data_list = all_data.text.split('\n')
         price = data_list[1]
