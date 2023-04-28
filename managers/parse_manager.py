@@ -2,7 +2,11 @@
 from asyncio import run
 from typing import Any, Union, Iterator
 import undetected_chromedriver as chromedriver
+from selenium.webdriver import Proxy
+from selenium.webdriver.chrome import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium.webdriver.common.proxy import ProxyType
+
 from async_utils import event_loop
 from constants import MULTY_THREAD_ATTEMPTS, ASYNC_ATTEMPTS
 from parse_classes.school_parse_task import SchoolParseTask, \

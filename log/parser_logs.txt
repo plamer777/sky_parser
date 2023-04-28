@@ -5534,3 +5534,609 @@ Stacktrace:
 [INFO] - [2023-04-27 23:46:42,925] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 36
 [ERROR] - [2023-04-27 23:47:05,107] : <Could not parse https://skillfactory.ru/java-razrabotchik, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 38
 [ERROR] - [2023-04-27 23:47:05,119] : <Could not parse https://skillfactory.ru/python-developer-b, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 38
+[ERROR] - [2023-04-28 23:35:18,592] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 55
+[INFO] - [2023-04-28 23:35:27,254] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 52
+[ERROR] - [2023-04-28 23:35:36,532] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 55
+[ERROR] - [2023-04-28 23:35:45,897] : <Could not parse https://practicum.yandex.ru/web/, error: list index out of range> : str№: 55
+[ERROR] - [2023-04-28 23:35:55,253] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: list index out of range> : str№: 55
+[ERROR] - [2023-04-28 23:36:03,014] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: list index out of range> : str№: 55
+[INFO] - [2023-04-28 23:36:09,818] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 52
+[ERROR] - [2023-04-28 23:36:21,740] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: list index out of range> : str№: 55
+[ERROR] - [2023-04-28 23:36:30,484] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: list index out of range> : str№: 55
+[ERROR] - [2023-04-28 23:36:42,390] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 55
+[ERROR] - [2023-04-28 23:36:46,328] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 55
+[ERROR] - [2023-04-28 23:36:52,244] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 55
+[ERROR] - [2023-04-28 23:37:00,800] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 55
+[ERROR] - [2023-04-28 23:38:58,558] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: list index out of range> : str№: 54
+[ERROR] - [2023-04-28 23:39:06,713] : <Could not parse https://practicum.yandex.ru/java-developer/, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 54
+[ERROR] - [2023-04-28 23:40:17,957] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:40:28,215] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:40:35,317] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:40:46,261] : <Could not parse https://practicum.yandex.ru/web/, error: list index out of range> : str№: 54
+[ERROR] - [2023-04-28 23:40:53,058] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:40:55,798] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 54
+[ERROR] - [2023-04-28 23:44:58,760] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:45:05,141] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:45:12,456] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:45:19,263] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:45:33,366] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:45:34,111] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:46:06,636] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:46:17,943] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:46:29,303] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:46:32,342] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:46:43,311] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:46:49,479] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:46:57,569] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:46:58,436] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:51:43,339] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:51:46,851] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:51:57,260] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:51:59,839] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:52:11,287] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:52:18,511] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:52:19,420] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:52:34,957] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:52:40,510] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:52:47,784] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:52:55,805] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:53:02,312] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:53:08,725] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:53:11,263] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:53:23,925] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:53:32,778] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:53:43,131] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:53:47,574] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:53:51,384] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:53:59,228] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:54:03,253] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:54:18,992] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:54:24,187] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:54:32,734] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:54:39,966] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:54:46,853] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:54:54,134] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:54:54,940] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:55:10,977] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:55:16,064] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:55:22,931] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:55:30,257] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:55:36,881] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:55:49,908] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:55:53,231] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:56:08,845] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:56:16,084] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:56:22,051] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:56:28,984] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:56:36,814] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:56:45,897] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:56:46,850] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 54
+[ERROR] - [2023-04-28 23:56:58,945] : <Could not parse https://practicum.yandex.ru/java-developer/, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 54
+[ERROR] - [2023-04-28 23:57:40,401] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-28 23:57:42,725] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-28 23:57:54,579] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-28 23:58:01,881] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-28 23:58:07,883] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-28 23:58:15,495] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-28 23:58:19,471] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-28 23:58:34,270] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-28 23:58:41,975] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-28 23:58:45,985] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-28 23:58:55,695] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-28 23:59:02,662] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:01:37,284] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:01:45,883] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:01:51,124] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:01:59,337] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:02:06,458] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:02:08,864] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:02:15,547] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:02:28,001] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:02:34,410] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 53
+[ERROR] - [2023-04-29 00:08:40,897] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:08:56,355] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:09:13,506] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:09:22,884] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:09:46,175] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:09:50,545] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:09:52,311] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:13:17,022] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:13:18,243] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:13:19,061] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))> : str№: 53
+[ERROR] - [2023-04-29 00:13:48,823] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:13:50,193] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:13:51,695] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:13:53,036] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:13:54,553] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:13:55,796] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:13:57,071] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:13:59,070] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:00,338] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:01,740] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:02,951] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:04,376] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:05,832] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:06,564] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:08,054] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:08,925] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:09,716] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:10,598] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:11,425] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:12,306] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:13,101] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:14,531] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:15,412] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:16,229] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:17,065] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:17,894] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:18,754] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:19,667] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:21,085] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:21,906] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:22,820] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:23,969] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:24,499] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:25,749] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:26,227] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:28,265] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:29,050] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:29,954] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:30,789] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:31,586] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:32,384] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:33,311] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:35,160] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:35,835] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:36,609] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:37,483] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:38,253] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:39,064] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:39,948] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:41,330] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:42,523] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:43,221] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:44,024] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:45,302] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:46,130] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:47,802] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:49,500] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:50,970] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:51,692] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:52,339] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:53,143] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:54,035] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:55,096] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:56,491] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:57,378] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:58,189] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:59,022] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:14:59,891] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:01,096] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:01,488] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:02,985] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:03,723] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:04,609] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:05,385] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:06,307] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:07,108] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:07,834] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:09,277] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:10,276] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:10,965] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:11,752] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:12,655] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:13,409] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:14,173] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:15,573] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:16,344] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:17,227] : <Could not parse https://practicum.yandex.ru/java-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:18,027] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:18,835] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:19,646] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:20,424] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:21,835] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:15:22,660] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 00:19:59,183] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x55ad093e1fe3 <unknown>
+#1 0x55ad09120d36 <unknown>
+#2 0x55ad0913c818 <unknown>
+#3 0x55ad091451e3 <unknown>
+#4 0x55ad0913b5f8 <unknown>
+#5 0x55ad09185d05 <unknown>
+#6 0x55ad091856ba <unknown>
+#7 0x55ad09187316 <unknown>
+#8 0x55ad0918711f <unknown>
+#9 0x55ad0917e693 <unknown>
+#10 0x55ad0915103a <unknown>
+#11 0x55ad0915217e <unknown>
+#12 0x55ad093a3dbd <unknown>
+#13 0x55ad093a7c6c <unknown>
+#14 0x55ad093b14b0 <unknown>
+#15 0x55ad093a8d63 <unknown>
+#16 0x55ad0937bc35 <unknown>
+#17 0x55ad093cc138 <unknown>
+#18 0x55ad093cc2c7 <unknown>
+#19 0x55ad093da093 <unknown>
+#20 0x7f175465bb43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:19:59,183] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:20:05,453] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x55e56be8dfe3 <unknown>
+#1 0x55e56bbccd36 <unknown>
+#2 0x55e56bbe8818 <unknown>
+#3 0x55e56bbf11e3 <unknown>
+#4 0x55e56bbe75f8 <unknown>
+#5 0x55e56bc31d05 <unknown>
+#6 0x55e56bc316ba <unknown>
+#7 0x55e56bc33316 <unknown>
+#8 0x55e56bc3311f <unknown>
+#9 0x55e56bc2a693 <unknown>
+#10 0x55e56bbfd03a <unknown>
+#11 0x55e56bbfe17e <unknown>
+#12 0x55e56be4fdbd <unknown>
+#13 0x55e56be53c6c <unknown>
+#14 0x55e56be5d4b0 <unknown>
+#15 0x55e56be54d63 <unknown>
+#16 0x55e56be27c35 <unknown>
+#17 0x55e56be78138 <unknown>
+#18 0x55e56be782c7 <unknown>
+#19 0x55e56be86093 <unknown>
+#20 0x7f7e765a3b43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:20:05,454] : <Could not parse https://practicum.yandex.ru/java-developer/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:20:11,760] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x5602a6d0dfe3 <unknown>
+#1 0x5602a6a4cd36 <unknown>
+#2 0x5602a6a68818 <unknown>
+#3 0x5602a6a711e3 <unknown>
+#4 0x5602a6a675f8 <unknown>
+#5 0x5602a6ab1d05 <unknown>
+#6 0x5602a6ab16ba <unknown>
+#7 0x5602a6ab3316 <unknown>
+#8 0x5602a6ab311f <unknown>
+#9 0x5602a6aaa693 <unknown>
+#10 0x5602a6a7d03a <unknown>
+#11 0x5602a6a7e17e <unknown>
+#12 0x5602a6ccfdbd <unknown>
+#13 0x5602a6cd3c6c <unknown>
+#14 0x5602a6cdd4b0 <unknown>
+#15 0x5602a6cd4d63 <unknown>
+#16 0x5602a6ca7c35 <unknown>
+#17 0x5602a6cf8138 <unknown>
+#18 0x5602a6cf82c7 <unknown>
+#19 0x5602a6d06093 <unknown>
+#20 0x7f63f4f73b43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:20:11,761] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:20:17,954] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x5625a6f61fe3 <unknown>
+#1 0x5625a6ca0d36 <unknown>
+#2 0x5625a6cbc818 <unknown>
+#3 0x5625a6cc51e3 <unknown>
+#4 0x5625a6cbb5f8 <unknown>
+#5 0x5625a6d05d05 <unknown>
+#6 0x5625a6d056ba <unknown>
+#7 0x5625a6d07316 <unknown>
+#8 0x5625a6d0711f <unknown>
+#9 0x5625a6cfe693 <unknown>
+#10 0x5625a6cd103a <unknown>
+#11 0x5625a6cd217e <unknown>
+#12 0x5625a6f23dbd <unknown>
+#13 0x5625a6f27c6c <unknown>
+#14 0x5625a6f314b0 <unknown>
+#15 0x5625a6f28d63 <unknown>
+#16 0x5625a6efbc35 <unknown>
+#17 0x5625a6f4c138 <unknown>
+#18 0x5625a6f4c2c7 <unknown>
+#19 0x5625a6f5a093 <unknown>
+#20 0x7fdc456c3b43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:20:17,954] : <Could not parse https://practicum.yandex.ru/web/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:20:24,216] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x5617fdde5fe3 <unknown>
+#1 0x5617fdb24d36 <unknown>
+#2 0x5617fdb40818 <unknown>
+#3 0x5617fdb491e3 <unknown>
+#4 0x5617fdb3f5f8 <unknown>
+#5 0x5617fdb89d05 <unknown>
+#6 0x5617fdb896ba <unknown>
+#7 0x5617fdb8b316 <unknown>
+#8 0x5617fdb8b11f <unknown>
+#9 0x5617fdb82693 <unknown>
+#10 0x5617fdb5503a <unknown>
+#11 0x5617fdb5617e <unknown>
+#12 0x5617fdda7dbd <unknown>
+#13 0x5617fddabc6c <unknown>
+#14 0x5617fddb54b0 <unknown>
+#15 0x5617fddacd63 <unknown>
+#16 0x5617fdd7fc35 <unknown>
+#17 0x5617fddd0138 <unknown>
+#18 0x5617fddd02c7 <unknown>
+#19 0x5617fddde093 <unknown>
+#20 0x7fccae90bb43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:20:24,217] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:20:30,494] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x55b8d6b9bfe3 <unknown>
+#1 0x55b8d68dad36 <unknown>
+#2 0x55b8d68f6818 <unknown>
+#3 0x55b8d68ff1e3 <unknown>
+#4 0x55b8d68f55f8 <unknown>
+#5 0x55b8d693fd05 <unknown>
+#6 0x55b8d693f6ba <unknown>
+#7 0x55b8d6941316 <unknown>
+#8 0x55b8d694111f <unknown>
+#9 0x55b8d6938693 <unknown>
+#10 0x55b8d690b03a <unknown>
+#11 0x55b8d690c17e <unknown>
+#12 0x55b8d6b5ddbd <unknown>
+#13 0x55b8d6b61c6c <unknown>
+#14 0x55b8d6b6b4b0 <unknown>
+#15 0x55b8d6b62d63 <unknown>
+#16 0x55b8d6b35c35 <unknown>
+#17 0x55b8d6b86138 <unknown>
+#18 0x55b8d6b862c7 <unknown>
+#19 0x55b8d6b94093 <unknown>
+#20 0x7f2dafd93b43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:20:30,494] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:20:36,716] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x5637757e7fe3 <unknown>
+#1 0x563775526d36 <unknown>
+#2 0x563775542818 <unknown>
+#3 0x56377554b1e3 <unknown>
+#4 0x5637755415f8 <unknown>
+#5 0x56377558bd05 <unknown>
+#6 0x56377558b6ba <unknown>
+#7 0x56377558d316 <unknown>
+#8 0x56377558d11f <unknown>
+#9 0x563775584693 <unknown>
+#10 0x56377555703a <unknown>
+#11 0x56377555817e <unknown>
+#12 0x5637757a9dbd <unknown>
+#13 0x5637757adc6c <unknown>
+#14 0x5637757b74b0 <unknown>
+#15 0x5637757aed63 <unknown>
+#16 0x563775781c35 <unknown>
+#17 0x5637757d2138 <unknown>
+#18 0x5637757d22c7 <unknown>
+#19 0x5637757e0093 <unknown>
+#20 0x7fda53d8bb43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:20:36,716] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:20:36,717] : <There was an error while refreshing the table: 'NoneType' object has no attribute 'stop_client'> : str№: 71
+[ERROR] - [2023-04-29 00:23:03,577] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x56185fbe2fe3 <unknown>
+#1 0x56185f921d36 <unknown>
+#2 0x56185f93d818 <unknown>
+#3 0x56185f9461e3 <unknown>
+#4 0x56185f93c5f8 <unknown>
+#5 0x56185f986d05 <unknown>
+#6 0x56185f9866ba <unknown>
+#7 0x56185f988316 <unknown>
+#8 0x56185f98811f <unknown>
+#9 0x56185f97f693 <unknown>
+#10 0x56185f95203a <unknown>
+#11 0x56185f95317e <unknown>
+#12 0x56185fba4dbd <unknown>
+#13 0x56185fba8c6c <unknown>
+#14 0x56185fbb24b0 <unknown>
+#15 0x56185fba9d63 <unknown>
+#16 0x56185fb7cc35 <unknown>
+#17 0x56185fbcd138 <unknown>
+#18 0x56185fbcd2c7 <unknown>
+#19 0x56185fbdb093 <unknown>
+#20 0x7f907603bb43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:23:03,578] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:23:09,906] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x555e02040fe3 <unknown>
+#1 0x555e01d7fd36 <unknown>
+#2 0x555e01d9b818 <unknown>
+#3 0x555e01da41e3 <unknown>
+#4 0x555e01d9a5f8 <unknown>
+#5 0x555e01de4d05 <unknown>
+#6 0x555e01de46ba <unknown>
+#7 0x555e01de6316 <unknown>
+#8 0x555e01de611f <unknown>
+#9 0x555e01ddd693 <unknown>
+#10 0x555e01db003a <unknown>
+#11 0x555e01db117e <unknown>
+#12 0x555e02002dbd <unknown>
+#13 0x555e02006c6c <unknown>
+#14 0x555e020104b0 <unknown>
+#15 0x555e02007d63 <unknown>
+#16 0x555e01fdac35 <unknown>
+#17 0x555e0202b138 <unknown>
+#18 0x555e0202b2c7 <unknown>
+#19 0x555e02039093 <unknown>
+#20 0x7f8a5e9f3b43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:23:09,907] : <Could not parse https://practicum.yandex.ru/java-developer/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:23:16,221] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x55ad523d0fe3 <unknown>
+#1 0x55ad5210fd36 <unknown>
+#2 0x55ad5212b818 <unknown>
+#3 0x55ad521341e3 <unknown>
+#4 0x55ad5212a5f8 <unknown>
+#5 0x55ad52174d05 <unknown>
+#6 0x55ad521746ba <unknown>
+#7 0x55ad52176316 <unknown>
+#8 0x55ad5217611f <unknown>
+#9 0x55ad5216d693 <unknown>
+#10 0x55ad5214003a <unknown>
+#11 0x55ad5214117e <unknown>
+#12 0x55ad52392dbd <unknown>
+#13 0x55ad52396c6c <unknown>
+#14 0x55ad523a04b0 <unknown>
+#15 0x55ad52397d63 <unknown>
+#16 0x55ad5236ac35 <unknown>
+#17 0x55ad523bb138 <unknown>
+#18 0x55ad523bb2c7 <unknown>
+#19 0x55ad523c9093 <unknown>
+#20 0x7f772c5c3b43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:23:16,222] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:23:22,582] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x55cea3490fe3 <unknown>
+#1 0x55cea31cfd36 <unknown>
+#2 0x55cea31eb818 <unknown>
+#3 0x55cea31f41e3 <unknown>
+#4 0x55cea31ea5f8 <unknown>
+#5 0x55cea3234d05 <unknown>
+#6 0x55cea32346ba <unknown>
+#7 0x55cea3236316 <unknown>
+#8 0x55cea323611f <unknown>
+#9 0x55cea322d693 <unknown>
+#10 0x55cea320003a <unknown>
+#11 0x55cea320117e <unknown>
+#12 0x55cea3452dbd <unknown>
+#13 0x55cea3456c6c <unknown>
+#14 0x55cea34604b0 <unknown>
+#15 0x55cea3457d63 <unknown>
+#16 0x55cea342ac35 <unknown>
+#17 0x55cea347b138 <unknown>
+#18 0x55cea347b2c7 <unknown>
+#19 0x55cea3489093 <unknown>
+#20 0x7f1ce97bbb43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:23:22,583] : <Could not parse https://practicum.yandex.ru/web/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:23:28,707] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x5654c7253fe3 <unknown>
+#1 0x5654c6f92d36 <unknown>
+#2 0x5654c6fae818 <unknown>
+#3 0x5654c6fb71e3 <unknown>
+#4 0x5654c6fad5f8 <unknown>
+#5 0x5654c6ff7d05 <unknown>
+#6 0x5654c6ff76ba <unknown>
+#7 0x5654c6ff9316 <unknown>
+#8 0x5654c6ff911f <unknown>
+#9 0x5654c6ff0693 <unknown>
+#10 0x5654c6fc303a <unknown>
+#11 0x5654c6fc417e <unknown>
+#12 0x5654c7215dbd <unknown>
+#13 0x5654c7219c6c <unknown>
+#14 0x5654c72234b0 <unknown>
+#15 0x5654c721ad63 <unknown>
+#16 0x5654c71edc35 <unknown>
+#17 0x5654c723e138 <unknown>
+#18 0x5654c723e2c7 <unknown>
+#19 0x5654c724c093 <unknown>
+#20 0x7f731ecd3b43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:23:28,708] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:23:34,820] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x5558ded85fe3 <unknown>
+#1 0x5558deac4d36 <unknown>
+#2 0x5558deae0818 <unknown>
+#3 0x5558deae91e3 <unknown>
+#4 0x5558deadf5f8 <unknown>
+#5 0x5558deb29d05 <unknown>
+#6 0x5558deb296ba <unknown>
+#7 0x5558deb2b316 <unknown>
+#8 0x5558deb2b11f <unknown>
+#9 0x5558deb22693 <unknown>
+#10 0x5558deaf503a <unknown>
+#11 0x5558deaf617e <unknown>
+#12 0x5558ded47dbd <unknown>
+#13 0x5558ded4bc6c <unknown>
+#14 0x5558ded554b0 <unknown>
+#15 0x5558ded4cd63 <unknown>
+#16 0x5558ded1fc35 <unknown>
+#17 0x5558ded70138 <unknown>
+#18 0x5558ded702c7 <unknown>
+#19 0x5558ded7e093 <unknown>
+#20 0x7f2874383b43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:23:34,821] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:23:42,477] : <There was an error in the init_sync_driver function: Message: invalid argument: cannot parse capability: proxy
+from invalid argument: 'socksVersion' must be between 0 and 255
+Stacktrace:
+#0 0x561863e74fe3 <unknown>
+#1 0x561863bb3d36 <unknown>
+#2 0x561863bcf818 <unknown>
+#3 0x561863bd81e3 <unknown>
+#4 0x561863bce5f8 <unknown>
+#5 0x561863c18d05 <unknown>
+#6 0x561863c186ba <unknown>
+#7 0x561863c1a316 <unknown>
+#8 0x561863c1a11f <unknown>
+#9 0x561863c11693 <unknown>
+#10 0x561863be403a <unknown>
+#11 0x561863be517e <unknown>
+#12 0x561863e36dbd <unknown>
+#13 0x561863e3ac6c <unknown>
+#14 0x561863e444b0 <unknown>
+#15 0x561863e3bd63 <unknown>
+#16 0x561863e0ec35 <unknown>
+#17 0x561863e5f138 <unknown>
+#18 0x561863e5f2c7 <unknown>
+#19 0x561863e6d093 <unknown>
+#20 0x7fdd9ad83b43 <unknown>
+> : str№: 194
+[ERROR] - [2023-04-29 00:23:42,478] : <Could not parse https://practicum.yandex.ru/internet-marketing-start/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 00:23:42,478] : <There was an error while refreshing the table: 'NoneType' object has no attribute 'stop_client'> : str№: 71
+[ERROR] - [2023-04-29 01:29:08,805] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[INFO] - [2023-04-29 01:29:20,864] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 50
+[ERROR] - [2023-04-29 01:29:33,495] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: list index out of range> : str№: 53
+[ERROR] - [2023-04-29 01:29:35,387] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 01:29:46,659] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 53
+[ERROR] - [2023-04-29 01:29:55,473] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: list index out of range> : str№: 53
+[INFO] - [2023-04-29 01:30:00,070] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 50
+[ERROR] - [2023-04-29 01:30:16,220] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: list index out of range> : str№: 53
+[ERROR] - [2023-04-29 01:30:23,938] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 53
+[ERROR] - [2023-04-29 01:30:31,646] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 53
+[ERROR] - [2023-04-29 01:30:40,716] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 53
+[ERROR] - [2023-04-29 01:30:47,768] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: > : str№: 53
+[ERROR] - [2023-04-29 01:30:58,943] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: list index out of range> : str№: 53
+[ERROR] - [2023-04-29 01:31:08,784] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: list index out of range> : str№: 53
+[ERROR] - [2023-04-29 01:31:10,602] : <There was an error in the init_sync_driver function: [Errno 2] No such file or directory: '/home/plamer/.local/share/undetected_chromedriver/undetected_chromedriver'> : str№: 184
+[ERROR] - [2023-04-29 01:31:10,602] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: 'NoneType' object has no attribute 'get'> : str№: 53
+[ERROR] - [2023-04-29 01:31:22,927] : <Could not parse https://practicum.yandex.ru/web/, error: list index out of range> : str№: 53
+[ERROR] - [2023-04-29 01:50:46,303] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 56
+[INFO] - [2023-04-29 01:50:54,763] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 53
+[INFO] - [2023-04-29 01:51:05,658] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 53
+[ERROR] - [2023-04-29 01:51:17,889] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 56
+[ERROR] - [2023-04-29 01:51:23,128] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: list index out of range> : str№: 56
+[ERROR] - [2023-04-29 01:52:45,466] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: list index out of range> : str№: 56
+[INFO] - [2023-04-29 01:52:51,925] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 53
+[ERROR] - [2023-04-29 01:53:01,555] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 56
+[ERROR] - [2023-04-29 01:53:11,392] : <Could not parse https://practicum.yandex.ru/web/, error: list index out of range> : str№: 56
+[ERROR] - [2023-04-29 01:53:19,076] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: list index out of range> : str№: 56
+[ERROR] - [2023-04-29 01:53:27,364] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: list index out of range> : str№: 56
+[INFO] - [2023-04-29 01:53:33,773] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 53
+[ERROR] - [2023-04-29 01:53:48,053] : <Could not parse https://practicum.yandex.ru/web/, error: > : str№: 56
+[ERROR] - [2023-04-29 01:53:57,609] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 56
+[ERROR] - [2023-04-29 01:54:06,330] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: > : str№: 56
+[INFO] - [2023-04-29 01:54:16,155] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 53
+[ERROR] - [2023-04-29 01:54:20,781] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: list index out of range> : str№: 56
+[INFO] - [2023-04-29 01:54:34,425] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 53
+[ERROR] - [2023-04-29 01:54:43,471] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 56
+[ERROR] - [2023-04-29 01:54:53,074] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: list index out of range> : str№: 56
+[INFO] - [2023-04-29 01:54:59,769] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 53

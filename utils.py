@@ -82,7 +82,8 @@ def update_parsed_data(
     try:
         parse_result.price = price
         parse_result.period = period
-        parse_result.total = round(price * period) if price and period else ''
+        parse_result.total = (
+            round(price * period) if price and period else parse_result.total)
         parse_result.updated_at = str(datetime.now()).split('.')[0]
 
     except Exception as e:

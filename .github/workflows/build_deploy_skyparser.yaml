@@ -39,7 +39,7 @@ jobs:
           host: ${{secrets.HOST}}
           username: ${{secrets.USERNAME}}
           password: ${{secrets.PASSWORD}}
-          source: '*,!telegram_bot'
+          source: '*,!telegram_bot,!log/*,!data/parse_store/*,!data/results/*'
           target: '/home/sky_parser'
       - name: run application
         uses: appleboy/ssh-action@master
