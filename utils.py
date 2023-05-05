@@ -1,6 +1,8 @@
 """This file contains different utility functions to load and save data,
 refactor dictionaries, etc."""
 import json
+import os
+import subprocess
 import re
 from datetime import datetime
 from typing import Any, Union
@@ -220,3 +222,9 @@ def refactor_parse_tags(data: dict[str, list[dict]]) -> list[dict]:
                                    'price_tags': tag}
 
                     yield created_row
+
+
+def refresh_drivers() -> None:
+    server_pass = os.environ.get('SERVER_PASSWORD')
+    subprocess.run(f'echo {server_pass} | sudo -S apt-get update -y && sudo '
+                   f'apt-get install google-chrome-stable -y', shell=True)

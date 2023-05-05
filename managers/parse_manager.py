@@ -2,17 +2,13 @@
 from asyncio import run
 from typing import Any, Union, Iterator
 import undetected_chromedriver as chromedriver
-from selenium.webdriver import Proxy
-from selenium.webdriver.chrome import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
-from selenium.webdriver.common.proxy import ProxyType
-
 from async_utils import event_loop
-from constants import MULTY_THREAD_ATTEMPTS, ASYNC_ATTEMPTS
+from constants import MULTY_THREAD_ATTEMPTS, ASYNC_ATTEMPTS, ATTEMPTS_GET_DRIVER
 from parse_classes.school_parse_task import SchoolParseTask, \
     ProfessionParseRequest, ProfessionParseResponse
 from parsers.base_parser import BaseParser
-from utils import refactor_parse_responses
+from utils import refactor_parse_responses, refresh_drivers
 from concurrent.futures import ThreadPoolExecutor, as_completed, Future
 from create_loggers import logger
 # ------------------------------------------------------------------------
@@ -118,6 +114,7 @@ class ParseManager:
                 for task in parse_requests:
                     print(f'{task.url} in process')
                     driver = self._init_sync_driver()
+
                     tasks.append(executor.submit(parser, task, driver))
 
                 finished = as_completed(tasks)
@@ -165,22 +162,25 @@ class ParseManager:
         JS or having another problems for standard asynchronous parsing
         :return: a configured WebDriver instance
         """
-        try:
 
-            options = chromedriver.ChromeOptions()
-            options.add_argument("--headless")
-            options.add_argument("--no-sandbox")
-            options.add_argument("--window-size=640x480")
-            options.add_argument("--disable-dev-shm-usage")
-            options.add_argument(
-                "--disable-blink-features=AutomationControlled")
-            options.add_argument("--blink-settings=imagesEnabled=false")
-            options.add_argument("--disable-setuid-sandbox")
+        for _ in range(ATTEMPTS_GET_DRIVER):
+            try:
+                options = chromedriver.ChromeOptions()
+                options.add_argument("--headless")
+                options.add_argument("--no-sandbox")
+                options.add_argument("--window-size=640x480")
+                options.add_argument("--disable-dev-shm-usage")
+                options.add_argument(
+                    "--disable-blink-features=AutomationControlled")
+                options.add_argument("--blink-settings=imagesEnabled=false")
+                options.add_argument("--disable-setuid-sandbox")
 
-            driver = chromedriver.Chrome(options=options)
+                driver = chromedriver.Chrome(options=options)
 
-            return driver
-        except Exception as e:
-            logger.error(
-                f'There was an error in the init_sync_driver function: {e}')
-            return None
+                return driver
+
+            except Exception as e:
+                logger.error(
+                    f'There was an error in the init_sync_driver function: {e}')
+                refresh_drivers()
+        return None

@@ -39,8 +39,11 @@ class NetologyParser(BaseParser):
             logger.error(
                 f'Failed to parse {parse_data.url}, error: {e}')
 
-        driver.stop_client()
-        driver.quit()
+        finally:
+            if driver:
+                driver.stop_client()
+                driver.quit()
+
         return parse_response if parse_response.price else parse_data
 
     @staticmethod

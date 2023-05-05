@@ -33,13 +33,14 @@ jobs:
           cat telegram_bot/.env-ci | envsubst > .env
           cat auth_data/skyparser-ci.json | envsubst > auth_data/skyparser-b7b18db49e8d.json
           cat docker-compose-ci.yaml | envsubst > docker-compose.yaml
+          rm -rf docker-compose-ci.yaml
       - name: copy files to server
         uses: appleboy/scp-action@master
         with:
           host: ${{secrets.HOST}}
           username: ${{secrets.USERNAME}}
           password: ${{secrets.PASSWORD}}
-          source: '*,!telegram_bot,!log/*,!data/parse_store/*,!data/results/*'
+          source: '*,!telegram_bot,!log/*,!data/parse_store/*,!data/results/*,!data/telebot_data/chats.json'
           target: '/home/sky_parser'
       - name: run application
         uses: appleboy/ssh-action@master

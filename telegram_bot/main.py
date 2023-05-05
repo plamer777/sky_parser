@@ -1,3 +1,4 @@
+"""This file contains a main function and event loop to run a telegram bot"""
 import os
 from asyncio import run, create_task, gather, sleep
 from constants import CHAT_IDS_PATH, RESULT_PATH, CHECK_UPDATES_DELAY_10M
@@ -18,6 +19,7 @@ chat_ids.update(set(load_from_json(CHAT_IDS_PATH)))
 
 
 async def main():
+    """Main async function to send messages to telegram users"""
     current_changed_time = None
     while True:
         if os.path.exists(RESULT_PATH):
@@ -30,11 +32,12 @@ async def main():
 
 
 async def event_loop() -> None:
-    """This function serves as an event loop to allow parser and telegram
-    bot work together"""
-    parse_task = create_task(main())
+    """This function serves as an event loop to send messages to telegram
+    users and receive requests from them
+    """
+    send_messages_task = create_task(main())
     tg_bot_task = create_task(bot.infinity_polling())
-    await gather(parse_task, tg_bot_task)
+    await gather(send_messages_task, tg_bot_task)
 
 
 if __name__ == '__main__':

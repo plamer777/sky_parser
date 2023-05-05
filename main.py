@@ -1,6 +1,7 @@
 """This is a main file to start the parser"""
 from datetime import datetime
 from time import sleep
+import dotenv
 from constants import RESULT_PATH, TIME_DELAY_24_H, TABLE_NAME, \
     PARSE_TAGS_SHEET
 from container import table_manager, storage_manager
@@ -10,7 +11,9 @@ from utils import load_from_json
 
 def main() -> None:
     """Main function with necessary logic"""
+    dotenv.load_dotenv()
     while True:
+
         start_time = datetime.now()
         table_manager.open_table(TABLE_NAME)
         parse_data = table_manager.load_from_table(PARSE_TAGS_SHEET)

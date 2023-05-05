@@ -8,8 +8,6 @@ from parse_classes.school_parse_task import ProfessionParseRequest, \
     ProfessionParseResponse
 from parsers.base_parser import BaseParser
 from utils import clean_digits
-
-
 # ------------------------------------------------------------------------
 
 
@@ -29,8 +27,6 @@ class YandexPracticumParser(BaseParser):
         failed
         """
         result = self._load_data(parse_data, driver)
-        driver.stop_client()
-        driver.quit()
 
         if not result:
             return parse_data
@@ -55,7 +51,12 @@ class YandexPracticumParser(BaseParser):
         except Exception as e:
             logger.error(
                 f'Could not parse {parse_data.url}, error: {e}')
-            return None
+            result = None
+
+        finally:
+            if driver:
+                driver.stop_client()
+                driver.quit()
 
         return result
 
