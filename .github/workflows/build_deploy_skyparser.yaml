@@ -31,7 +31,7 @@ jobs:
       - name: prepare files
         run: |
           cat telegram_bot/.env-ci | envsubst > .env
-          cat auth_data/skyparser-ci.json | envsubst > auth_data/skyparser-b7b18db49e8d.json
+          cat auth_data/skyparser-ci.json | envsubst > skyparser_auth.json
           cat docker-compose-ci.yaml | envsubst > docker-compose.yaml
           rm -rf docker-compose-ci.yaml
       - name: copy files to server
@@ -40,7 +40,7 @@ jobs:
           host: ${{secrets.HOST}}
           username: ${{secrets.USERNAME}}
           password: ${{secrets.PASSWORD}}
-          source: '*,!telegram_bot,!log/*,!data/parse_store/*,!data/results/*,!data/telebot_data/chats.json'
+          source: 'docker-compose.yaml,skyparser_auth.json,.env, data/browsers.json'
           target: '/home/sky_parser'
       - name: run application
         uses: appleboy/ssh-action@master
@@ -49,12 +49,6 @@ jobs:
           username: ${{secrets.USERNAME}}
           password: ${{secrets.PASSWORD}}
           script: |
-            cd /home/sky_parser
-            echo ${{secrets.PASSWORD}} | sudo -S docker-compose up -d --build
-            echo ${{secrets.PASSWORD}} | sudo -S docker system prune -a -f
-            echo ${{secrets.PASSWORD}} | sudo -S cp sky_parser.service /etc/systemd/system/
-            echo ${{secrets.PASSWORD}} | sudo -S systemctl daemon-reload
-            echo ${{secrets.PASSWORD}} | sudo -S systemctl stop sky_parser
-            echo ${{secrets.PASSWORD}} | sudo -S systemctl start sky_parser
-            echo ${{secrets.PASSWORD}} | sudo -S systemctl enable sky_parser
-            
+            cd /home/sky_parser            
+            echo ${{secrets.PASSWORD}} | sudo -S docker compose up -d --build
+            echo ${{secrets.PASSWORD}} | sudo -S docker system prune -a -f      

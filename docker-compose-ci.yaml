@@ -1,11 +1,25 @@
 version: "3.8"
 services:
-#  parser:
-#    image: plamer88/sky_parser:parser-$GITHUB_RUN_ID
-#    volumes:
-#      - ./log:/sky_parser/log
-#      - ./data:/sky_parser/data
-#      - ./skyparser_auth.json:/sky_parser/auth_data/skyparser-b7b18db49e8d.json
+  parser:
+    image: plamer88/sky_parser:parser-$GITHUB_RUN_ID
+    env_file:
+      - .env
+    network_mode: host
+    volumes:
+      - ./log:/sky_parser/log
+      - ./data:/sky_parser/data
+      - ./skyparser_auth.json:/sky_parser/auth_data/skyparser-b7b18db49e8d.json
+
+  browser:
+    image: aerokube/selenoid
+    restart: always
+    network_mode: host
+    volumes:
+      - "./data/:/etc/selenoid/"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - ".solenoid/video/:/opt/selenoid/video/"
+      - "./log/:/opt/selenoid/logs/"
+    command: [ "-conf", "/etc/selenoid/browsers.json", "-video-output-dir", "/opt/selenoid/video", "-log-output-dir", "/opt/selenoid/logs", "-limit", "10", "-timeout", "5m" ]
 
   telebot:
     image: plamer88/sky_parser:telebot-$GITHUB_RUN_ID

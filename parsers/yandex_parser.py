@@ -120,6 +120,5 @@ class YandexPracticumParser(BaseParser):
 
         total = clean_digits(totals[index].text)
         price = clean_digits(prices[index].text.split('мес')[0])
-        print(price, total)
 
         return round(total / price, 2)

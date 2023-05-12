@@ -61,7 +61,7 @@ class SkillBoxParser(BaseParser):
             parse_response.period = periods[0].text.split('месяц')[0] or ''
 
         elif parse_response.profession in ('Graphic_designer',):
-            parse_response.period = periods[1].text or ''
+            parse_response.period = periods[0].text or ''
 
         else:
             parse_response.period = periods[0].text or ''

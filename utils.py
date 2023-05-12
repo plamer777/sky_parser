@@ -225,6 +225,7 @@ def refactor_parse_tags(data: dict[str, list[dict]]) -> list[dict]:
 
 
 def refresh_drivers() -> None:
+    """This function serves to actualize a chrome driver version"""
     server_pass = os.environ.get('SERVER_PASSWORD')
     subprocess.run(f'echo {server_pass} | sudo -S apt-get update -y && sudo '
                    f'apt-get install google-chrome-stable -y', shell=True)

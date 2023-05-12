@@ -1,7 +1,7 @@
 """This unit contains ParseManager class to rule parsing processes"""
 from asyncio import run
 from typing import Any, Union, Iterator
-import undetected_chromedriver as chromedriver
+from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 from async_utils import event_loop
 from constants import MULTY_THREAD_ATTEMPTS, ASYNC_ATTEMPTS, ATTEMPTS_GET_DRIVER
@@ -165,7 +165,7 @@ class ParseManager:
 
         for _ in range(ATTEMPTS_GET_DRIVER):
             try:
-                options = chromedriver.ChromeOptions()
+                options = webdriver.ChromeOptions()
                 options.add_argument("--headless")
                 options.add_argument("--no-sandbox")
                 options.add_argument("--window-size=640x480")
@@ -175,12 +175,15 @@ class ParseManager:
                 options.add_argument("--blink-settings=imagesEnabled=false")
                 options.add_argument("--disable-setuid-sandbox")
 
-                driver = chromedriver.Chrome(options=options)
+                driver = webdriver.Remote(
+                    desired_capabilities=webdriver.DesiredCapabilities.CHROME,
+                    command_executor='http://localhost:4444/wd/hub',
+                    options=options
+                )
 
                 return driver
 
             except Exception as e:
                 logger.error(
                     f'There was an error in the init_sync_driver function: {e}')
-                refresh_drivers()
         return None
