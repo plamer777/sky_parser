@@ -9,6 +9,9 @@ services:
       - ./log:/sky_parser/log
       - ./data:/sky_parser/data
       - ./skyparser_auth.json:/sky_parser/auth_data/skyparser-b7b18db49e8d.json
+    depends_on:
+      browser:
+        condition: service_started
 
   browser:
     image: aerokube/selenoid
@@ -28,3 +31,6 @@ services:
     volumes:
       - ./data:/telegram_bot/data
       - ./log:/telegram_bot/log
+    depends_on:
+      parser:
+        condition: service_started

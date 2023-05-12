@@ -1,0 +1,195 @@
+[INFO] - [2023-05-12 18:10:40,530] : <https://gb.ru/geek-university/design/graphic parsed successfully> : str№: 38
+[INFO] - [2023-05-12 18:10:40,650] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
+[INFO] - [2023-05-12 18:10:40,813] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
+[INFO] - [2023-05-12 18:10:40,968] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
+[INFO] - [2023-05-12 18:10:41,127] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
+[INFO] - [2023-05-12 18:10:41,282] : <https://gb.ru/geek-university/developer/qa-engineer parsed successfully> : str№: 38
+[INFO] - [2023-05-12 18:10:41,424] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
+[INFO] - [2023-05-12 18:10:47,965] : <https://netology.ru/programs/python parsed successfully> : str№: 36
+[INFO] - [2023-05-12 18:10:50,682] : <https://netology.ru/programs/java-developer parsed successfully> : str№: 36
+[ERROR] - [2023-05-12 18:10:54,485] : <Failed to parse https://netology.ru/programs/designer-communication, error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--root--zW5gk"}
+  (Session info: headless chrome=112.0.5615.49)
+Stacktrace:
+#0 0x5609e8f2dfe3 <unknown>
+#1 0x5609e8c6cd36 <unknown>
+#2 0x5609e8ca9c4d <unknown>
+#3 0x5609e8ca9d61 <unknown>
+#4 0x5609e8ce56a4 <unknown>
+#5 0x5609e8cca8ed <unknown>
+#6 0x5609e8ce3232 <unknown>
+#7 0x5609e8cca693 <unknown>
+#8 0x5609e8c9d03a <unknown>
+#9 0x5609e8c9e17e <unknown>
+#10 0x5609e8eefdbd <unknown>
+#11 0x5609e8ef3c6c <unknown>
+#12 0x5609e8efd4b0 <unknown>
+#13 0x5609e8ef4d63 <unknown>
+#14 0x5609e8ec7c35 <unknown>
+#15 0x5609e8f18138 <unknown>
+#16 0x5609e8f182c7 <unknown>
+#17 0x5609e8f26093 <unknown>
+#18 0x7fd1ca5d4b43 <unknown>
+> : str№: 39
+[ERROR] - [2023-05-12 18:10:54,489] : <Failed to parse https://netology.ru/programs/web-developer?recommended_by=instant_search, error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--root--zW5gk"}
+  (Session info: headless chrome=112.0.5615.49)
+Stacktrace:
+#0 0x5604f40cefe3 <unknown>
+#1 0x5604f3e0dd36 <unknown>
+#2 0x5604f3e4ac4d <unknown>
+#3 0x5604f3e4ad61 <unknown>
+#4 0x5604f3e866a4 <unknown>
+#5 0x5604f3e6b8ed <unknown>
+#6 0x5604f3e84232 <unknown>
+#7 0x5604f3e6b693 <unknown>
+#8 0x5604f3e3e03a <unknown>
+#9 0x5604f3e3f17e <unknown>
+#10 0x5604f4090dbd <unknown>
+#11 0x5604f4094c6c <unknown>
+#12 0x5604f409e4b0 <unknown>
+#13 0x5604f4095d63 <unknown>
+#14 0x5604f4068c35 <unknown>
+#15 0x5604f40b9138 <unknown>
+#16 0x5604f40b92c7 <unknown>
+#17 0x5604f40c7093 <unknown>
+#18 0x7f963eb5cb43 <unknown>
+> : str№: 39
+[INFO] - [2023-05-12 18:10:59,340] : <https://netology.ru/programs/qa parsed successfully> : str№: 36
+[ERROR] - [2023-05-12 18:11:00,405] : <Failed to parse https://netology.ru/programs/data_analyst_ultimate, error: Message: no such element: Unable to locate element: {"method":"css selector","selector":".src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--root--zW5gk"}
+  (Session info: headless chrome=112.0.5615.49)
+Stacktrace:
+#0 0x5651cdfbffe3 <unknown>
+#1 0x5651cdcfed36 <unknown>
+#2 0x5651cdd3bc4d <unknown>
+#3 0x5651cdd3bd61 <unknown>
+#4 0x5651cdd776a4 <unknown>
+#5 0x5651cdd5c8ed <unknown>
+#6 0x5651cdd75232 <unknown>
+#7 0x5651cdd5c693 <unknown>
+#8 0x5651cdd2f03a <unknown>
+#9 0x5651cdd3017e <unknown>
+#10 0x5651cdf81dbd <unknown>
+#11 0x5651cdf85c6c <unknown>
+#12 0x5651cdf8f4b0 <unknown>
+#13 0x5651cdf86d63 <unknown>
+#14 0x5651cdf59c35 <unknown>
+#15 0x5651cdfaa138 <unknown>
+#16 0x5651cdfaa2c7 <unknown>
+#17 0x5651cdfb8093 <unknown>
+#18 0x7f42f9b64b43 <unknown>
+> : str№: 39
+[INFO] - [2023-05-12 18:11:03,747] : <https://netology.ru/programs/distance-course-internet-marketing parsed successfully> : str№: 36
+[INFO] - [2023-05-12 18:11:10,345] : <https://netology.ru/programs/designer-communication parsed successfully> : str№: 36
+[INFO] - [2023-05-12 18:11:14,683] : <https://netology.ru/programs/web-developer?recommended_by=instant_search parsed successfully> : str№: 36
+[INFO] - [2023-05-12 18:11:15,326] : <https://netology.ru/programs/data_analyst_ultimate parsed successfully> : str№: 36
+[INFO] - [2023-05-12 18:11:36,465] : <https://new.skillfactory.ru/internet-marketing-new?_ga=2.224857306.1344849013.1676357994-1908275595.1675759745 parsed successfully> : str№: 35
+[INFO] - [2023-05-12 18:11:47,978] : <https://skillfactory.ru/python-developer-b parsed successfully> : str№: 35
+[INFO] - [2023-05-12 18:11:49,887] : <https://skillfactory.ru/java-razrabotchik parsed successfully> : str№: 35
+[INFO] - [2023-05-12 18:11:50,978] : <https://contented.ru/edu/graph-design?utm_source=skillfactory parsed successfully> : str№: 35
+[INFO] - [2023-05-12 18:11:52,982] : <https://skillfactory.ru/web-developer parsed successfully> : str№: 35
+[INFO] - [2023-05-12 18:11:55,116] : <https://skillfactory.ru/data-analyst-pro parsed successfully> : str№: 35
+[INFO] - [2023-05-12 18:11:57,993] : <https://skillfactory.ru/qa-engineer-po-ruchnomu-testirovaniyu parsed successfully> : str№: 35
+[INFO] - [2023-05-12 18:11:58,633] : <https://skillbox.ru/course/data-analyst-cv/ parsed successfully> : str№: 36
+[INFO] - [2023-05-12 18:11:58,798] : <https://skillbox.ru/course/java/ parsed successfully> : str№: 36
+[INFO] - [2023-05-12 18:11:59,109] : <https://skillbox.ru/course/profession-python-tariff/ parsed successfully> : str№: 36
+[INFO] - [2023-05-12 18:11:59,364] : <https://skillbox.ru/course/profession-marketolog-program/ parsed successfully> : str№: 36
+[INFO] - [2023-05-12 18:11:59,665] : <https://skillbox.ru/course/profession-graphdesigner/ parsed successfully> : str№: 36
+[INFO] - [2023-05-12 18:11:59,983] : <https://skillbox.ru/course/profession-webdev/ parsed successfully> : str№: 36
+[INFO] - [2023-05-12 18:12:00,283] : <https://skillbox.ru/course/profession-test-onboarding/ parsed successfully> : str№: 36
+[ERROR] - [2023-05-12 18:12:08,667] : <Could not parse https://practicum.yandex.ru/backend-developer/, error: list index out of range> : str№: 52
+[INFO] - [2023-05-12 18:12:10,124] : <https://practicum.yandex.ru/java-developer/ parsed successfully> : str№: 49
+[INFO] - [2023-05-12 18:12:13,319] : <https://practicum.yandex.ru/web/ parsed successfully> : str№: 49
+[ERROR] - [2023-05-12 18:12:15,109] : <Could not parse https://practicum.yandex.ru/graphic-designer/, error: > : str№: 52
+[INFO] - [2023-05-12 18:12:15,850] : <https://practicum.yandex.ru/internet-marketing-start/ parsed successfully> : str№: 49
+[ERROR] - [2023-05-12 18:12:17,600] : <Could not parse https://practicum.yandex.ru/qa-engineer/, error: list index out of range> : str№: 52
+[ERROR] - [2023-05-12 18:12:53,933] : <Could not parse https://practicum.yandex.ru/data-analyst/, error: > : str№: 52
+[INFO] - [2023-05-12 18:13:01,076] : <https://practicum.yandex.ru/backend-developer/ parsed successfully> : str№: 49
+[INFO] - [2023-05-12 18:13:05,441] : <https://practicum.yandex.ru/data-analyst/ parsed successfully> : str№: 49
+[INFO] - [2023-05-12 18:13:06,184] : <https://practicum.yandex.ru/qa-engineer/ parsed successfully> : str№: 49
+[INFO] - [2023-05-12 18:13:48,725] : <https://practicum.yandex.ru/graphic-designer/ parsed successfully> : str№: 49
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,785] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,786] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,787] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,788] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,789] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,789] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,789] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,789] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,789] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,789] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,789] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,789] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,789] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[ERROR] - [2023-05-12 18:13:48,789] : <Cannot calculate price change, error unsupported operand type(s) for -: 'int' and 'str'> : str№: 188
+[ERROR] - [2023-05-12 18:13:48,789] : <Cannot calculate period change, error unsupported operand type(s) for -: 'float' and 'str'> : str№: 194
+[INFO] - [2023-05-12 18:13:50,641] : <Table refreshed successfully> : str№: 68
