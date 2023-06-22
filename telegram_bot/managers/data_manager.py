@@ -152,7 +152,7 @@ class DataManager:
 
     @staticmethod
     def _create_record(course_data: dict) -> str:
-        """This serves to create a record for a given course
+        """This method serves to create a record for a given course
         :param course_data: The dictionary representing the course data
         :return: A string containing the created record
         """
@@ -162,6 +162,7 @@ class DataManager:
             Цена в месяц - {course_data.get("price")} руб.\n
             Кол-во месяцев - {course_data.get("period")}\n
             Итоговая цена - {course_data.get("total")} руб.\n
+            Данные получены - {course_data.get("updated_at")}\n
             {'-' * 30}
             '''
         return record

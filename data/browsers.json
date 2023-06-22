@@ -17,9 +17,9 @@
         }
     },
     "chrome": {
-        "default": "112.0",
+        "default": "114.0",
         "versions": {
-            "112.0": {
+            "114.0": {
                 "image": "selenoid/chrome",
                 "port": "4444",
                 "privileged": true,

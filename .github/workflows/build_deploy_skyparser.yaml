@@ -44,7 +44,7 @@ jobs:
           host: ${{secrets.HOST}}
           username: ${{secrets.USERNAME}}
           password: ${{secrets.PASSWORD}}
-          source: 'docker-compose.yaml,skyparser_auth.json,.env,data'
+          source: 'docker-compose.yaml,skyparser_auth.json,.env,data/browsers.json'
           target: '/home/sky_parser'
       - name: run application
         uses: appleboy/ssh-action@master
@@ -53,6 +53,7 @@ jobs:
           username: ${{secrets.USERNAME}}
           password: ${{secrets.PASSWORD}}
           script: |
-            cd /home/sky_parser            
+            cd /home/sky_parser
+            echo ${{secrets.PASSWORD}} | sudo -S docker pull selenoid/chrome
             echo ${{secrets.PASSWORD}} | sudo -S docker compose up -d --build
             echo ${{secrets.PASSWORD}} | sudo -S docker system prune -a -f      

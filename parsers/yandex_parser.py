@@ -74,7 +74,8 @@ class YandexPracticumParser(BaseParser):
             raise ValueError
 
         profession = data.profession
-        if profession in ['Java_developer', 'Internet_marketer']:
+        if profession in ['Java_developer', 'Internet_marketer',
+                          'Web_developer']:
             price, period = price_data[0].text.split('на')[:2]
 
         else:
