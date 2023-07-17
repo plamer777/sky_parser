@@ -54,6 +54,7 @@ jobs:
           password: ${{secrets.PASSWORD}}
           script: |
             cd /home/sky_parser
+            echo ${{secrets.PASSWORD}} | sudo -S docker compose down
             echo ${{secrets.PASSWORD}} | sudo -S docker pull selenoid/chrome
             echo ${{secrets.PASSWORD}} | sudo -S docker compose up -d --build
             echo ${{secrets.PASSWORD}} | sudo -S docker system prune -a -f      
