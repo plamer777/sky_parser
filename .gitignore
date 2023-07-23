@@ -4,3 +4,6 @@ venv
 .env
 *skyparser-b7b18db49e8d.json
 docker-compose.yaml
+geckodriver.log
+solenoid
+video

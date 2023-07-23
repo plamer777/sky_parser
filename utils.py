@@ -224,8 +224,8 @@ def refactor_parse_tags(data: dict[str, list[dict]]) -> list[dict]:
                     yield created_row
 
 
-def refresh_drivers() -> None:
-    """This function serves to actualize a chrome driver version"""
-    server_pass = os.environ.get('SERVER_PASSWORD')
-    subprocess.run(f'echo {server_pass} | sudo -S apt-get update -y && sudo '
-                   f'apt-get install google-chrome-stable -y', shell=True)
+def create_folders(folders: list[str]) -> None:
+    """This function serves to create necessary project folders
+    :param folders: list of strings representing folder names"""
+    [os.makedirs(folder, exist_ok=True) for folder in folders]
+

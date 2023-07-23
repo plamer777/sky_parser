@@ -1,5 +1,8 @@
 name: skyparser
 on: [push]
+branches-ignore:
+  - master
+  - develop_docker
 jobs:
   build_images:
     runs-on: ubuntu-latest
@@ -29,6 +32,11 @@ jobs:
       BOT_TOKEN: ${{secrets.BOT_TOKEN}}
       GOOGLE_SHEET_PRIVATE_KEY: ${{secrets.GOOGLE_SHEET_PRIVATE_KEY}}
       SERVER_PASSWORD: ${{secrets.PASSWORD}}
+      GOOGLE_PROJECT_ID: ${{secrets.GOOGLE_PROJECT_ID}}
+      GOOGLE_PRIVATE_KEY_ID: ${{secrets.GOOGLE_PRIVATE_KEY_ID}}
+      GOOGLE_CLIENT_EMAIL: ${{secrets.GOOGLE_CLIENT_EMAIL}}
+      GOOGLE_CLIENT_ID: ${{secrets.GOOGLE_CLIENT_ID}}
+
     steps:
       - name: clone repo
         uses: actions/checkout@v3
@@ -55,6 +63,6 @@ jobs:
           script: |
             cd /home/sky_parser
             echo ${{secrets.PASSWORD}} | sudo -S docker compose down
-            echo ${{secrets.PASSWORD}} | sudo -S docker pull selenoid/chrome
+            echo ${{secrets.PASSWORD}} | sudo -S docker pull selenoid/chrome:112.0
             echo ${{secrets.PASSWORD}} | sudo -S docker compose up -d --build
             echo ${{secrets.PASSWORD}} | sudo -S docker system prune -a -f      

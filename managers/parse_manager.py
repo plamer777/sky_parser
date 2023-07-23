@@ -8,7 +8,7 @@ from constants import MULTY_THREAD_ATTEMPTS, ASYNC_ATTEMPTS, ATTEMPTS_GET_DRIVER
 from parse_classes.school_parse_task import SchoolParseTask, \
     ProfessionParseRequest, ProfessionParseResponse
 from parsers.base_parser import BaseParser
-from utils import refactor_parse_responses, refresh_drivers
+from utils import refactor_parse_responses
 from concurrent.futures import ThreadPoolExecutor, as_completed, Future
 from create_loggers import logger
 # ------------------------------------------------------------------------

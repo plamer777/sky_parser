@@ -1,15 +1,17 @@
 """This is a main file to start the parser"""
 from datetime import datetime
 from time import sleep
-from constants import RESULT_PATH, TIME_DELAY_24_H, TABLE_NAME, \
-    PARSE_TAGS_SHEET
+from constants import (
+    RESULT_PATH, TIME_DELAY_24_H, TABLE_NAME, PARSE_TAGS_SHEET, PROJECT_FOLDERS,
+)
 from container import table_manager, storage_manager
-from utils import load_from_json
+from utils import load_from_json, create_folders
 # ------------------------------------------------------------------------
 
 
 def main() -> None:
     """Main function with necessary logic"""
+    create_folders(PROJECT_FOLDERS)
     while True:
 
         start_time = datetime.now()

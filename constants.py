@@ -9,6 +9,8 @@ AUTH_FILE = os.path.join('auth_data', 'skyparser-b7b18db49e8d.json')
 LOG_PATH = os.path.join('log', 'parser_logs.txt')
 BOT_PHRASES_PATH = os.path.join('data', 'telebot_data', 'bot_phrases.json')
 CHAT_IDS_PATH = os.path.join('data', 'telebot_data', 'chats.json')
+PROJECT_FOLDERS = [
+    PARSE_DATA_PATH, os.path.join('data', 'results'), 'log']
 
 TIME_DELAY_24_H = 3600 * 24
 CHECK_UPDATES_DELAY_10M = 60 * 10
