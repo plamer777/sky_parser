@@ -7,3 +7,4 @@ docker-compose.yaml
 geckodriver.log
 solenoid
 video
+log

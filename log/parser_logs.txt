@@ -1,8 +1,0 @@
-[ERROR] - [2023-07-23 13:21:19,106] : <There was an error during loading from JSON: [Errno 2] No such file or directory: 'data/results/result.json'> : str№: 41
-[INFO] - [2023-07-23 13:21:19,384] : <https://gb.ru/geek_university/design parsed successfully> : str№: 38
-[INFO] - [2023-07-23 13:21:19,595] : <https://gb.ru/geek_university/developer/analyst parsed successfully> : str№: 38
-[INFO] - [2023-07-23 13:21:19,793] : <https://gb.ru/geek_university/developer/programmer/python parsed successfully> : str№: 38
-[INFO] - [2023-07-23 13:21:20,036] : <https://gb.ru/geek_university/developer/programmer/java parsed successfully> : str№: 38
-[INFO] - [2023-07-23 13:21:20,254] : <https://gb.ru/geek_university/developer/qa-engineer parsed successfully> : str№: 38
-[INFO] - [2023-07-23 13:21:20,442] : <https://gb.ru/geek_university/developer/programmer/web parsed successfully> : str№: 38
-[INFO] - [2023-07-23 13:21:20,605] : <https://gb.ru/geek_university/marketing/internet parsed successfully> : str№: 38
